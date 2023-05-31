@@ -26,8 +26,8 @@ public class DiaDanhModel extends Model{
 
     @Override
     public String toString() {
-        return "\n{ \"Dia danh\":\"" + super.getName() + "\", "
-                + "\n\"Mieu ta\":\"" + this.description + "\", "
-                + "\n\"Nhan vat lien quan\":\"" + this.nhanVatLienQuan + "\" }" + "\n";
+        return "\n{ \"Địa danh\":\"" + super.getTen() + "\", "
+                + "\n\"Miêu tả\":\"" + this.description + "\", "
+                + "\n\"Nhân vật liên quan\":\"" + this.nhanVatLienQuan + "\" }" + "\n";
     }
 }

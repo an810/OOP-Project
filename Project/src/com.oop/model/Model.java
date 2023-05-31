@@ -1,11 +1,11 @@
 package com.oop.model;
 
 public abstract class Model {
-    protected String name;
+    protected String ten;
     protected Model(String name) {
-        this.name = name;
+        this.ten = name;
     }
-    public String getName() {
-        return name;
+    public String getTen() {
+        return ten;
     }
 }
