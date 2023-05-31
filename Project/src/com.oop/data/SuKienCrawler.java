@@ -2,10 +2,6 @@ package com.oop.data;
 
 import com.oop.model.SuKienModel;
 import com.oop.util.Config;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -53,7 +49,7 @@ public class SuKienCrawler implements Crawler {
 
             try {
                 doc = Jsoup
-                        .connect(baseUrl)
+                        .connect(completeUrl)
                         .userAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36")
                         .get();
             } catch (IOException e) {
@@ -117,21 +113,23 @@ public class SuKienCrawler implements Crawler {
             nextElements = doc.select("a.btn.btn-sm.btn-secondary.next");
         }
 
-        // Convert the list of objects to a JSON array
-        JSONArray jsonArray = new JSONArray();
-        for (SuKienModel suKienLichSu : cacSuKienLichSu) {
-            JSONObject jsonObject = new JSONObject();
-            jsonObject.put("Tên", suKienLichSu.getTen());
-            jsonObject.put("Thời gian", suKienLichSu.getThoiGian());
-            jsonObject.put("Địa điểm", suKienLichSu.getDiaDiem());
-            jsonObject.put("Kết quả", suKienLichSu.getKetQua());
-            jsonObject.put("Các nhân vật lịch sử liên quan", new JSONArray(suKienLichSu.getNhanVatLienQuan()));
-            jsonObject.put("Các địa điểm liên quan", new JSONArray(suKienLichSu.getDiaDiemLienQuan()));
-            jsonArray.put(jsonObject);
-        }
+//        // Convert the list of objects to a JSON array
+//        JSONArray jsonArray = new JSONArray();
+//        for (SuKienModel suKienLichSu : cacSuKienLichSu) {
+//            JSONObject jsonObject = new JSONObject();
+//            jsonObject.put("Tên", suKienLichSu.getTen());
+//            jsonObject.put("Thời gian", suKienLichSu.getThoiGian());
+//            jsonObject.put("Địa điểm", suKienLichSu.getDiaDiem());
+//            jsonObject.put("Kết quả", suKienLichSu.getKetQua());
+//            jsonObject.put("Các nhân vật lịch sử liên quan", new JSONArray(suKienLichSu.getNhanVatLienQuan()));
+//            jsonObject.put("Các địa điểm liên quan", new JSONArray(suKienLichSu.getDiaDiemLienQuan()));
+//            jsonArray.put(jsonObject);
+//        }
+
+
         // Write the JSON array to a file
         try (FileWriter fileWriter = new FileWriter(Config.SU_KIEN_FILENAME)) {
-            fileWriter.write(jsonArray.toString()); // Use 4 spaces for indentation
+            fileWriter.write(cacSuKienLichSu.toString());
         } catch (IOException e) {
             e.printStackTrace();
         }

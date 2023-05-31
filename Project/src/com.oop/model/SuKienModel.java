@@ -53,5 +53,13 @@ public class SuKienModel extends Model {
         this.diaDiemLienQuan = diaDiemLienQuan;
     }
 
-
+    @Override
+    public String toString() {
+        return "\n{ \"Tên\":\"" + super.getTen() + "\", "
+                + "\n\"Thời gian\":\"" + this.thoiGian + "\", "
+                + "\n\"Địa điểm\":\"" + this.diaDiem + "\", "
+                + "\n\"kết quả\":\"" + this.ketQua + "\", "
+                + "\n\"Nhân vật liên quan\":\"" + this.nhanVatLienQuan + "\", "
+                + "\n\"Địa điểm liên quan\":\"" + this.diaDiemLienQuan + "\" }" + "\n";
+    }
 }
