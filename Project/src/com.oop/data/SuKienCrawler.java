@@ -2,6 +2,9 @@ package com.oop.data;
 
 import com.oop.model.SuKienModel;
 import com.oop.util.Config;
+import com.oop.util.JsonUtils;
+//import org.json.JSONArray;
+//import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -113,7 +116,7 @@ public class SuKienCrawler implements Crawler {
             nextElements = doc.select("a.btn.btn-sm.btn-secondary.next");
         }
 
-//        // Convert the list of objects to a JSON array
+        // Convert the list of objects to a JSON array
 //        JSONArray jsonArray = new JSONArray();
 //        for (SuKienModel suKienLichSu : cacSuKienLichSu) {
 //            JSONObject jsonObject = new JSONObject();
@@ -121,21 +124,26 @@ public class SuKienCrawler implements Crawler {
 //            jsonObject.put("Thời gian", suKienLichSu.getThoiGian());
 //            jsonObject.put("Địa điểm", suKienLichSu.getDiaDiem());
 //            jsonObject.put("Kết quả", suKienLichSu.getKetQua());
-//            jsonObject.put("Các nhân vật lịch sử liên quan", new JSONArray(suKienLichSu.getNhanVatLienQuan()));
-//            jsonObject.put("Các địa điểm liên quan", new JSONArray(suKienLichSu.getDiaDiemLienQuan()));
+//            jsonObject.put("Các nhân vật lịch sử liên quan", JSONArray.toJSONString(List.of(suKienLichSu.getNhanVatLienQuan())) );
+//            jsonObject.put("Các địa điểm liên quan", JSONArray.toJSONString(List.of(suKienLichSu.getDiaDiemLienQuan())));
 //            jsonArray.put(jsonObject);
 //        }
 
-
-        // Write the JSON array to a file
-        try (FileWriter fileWriter = new FileWriter(Config.SU_KIEN_FILENAME)) {
-            fileWriter.write(cacSuKienLichSu.toString());
+        //Testing jsonutils
+        String historyActionsJson = JsonUtils.pojoToJson(cacSuKienLichSu);
+        try (FileWriter fileWriter = new FileWriter("test.json")) {
+            fileWriter.write(historyActionsJson);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        // Write the JSON array to a file
+//        try (FileWriter fileWriter = new FileWriter(Config.SU_KIEN_FILENAME)) {
+//            fileWriter.write(cacSuKienLichSu.toString());
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
-
-
 
     // testing
     public static void main(String[] args) {
