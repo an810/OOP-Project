@@ -5,7 +5,7 @@ import java.util.Set;
 public class ThoiKyModel extends Model{
     private String description;
     private Set<String> nhanVatLienQuan;
-    ThoiKyModel(String ten) {
+    public ThoiKyModel(String ten) {
         super(ten);
     }
 
