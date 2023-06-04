@@ -2,7 +2,6 @@ package com.oop.data;
 
 import com.oop.model.SuKienModel;
 import com.oop.util.Config;
-import com.oop.util.JsonUtils;
 //import org.json.JSONArray;
 //import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -17,7 +16,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class SuKienCrawler implements Crawler {
+import static com.oop.util.UrlDecode.getCodeFromUrl;
+
+public class SuKienCrawler implements ICrawler {
     @Override
     public void crawl() {
         // the URL of the target website's home page
@@ -98,8 +99,8 @@ public class SuKienCrawler implements Crawler {
             Elements bodyElements = doc.select("div.com-content-article__body");
             Elements refElements = bodyElements.select("a[href*=/nhan-vat/]");
             for (Element refElement : refElements) {
-                String name = refElement.text();
-                nhanVatLienQuan.add(name);
+                String name = refElement.attr("href");
+                nhanVatLienQuan.add(getCodeFromUrl(name));
             }
             skls.setNhanVatLienQuan(nhanVatLienQuan);
 
@@ -107,8 +108,8 @@ public class SuKienCrawler implements Crawler {
             Set<String> diaDiemLienQuan = new HashSet<>();
             Elements cacDiaDiem = bodyElements.select("a[href*=/dia-danh/]");
             for (Element element : cacDiaDiem) {
-                String name = element.text();
-                diaDiemLienQuan.add(name);
+                String name = element.attr("href");
+                diaDiemLienQuan.add(getCodeFromUrl(name));
             }
             skls.setDiaDiemLienQuan(diaDiemLienQuan);
             cacSuKienLichSu.add(skls);
@@ -130,19 +131,19 @@ public class SuKienCrawler implements Crawler {
 //        }
 
         //Testing jsonutils
-        String historyActionsJson = JsonUtils.pojoToJson(cacSuKienLichSu);
-        try (FileWriter fileWriter = new FileWriter("test.json")) {
-            fileWriter.write(historyActionsJson);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        // Write the JSON array to a file
-//        try (FileWriter fileWriter = new FileWriter(Config.SU_KIEN_FILENAME)) {
-//            fileWriter.write(cacSuKienLichSu.toString());
+//        String historyActionsJson = JsonUtils.pojoToJson(cacSuKienLichSu);
+//        try (FileWriter fileWriter = new FileWriter("test.json")) {
+//            fileWriter.write(historyActionsJson);
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
+
+        // Write the JSON array to a file
+        try (FileWriter fileWriter = new FileWriter(Config.SU_KIEN_FILENAME)) {
+            fileWriter.write(cacSuKienLichSu.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     // testing

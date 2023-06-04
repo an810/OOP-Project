@@ -1,5 +1,5 @@
 package com.oop.data;
 
-public interface Crawler {
+public interface ICrawler {
     void crawl();
 }

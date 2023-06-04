@@ -14,7 +14,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class DiaDanhCrawler implements Crawler{
+
+import static com.oop.util.UrlDecode.getCodeFromUrl;
+
+public class DiaDanhCrawler implements ICrawler {
     @Override
     public void crawl() {
         String baseUrl = "https://nguoikesu.com/dia-danh/bien-dong";
@@ -61,6 +64,9 @@ public class DiaDanhCrawler implements Crawler{
             }
             DiaDanhModel diaDanh = new DiaDanhModel(title);
 
+            // Get dia danh code
+            diaDanh.setDiaDanhCode(getCodeFromUrl(completeUrl));
+            System.out.println(diaDanh.getDiaDanhCode());
             // Get description
             Elements desElements = doc.select("div.com-content-article__body > p");
             for(Element element : desElements) {
@@ -75,8 +81,8 @@ public class DiaDanhCrawler implements Crawler{
             Set<String> nhanVatLienQuan = new HashSet<>();
             Elements refElements = desElements.select("a[href*=/nhan-vat/]");
             for (Element refElement : refElements) {
-                String name = refElement.text();
-                nhanVatLienQuan.add(name);
+                String name = refElement.attr("href");
+                nhanVatLienQuan.add(getCodeFromUrl(name));
             }
             diaDanh.setNhanVatLienQuan(nhanVatLienQuan);
             diaDanhList.add(diaDanh);

@@ -1,7 +1,10 @@
 package com.oop.model;
 
+import java.util.Set;
+
 public class ThoiKyModel extends Model{
     private String description;
+    private Set<String> nhanVatLienQuan;
     ThoiKyModel(String ten) {
         super(ten);
     }
@@ -14,9 +17,18 @@ public class ThoiKyModel extends Model{
         this.description = description;
     }
 
+    public Set<String> getNhanVatLienQuan() {
+        return nhanVatLienQuan;
+    }
+
+    public void setNhanVatLienQuan(Set<String> nhanVatLienQuan) {
+        this.nhanVatLienQuan = nhanVatLienQuan;
+    }
+
     @Override
     public String toString() {
         return "\n{ \"Tên thời kỳ\":\"" + super.getTen() + "\", "
-                + "\n\"Miêu tả\":\"" + this.description + "\" }" + "\n";
+                + "\n\"Miêu tả\":\"" + this.description + "\", "
+                + "\n\"Nhân vật liên quan code\":\"" + this.nhanVatLienQuan + "\" }" + "\n";
     }
 }

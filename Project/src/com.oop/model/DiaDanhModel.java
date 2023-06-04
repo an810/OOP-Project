@@ -4,6 +4,7 @@ import java.util.Set;
 
 public class DiaDanhModel extends Model{
     private String description;
+    private String diaDanhCode;
     private Set<String> nhanVatLienQuan;
     public DiaDanhModel(String name) {
         super(name);
@@ -24,10 +25,19 @@ public class DiaDanhModel extends Model{
         this.nhanVatLienQuan = nhanVatLienQuan;
     }
 
+    public String getDiaDanhCode() {
+        return diaDanhCode;
+    }
+
+    public void setDiaDanhCode(String diaDanhCode) {
+        this.diaDanhCode = diaDanhCode;
+    }
+
     @Override
     public String toString() {
         return "\n{ \"Địa danh\":\"" + super.getTen() + "\", "
+                + "\n\"Code\":\"" + this.diaDanhCode + "\", "
                 + "\n\"Miêu tả\":\"" + this.description + "\", "
-                + "\n\"Nhân vật liên quan\":\"" + this.nhanVatLienQuan + "\" }" + "\n";
+                + "\n\"Nhân vật liên quan code\":\"" + this.nhanVatLienQuan + "\" }" + "\n";
     }
 }

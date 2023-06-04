@@ -59,7 +59,7 @@ public class SuKienModel extends Model {
                 + "\n\"Thời gian\":\"" + this.thoiGian + "\", "
                 + "\n\"Địa điểm\":\"" + this.diaDiem + "\", "
                 + "\n\"kết quả\":\"" + this.ketQua + "\", "
-                + "\n\"Nhân vật liên quan\":\"" + this.nhanVatLienQuan + "\", "
-                + "\n\"Địa điểm liên quan\":\"" + this.diaDiemLienQuan + "\" }" + "\n";
+                + "\n\"Nhân vật liên quan code\":\"" + this.nhanVatLienQuan + "\", "
+                + "\n\"Địa điểm liên quan code\":\"" + this.diaDiemLienQuan + "\" }" + "\n";
     }
 }
