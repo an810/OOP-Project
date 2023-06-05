@@ -60,7 +60,8 @@ public class ThoiKyCrawler implements ICrawler {
             Element tenThoiKy = doc.selectFirst("h1");
             System.out.println(tenThoiKy.text());
             ThoiKyModel thoiKy = new ThoiKyModel(tenThoiKy.text());
-
+            Elements des = doc.select("div.category-desc");
+            thoiKy.setDescription(des.text());
         }
 
 
