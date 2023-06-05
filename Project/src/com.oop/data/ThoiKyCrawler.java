@@ -8,7 +8,9 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import static com.oop.util.UrlDecode.getCodeFromUrl;
 
@@ -62,6 +64,9 @@ public class ThoiKyCrawler implements ICrawler {
             ThoiKyModel thoiKy = new ThoiKyModel(tenThoiKy.text());
             Elements des = doc.select("div.category-desc");
             thoiKy.setDescription(des.text());
+            // Lay nhan vat lien quan
+            Set<String> nhanVatLienQuan = new HashSet<>();
+
         }
 
 
