@@ -79,13 +79,14 @@ public class SuKienCrawler implements ICrawler {
             String ketQua = "";
             if (attributeValue.length!=0){
                 thoiGian = attributeValue[0];
-                thoiGian = thoiGian.replace("\u2013", "-");
+//                thoiGian = thoiGian.replace("\u2013", "-");
                 diaDiem = attributeValue[1];
-                diaDiem = diaDiem.replace("\u2032", "'");
-                diaDiem = diaDiem.replace("\u2033", "\"");
+//                diaDiem = diaDiem.replace("\u2032", "'");
+//                diaDiem = diaDiem.replace("\u2033", "\"");
                 ketQua = attributeValue[2];
-                ketQua = ketQua.replace("\u2032", "'");
-                ketQua = ketQua.replace("\u2033", "\"");
+//                ketQua = ketQua.replace("\u2032", "'");
+//                ketQua = ketQua.replace("\u2033", "\"");
+                ketQua = ketQua.replaceAll("\"", "″");
                 skls.setThoiGian(thoiGian);
                 skls.setDiaDiem(diaDiem);
                 skls.setKetQua(ketQua);

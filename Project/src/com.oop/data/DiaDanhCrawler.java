@@ -45,13 +45,33 @@ public class DiaDanhCrawler implements ICrawler {
             completeUrl = "https://nguoikesu.com" + relativeUrl;
             // Debugger
             System.out.println(completeUrl);
-            try {
-                doc = Jsoup
-                        .connect(completeUrl)
-                        .userAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36")
-                        .get();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+            int maxRetries = 3;
+            int retryCount = 0;
+            boolean success = false;
+
+            while (!success && retryCount < maxRetries) {
+                try {
+                    doc = Jsoup
+                            .connect(completeUrl)
+                            .userAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36")
+                            .get();
+
+                    success = true; // Request succeeded
+                } catch (IOException e) {
+                    System.out.println("Request failed. Retrying...");
+                    retryCount++;
+
+                    // Wait for a short duration before retrying
+                    try {
+                        Thread.sleep(1000); // Adjust the delay as needed
+                    } catch (InterruptedException ex) {
+                        ex.printStackTrace();
+                    }
+                }
+            }
+
+            if (!success) {
+                throw new RuntimeException("Exceeded maximum retries. Request failed.");
             }
 
 
