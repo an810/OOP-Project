@@ -10,36 +10,27 @@ public class Main
     public static void main(String[] args)
     {
         Thread thread1 = new Thread(() -> {
-            ErasCrawler test = new ErasCrawler();
-            List<Model> models = test.crawlPages(Config.ERA_WEBPAGE);
-            test.writeModel(Config.ERA_FILENAME, models);
+
         });
 
         Thread thread2 = new Thread(() -> {
             FestivalsCrawler festivalsScraper = new FestivalsCrawler();
-            String page = Config.FESTIVAL_WEBPAGE;
-            String festivalFilename = Config.FESTIVAL_FILENAME;
-            List<Model> festivals;
-            festivals = festivalsScraper.crawlPages(page);
-            festivalsScraper.writeModel(festivalFilename, festivals);
+            festivalsScraper.createFestivals();
         });
 
         Thread thread3 = new Thread(() -> {
-            HistoricalDestinationsCrawler test2 = new HistoricalDestinationsCrawler();
-            List<Model> locationList = test2.crawlPages(Config.HISTORICAL_DESTINATION_WEBPAGE);
-            test2.writeModel(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
+            HistoricalDestinationsCrawler historicalDestinationsCrawler = new HistoricalDestinationsCrawler();
+            historicalDestinationsCrawler.createHistoricalDestination();
         });
 
         Thread thread4 = new Thread(() -> {
-            HistoricalEventsCrawler test3 = new HistoricalEventsCrawler();
-            List<Model> historicalEvents = test3.crawlPages(Config.EVENT_WEBPAGE);
-            test3.writeModel(Config.EVENT_FILENAME, historicalEvents);
+            HistoricalEventsCrawler historicalEventsCrawler = new HistoricalEventsCrawler();
+            historicalEventsCrawler.createHistoricalEvents();
         });
 
         Thread thread5 = new Thread(() -> {
-            HistoricalFiguresCrawler test4 = new HistoricalFiguresCrawler();
-            List<Model> figures = test4.crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);
-            test4.writeModel(Config.HISTORICAL_FIGURE_FILENAME, figures);
+            HistoricalFiguresCrawler historicalFiguresCrawler = new HistoricalFiguresCrawler();
+            historicalFiguresCrawler.createHistoricalFigures();
         });
 
         // Start all threads

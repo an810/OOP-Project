@@ -253,6 +253,16 @@ public class FestivalsCrawler implements ICrawler
         }
     }
 
+    public void createFestivals()
+    {
+        String page = Config.FESTIVAL_WEBPAGE;
+        String festivalFilename = Config.FESTIVAL_FILENAME;
+        List<Model> festivals;
+
+        festivals = crawlPages(page);
+        writeModel(festivalFilename, festivals);
+    }
+
     public static void main(String[] args)
     {
         FestivalsCrawler festivalsScraper = new FestivalsCrawler();

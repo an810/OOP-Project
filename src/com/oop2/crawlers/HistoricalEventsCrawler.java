@@ -150,6 +150,12 @@ public class HistoricalEventsCrawler implements ICrawler {
         }
     }
 
+    public void createHistoricalEvents()
+    {
+        List<Model> historicalEvents = crawlPages(Config.EVENT_WEBPAGE);
+        writeModel(Config.EVENT_FILENAME, historicalEvents);
+    }
+
     // testing
     public static void main(String[] args) {
         HistoricalEventsCrawler test = new HistoricalEventsCrawler();

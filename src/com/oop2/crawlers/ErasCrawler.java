@@ -141,6 +141,12 @@ public class ErasCrawler implements ICrawler {
         }
     }
 
+    public void createEras()
+    {
+        List<Model> models = crawlPages(Config.ERA_WEBPAGE);
+        writeModel(Config.ERA_FILENAME, models);
+    }
+
     // Testing
     public static void main(String[] args) {
         ErasCrawler test = new ErasCrawler();

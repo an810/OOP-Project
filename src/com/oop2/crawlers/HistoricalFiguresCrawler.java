@@ -209,6 +209,12 @@ public class HistoricalFiguresCrawler implements ICrawler {
         }
     }
 
+    public void createHistoricalFigures()
+    {
+        List<Model> figures = crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);
+        writeModel(Config.HISTORICAL_FIGURE_FILENAME, figures);
+    }
+
     public static void main(String[] args) {
         HistoricalFiguresCrawler test = new HistoricalFiguresCrawler();
         List<Model> figures = test.crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);

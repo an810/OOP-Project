@@ -124,6 +124,12 @@ public class HistoricalDestinationsCrawler implements ICrawler {
         }
     }
 
+    public void createHistoricalDestination()
+    {
+        List<Model> locationList = crawlPages(Config.HISTORICAL_DESTINATION_WEBPAGE);
+        writeModel(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
+    }
+
     // Testing
     public static void main(String[] args) {
         HistoricalDestinationsCrawler test = new HistoricalDestinationsCrawler();
