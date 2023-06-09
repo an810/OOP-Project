@@ -6,7 +6,6 @@ import com.oop2.interfaces.ICrawler;
 import com.oop2.models.HistoricalFigureModel;
 import com.oop2.models.Model;
 import java.io.FileWriter;
-
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

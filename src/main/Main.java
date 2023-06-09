@@ -1,9 +1,6 @@
 package main;
 
 import com.oop2.crawlers.*;
-import com.oop2.models.Model;
-import com.oop2.util.Config;
-import java.util.List;
 
 public class Main
 {
