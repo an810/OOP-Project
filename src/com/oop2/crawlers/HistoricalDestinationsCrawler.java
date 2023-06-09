@@ -90,7 +90,6 @@ public class HistoricalDestinationsCrawler implements ICrawler {
                 String text = element.text();
                 if (text.length() > 50) {
                     text = text.replaceAll("\"", "'");
-
                     texts.add(text);
                     break;
                 }

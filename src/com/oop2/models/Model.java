@@ -20,6 +20,14 @@ public abstract class Model
         this.id = id;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public List<String> getDescription() {
+        return description;
+    }
+
     public void setName(String name)
     {
         this.name = name.equals("") ? Config.nullRepresentation : name;
@@ -34,5 +42,6 @@ public abstract class Model
         }
         this.description = description;
     }
+
 }
 
