@@ -3,7 +3,7 @@ package com.oop2.util;
 public class Config {
     public static final String DANH_NHAN_FILENAME = "database/danhnhan.json";
 
-    public static final String HISTORICAL_DESTINATION_FILENAME = "database/historicalLocation.json";
+    public static final String HISTORICAL_DESTINATION_FILENAME = "database/historicalDestinations.json";
     public static final String HISTORICAL_DESTINATION_WEBPAGE = "https://nguoikesu.com/dia-danh/bien-dong";
 
     public static final String ERA_FILENAME = "database/eras.json";

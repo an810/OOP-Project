@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Set;
 import static com.oop2.util.UrlDecode.getCodeFromUrl;
 
-public class HistoricalDestinationCrawler implements ICrawler {
+public class HistoricalDestinationsCrawler implements ICrawler {
     @Override
     public List<Model> crawlPages(String page) {
         String baseUrl = page;
@@ -126,7 +126,7 @@ public class HistoricalDestinationCrawler implements ICrawler {
 
     // Testing
     public static void main(String[] args) {
-        HistoricalDestinationCrawler test = new HistoricalDestinationCrawler();
+        HistoricalDestinationsCrawler test = new HistoricalDestinationsCrawler();
         List<Model> locationList = test.crawlPages(Config.HISTORICAL_DESTINATION_WEBPAGE);
         test.writeModel(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
     }
