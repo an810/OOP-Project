@@ -27,7 +27,7 @@ public class HistoricalFiguresCrawler implements ICrawler {
         while (figureURL != null) {
             System.out.println(baseUrl + figureURL);
             try {
-                doc =  Jsoup.connect(baseUrl+figureURL).timeout(20000).get();
+                doc =  Jsoup.connect(baseUrl+figureURL).timeout(200000).get();
             } catch (IOException e ){
                 throw new RuntimeException(e);
             }
