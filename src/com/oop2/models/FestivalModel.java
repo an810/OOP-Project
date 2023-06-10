@@ -47,7 +47,11 @@ public class FestivalModel extends Model
         this.locationCode = locationCode;
     }
 
-
+    @Override
+    public String toHTML()
+    {
+        return "";
+    }
     @Override
     public String toString()
     {

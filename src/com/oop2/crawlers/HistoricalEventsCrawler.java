@@ -1,5 +1,6 @@
 package com.oop2.crawlers;
 
+import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -17,7 +18,7 @@ import com.oop2.models.HistoricalEvent;
 
 import static com.oop2.util.UrlDecode.getCodeFromUrl;
 
-public class HistoricalEventsCrawler implements ICrawler {
+public class HistoricalEventsCrawler extends SCrawler implements ICrawler {
     @Override
     public List<Model> crawlPages(String page) {
         // the URL of the target website's home page
@@ -140,7 +141,7 @@ public class HistoricalEventsCrawler implements ICrawler {
     }
 
     @Override
-    public void writeModel(String fileName, List<Model> models)
+    public void writeJson(String fileName, List<Model> models)
     {
         try (FileWriter fileWriter = new FileWriter(Config.EVENT_FILENAME)) {
             fileWriter.write(models.toString());
@@ -152,13 +153,14 @@ public class HistoricalEventsCrawler implements ICrawler {
     public void createHistoricalEvents()
     {
         List<Model> historicalEvents = crawlPages(Config.EVENT_WEBPAGE);
-        writeModel(Config.EVENT_FILENAME, historicalEvents);
+        writeJson(Config.EVENT_FILENAME, historicalEvents);
     }
 
     // testing
     public static void main(String[] args) {
         HistoricalEventsCrawler test = new HistoricalEventsCrawler();
         List<Model> historicalEvents = test.crawlPages(Config.EVENT_WEBPAGE);
-        test.writeModel(Config.EVENT_FILENAME, historicalEvents);
+        test.writeJson(Config.EVENT_FILENAME, historicalEvents);
+        test.writeHTML(Config.EVENT_HTML, historicalEvents);
     }
 }

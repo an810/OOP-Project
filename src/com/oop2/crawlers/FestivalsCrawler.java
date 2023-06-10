@@ -1,5 +1,6 @@
 package com.oop2.crawlers;
 
+import com.oop2.superCrawler.SCrawler;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -16,7 +17,7 @@ import com.oop2.models.Model;
 import com.oop2.models.FestivalModel;
 import com.oop2.util.Config;
 
-public class FestivalsCrawler implements ICrawler
+public class FestivalsCrawler extends SCrawler implements ICrawler
 {
     private Map<String, List<String>> map;
 
@@ -227,7 +228,7 @@ public class FestivalsCrawler implements ICrawler
         return str.replaceAll(" ", "-");
     }
 
-    public void writeModel(String fileName, List<Model> models)
+    public void writeJson(String fileName, List<Model> models)
     {
         for (Model model : models)
         {
@@ -260,7 +261,7 @@ public class FestivalsCrawler implements ICrawler
         List<Model> festivals;
 
         festivals = crawlPages(page);
-        writeModel(festivalFilename, festivals);
+        writeJson(festivalFilename, festivals);
     }
 
     public static void main(String[] args)
@@ -271,6 +272,7 @@ public class FestivalsCrawler implements ICrawler
         List<Model> festivals;
 
         festivals = festivalsScraper.crawlPages(page);
-        festivalsScraper.writeModel(festivalFilename, festivals);
+        festivalsScraper.writeJson(festivalFilename, festivals);
+        festivalsScraper.writeHTML(Config.FESTIVAL_HTML, festivals);
     }
 }

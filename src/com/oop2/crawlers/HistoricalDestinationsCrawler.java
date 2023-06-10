@@ -3,6 +3,7 @@ package com.oop2.crawlers;
 import com.oop2.interfaces.ICrawler;
 import com.oop2.models.HistoricalDestination;
 import com.oop2.models.Model;
+import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -16,7 +17,7 @@ import java.util.List;
 import java.util.Set;
 import static com.oop2.util.UrlDecode.getCodeFromUrl;
 
-public class HistoricalDestinationsCrawler implements ICrawler {
+public class HistoricalDestinationsCrawler extends SCrawler implements ICrawler {
     @Override
     public List<Model> crawlPages(String page) {
         String baseUrl = page;
@@ -114,7 +115,7 @@ public class HistoricalDestinationsCrawler implements ICrawler {
     }
 
     @Override
-    public void writeModel(String fileName, List<Model> models)
+    public void writeJson(String fileName, List<Model> models)
     {
         // Print all data in json file
         try (FileWriter writer = new FileWriter(Config.HISTORICAL_DESTINATION_FILENAME)) {
@@ -127,13 +128,14 @@ public class HistoricalDestinationsCrawler implements ICrawler {
     public void createHistoricalDestination()
     {
         List<Model> locationList = crawlPages(Config.HISTORICAL_DESTINATION_WEBPAGE);
-        writeModel(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
+        writeJson(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
     }
 
     // Testing
     public static void main(String[] args) {
         HistoricalDestinationsCrawler test = new HistoricalDestinationsCrawler();
         List<Model> locationList = test.crawlPages(Config.HISTORICAL_DESTINATION_WEBPAGE);
-        test.writeModel(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
+        test.writeJson(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
+        test.writeHTML(Config.HISTORICAL_DESTINATION_HTML, locationList);
     }
 }

@@ -1,6 +1,7 @@
 package com.oop2.crawlers;
 
 import com.oop2.interfaces.ICrawler;
+import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import java.io.FileWriter;
@@ -17,7 +18,7 @@ import com.oop2.models.EraModel;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-public class ErasCrawler implements ICrawler {
+public class ErasCrawler extends SCrawler implements ICrawler {
     public List<Model> crawlPages(String page) {
         String baseUrl = page;
         String thoiKyUrl = "/dong-lich-su";
@@ -130,7 +131,7 @@ public class ErasCrawler implements ICrawler {
         return hrefs;
     }
 
-    public void writeModel(String fileName, List<Model> models)
+    public void writeJson(String fileName, List<Model> models)
     {
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         String json = gson.toJson(models);
@@ -144,14 +145,15 @@ public class ErasCrawler implements ICrawler {
     public void createEras()
     {
         List<Model> models = crawlPages(Config.ERA_WEBPAGE);
-        writeModel(Config.ERA_FILENAME, models);
+        writeJson(Config.ERA_FILENAME, models);
     }
 
     // Testing
     public static void main(String[] args) {
         ErasCrawler test = new ErasCrawler();
         List<Model> models = test.crawlPages(Config.ERA_WEBPAGE);
-        test.writeModel(Config.ERA_FILENAME, models);
+        test.writeJson(Config.ERA_FILENAME, models);
+        test.writeHTML(Config.ERA_HTML, models);
     }
 
 }

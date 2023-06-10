@@ -15,6 +15,8 @@ public abstract class Model
         setDescription(description);
     }
 
+    public  abstract String toHTML();
+
     public void setId(int id)
     {
         this.id = id;

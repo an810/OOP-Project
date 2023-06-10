@@ -6,6 +6,8 @@ import com.oop2.interfaces.ICrawler;
 import com.oop2.models.HistoricalFigureModel;
 import com.oop2.models.Model;
 import java.io.FileWriter;
+
+import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -15,7 +17,7 @@ import java.io.IOException;
 import java.util.*;
 
 
-public class HistoricalFiguresCrawler implements ICrawler {
+public class HistoricalFiguresCrawler extends SCrawler implements ICrawler {
 
     public List<Model> crawlPages(String page) {
         String baseUrl = page;
@@ -197,7 +199,7 @@ public class HistoricalFiguresCrawler implements ICrawler {
 //        }
 //    }
 
-    public void writeModel(String fileName, List<Model> models)
+    public void writeJson(String fileName, List<Model> models)
     {
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         String json = gson.toJson(models);
@@ -211,12 +213,13 @@ public class HistoricalFiguresCrawler implements ICrawler {
     public void createHistoricalFigures()
     {
         List<Model> figures = crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);
-        writeModel(Config.HISTORICAL_FIGURE_FILENAME, figures);
+        writeJson(Config.HISTORICAL_FIGURE_FILENAME, figures);
     }
 
     public static void main(String[] args) {
         HistoricalFiguresCrawler test = new HistoricalFiguresCrawler();
         List<Model> figures = test.crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);
-        test.writeModel(Config.HISTORICAL_FIGURE_FILENAME, figures);
+        test.writeJson(Config.HISTORICAL_FIGURE_FILENAME, figures);
+        test.writeHTML(Config.HISTORICAL_FIGURE_HTML, figures);
     }
 }

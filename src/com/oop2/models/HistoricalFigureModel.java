@@ -43,7 +43,8 @@ public class HistoricalFigureModel extends Model
         this.erasLinked = erasLinked;
     }
 
-    public String toHtml() {
+    @Override
+    public String toHTML() {
         StringBuilder htmlBuilder = new StringBuilder();
 
         // Start the HTML structure

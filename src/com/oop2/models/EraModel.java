@@ -36,7 +36,8 @@ public class EraModel extends Model
         return jsonBuilder.toString();
     }
 
-    public String toHtml()
+    @Override
+    public String toHTML()
     {
         StringBuilder htmlBuilder = new StringBuilder();
 

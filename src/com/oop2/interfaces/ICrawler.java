@@ -5,5 +5,5 @@ import com.oop2.models.Model;
 
 public interface ICrawler {
     public List<Model> crawlPages(String page);
-    public void writeModel(String fileName, List<Model> models);
+    public void writeJson(String fileName, List<Model> models);
 }
