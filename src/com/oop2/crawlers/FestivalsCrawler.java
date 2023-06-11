@@ -232,17 +232,6 @@ public class FestivalsCrawler extends SCrawler implements ICrawler
         return str.replaceAll(" ", "-");
     }
 
-    public void writeJson(String fileName, List<Model> models)
-    {
-        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-        String json = gson.toJson(models);
-        try (FileWriter writer = new FileWriter(fileName)) {
-            writer.write(json);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
     public void createFestivalsJson()
     {
         String page = Config.FESTIVAL_WEBPAGE;
@@ -265,7 +254,7 @@ public class FestivalsCrawler extends SCrawler implements ICrawler
 //        festivalsScraper.writeHTML(Config.FESTIVAL_HTML, festivals);
 
         FestivalsCrawler test = new FestivalsCrawler();
-        List<EraModel> myList = test.loader(Config.FESTIVAL_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<FestivalModel> myList = test.loader(Config.FESTIVAL_FILENAME,  new TypeToken<List<FestivalModel>>() {});
         List<Model> newList = new ArrayList<>();
         newList.addAll(myList);
         test.writeHTML(Config.FESTIVAL_HTML, newList);

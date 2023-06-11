@@ -1,14 +1,14 @@
 [
   {
-    "historicalDestinationCode": "bien-ho",
-    "historicalFiguresLinked": [],
+    "placeCode": "bien-ho",
+    "relatedFigures": [],
     "id": 1,
     "name": "Biển Hồ",
     "description": []
   },
   {
-    "historicalDestinationCode": "bo-giao-chi",
-    "historicalFiguresLinked": [
+    "placeCode": "bo-giao-chi",
+    "relatedFigures": [
       "nha-tuy",
       "do-tue-do",
       "nha-duong",
@@ -29,8 +29,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "bo-lai",
-    "historicalFiguresLinked": [
+    "placeCode": "bo-lai",
+    "relatedFigures": [
       "nha-duong",
       "vu-de"
     ],
@@ -41,8 +41,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "bo-van-lang",
-    "historicalFiguresLinked": [],
+    "placeCode": "bo-van-lang",
+    "relatedFigures": [],
     "id": 4,
     "name": "bộ Văn Lang",
     "description": [
@@ -50,8 +50,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "bo-vu-ninh",
-    "historicalFiguresLinked": [],
+    "placeCode": "bo-vu-ninh",
+    "relatedFigures": [],
     "id": 5,
     "name": "bộ Vũ Ninh",
     "description": [
@@ -59,8 +59,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-bong",
-    "historicalFiguresLinked": [
+    "placeCode": "cau-bong",
+    "relatedFigures": [
       "dinh-tien-hoang"
     ],
     "id": 6,
@@ -70,8 +70,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-den",
-    "historicalFiguresLinked": [],
+    "placeCode": "cau-den",
+    "relatedFigures": [],
     "id": 7,
     "name": "Cầu Dền",
     "description": [
@@ -79,8 +79,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-duong",
-    "historicalFiguresLinked": [],
+    "placeCode": "cau-duong",
+    "relatedFigures": [],
     "id": 8,
     "name": "Cầu Đuống",
     "description": [
@@ -88,8 +88,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-giay",
-    "historicalFiguresLinked": [],
+    "placeCode": "cau-giay",
+    "relatedFigures": [],
     "id": 9,
     "name": "Cầu Giấy",
     "description": [
@@ -97,8 +97,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-go",
-    "historicalFiguresLinked": [
+    "placeCode": "cau-go",
+    "relatedFigures": [
       "dinh-liet"
     ],
     "id": 10,
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-kho",
-    "historicalFiguresLinked": [
+    "placeCode": "cau-kho",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 11,
@@ -119,8 +119,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-long-bien",
-    "historicalFiguresLinked": [],
+    "placeCode": "cau-long-bien",
+    "relatedFigures": [],
     "id": 12,
     "name": "cầu Long Biên",
     "description": [
@@ -128,8 +128,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-nguyen-hoang",
-    "historicalFiguresLinked": [
+    "placeCode": "cau-nguyen-hoang",
+    "relatedFigures": [
       "nguyen-binh",
       "le-thanh-ton",
       "thanh-thai"
@@ -141,8 +141,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-thi-nghe",
-    "historicalFiguresLinked": [],
+    "placeCode": "cau-thi-nghe",
+    "relatedFigures": [],
     "id": 14,
     "name": "cầu Thị Nghè",
     "description": [
@@ -150,8 +150,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-trang-tien",
-    "historicalFiguresLinked": [
+    "placeCode": "cau-trang-tien",
+    "relatedFigures": [
       "nguyen-binh",
       "le-thanh-ton",
       "thanh-thai"
@@ -163,8 +163,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "cau-tre",
-    "historicalFiguresLinked": [
+    "placeCode": "cau-tre",
+    "relatedFigures": [
       "ngo-quyen"
     ],
     "id": 16,
@@ -174,8 +174,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-ai",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-ai",
+    "relatedFigures": [
       "ho-han-thuong",
       "nha-minh",
       "nguyen-duy",
@@ -194,8 +194,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-au",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-au",
+    "relatedFigures": [],
     "id": 18,
     "name": "châu Âu",
     "description": [
@@ -203,8 +203,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-cuu-duc",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-cuu-duc",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-le",
       "nha-ly",
@@ -218,8 +218,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-dien",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-dien",
+    "relatedFigures": [
       "nha-hau-le"
     ],
     "id": 20,
@@ -229,8 +229,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-doc",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-doc",
+    "relatedFigures": [
       "le-loi",
       "phan-dinh-phung",
       "ngo-dinh-diem",
@@ -245,8 +245,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-hoa",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-hoa",
+    "relatedFigures": [
       "nha-tran",
       "nha-dong-tan",
       "tran-anh-tong"
@@ -258,8 +258,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-hoan",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-hoan",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-le",
       "nha-ly",
@@ -273,8 +273,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-hong",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-hong",
+    "relatedFigures": [],
     "id": 24,
     "name": "Châu Hồng",
     "description": [
@@ -282,8 +282,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-hong-ha",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-hong-ha",
+    "relatedFigures": [],
     "id": 25,
     "name": "châu Hồng Hà",
     "description": [
@@ -291,8 +291,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-lam",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-lam",
+    "relatedFigures": [],
     "id": 26,
     "name": "Châu Lâm",
     "description": [
@@ -300,8 +300,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-ly",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-ly",
+    "relatedFigures": [
       "nha-tran",
       "nha-dong-tan",
       "tran-anh-tong"
@@ -313,8 +313,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-my",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-my",
+    "relatedFigures": [],
     "id": 28,
     "name": "châu Mỹ",
     "description": [
@@ -322,8 +322,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-nghe-an",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-nghe-an",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-le",
       "nha-ly",
@@ -337,8 +337,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-phi",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-phi",
+    "relatedFigures": [],
     "id": 30,
     "name": "châu Phi",
     "description": [
@@ -346,15 +346,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-phong",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-phong",
+    "relatedFigures": [],
     "id": 31,
     "name": "châu Phong",
     "description": []
   },
   {
-    "historicalDestinationCode": "chau-son",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-son",
+    "relatedFigures": [],
     "id": 32,
     "name": "Châu Sơn",
     "description": [
@@ -362,8 +362,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-thai",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-thai",
+    "relatedFigures": [],
     "id": 33,
     "name": "châu Thái",
     "description": [
@@ -371,8 +371,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-thanh",
+    "relatedFigures": [],
     "id": 34,
     "name": "Châu Thành",
     "description": [
@@ -380,8 +380,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-thuan",
-    "historicalFiguresLinked": [],
+    "placeCode": "chau-thuan",
+    "relatedFigures": [],
     "id": 35,
     "name": "châu Thuận",
     "description": [
@@ -389,8 +389,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chau-vu-ninh",
-    "historicalFiguresLinked": [
+    "placeCode": "chau-vu-ninh",
+    "relatedFigures": [
       "nha-minh",
       "nguyen-thu-tiep",
       "duong-huy",
@@ -407,8 +407,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chien-khu-tan-trao",
-    "historicalFiguresLinked": [
+    "placeCode": "chien-khu-tan-trao",
+    "relatedFigures": [
       "vo-nguyen-giap",
       "ho-chi-minh"
     ],
@@ -419,8 +419,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-am-tien",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-am-tien",
+    "relatedFigures": [
       "nha-tong",
       "duong-van-nga",
       "nguyen-minh-khong",
@@ -435,15 +435,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-ba-ngo",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-ba-ngo",
+    "relatedFigures": [],
     "id": 39,
     "name": "Chùa Bà Ngô",
     "description": []
   },
   {
-    "historicalDestinationCode": "chua-bai-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-bai-dinh",
+    "relatedFigures": [
       "ly-than-tong",
       "le-thanh-tong",
       "dinh-bo-linh",
@@ -462,8 +462,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-bao-an",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-bao-an",
+    "relatedFigures": [
       "nha-tran"
     ],
     "id": 41,
@@ -473,8 +473,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-boc",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-boc",
+    "relatedFigures": [
       "tran-huy-lieu",
       "le-thuoc",
       "nha-thanh",
@@ -488,8 +488,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-cao",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-cao",
+    "relatedFigures": [],
     "id": 43,
     "name": "chùa Cao",
     "description": [
@@ -497,8 +497,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-cay-mai",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-cay-mai",
+    "relatedFigures": [
       "huynh-minh",
       "phan-van-tri",
       "nguyen-tri-phuong",
@@ -511,15 +511,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-chan-tien",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-chan-tien",
+    "relatedFigures": [],
     "id": 45,
     "name": "Chùa Chân Tiên",
     "description": []
   },
   {
-    "historicalDestinationCode": "chua-co-phap",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-co-phap",
+    "relatedFigures": [
       "ly-cong-uan",
       "hoang-van-thu",
       "hoang-quoc-viet",
@@ -534,8 +534,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-con-son",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-con-son",
+    "relatedFigures": [
       "nha-tran",
       "dinh-bo-linh",
       "tran-nguyen-dan",
@@ -553,8 +553,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-dam",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-dam",
+    "relatedFigures": [
       "tran-nhan-tong",
       "nha-ly",
       "ly-nhan-tong"
@@ -566,8 +566,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-dau",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-dau",
+    "relatedFigures": [
       "nha-tran",
       "nha-le",
       "mac-dinh-chi",
@@ -581,8 +581,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-dien-huu",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-dien-huu",
+    "relatedFigures": [
       "le-loi",
       "nha-ly",
       "ly-thai-tong",
@@ -605,8 +605,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-duyen-ninh",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-duyen-ninh",
+    "relatedFigures": [
       "ly-phat-ma",
       "le-thi-phat-ngan",
       "ly-cong-uan",
@@ -621,8 +621,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-dau-long",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-dau-long",
+    "relatedFigures": [
       "le-hoan"
     ],
     "id": 52,
@@ -632,8 +632,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-duc-la",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-duc-la",
+    "relatedFigures": [
       "tran-nhan-tong",
       "nha-tran",
       "ly-than-tong",
@@ -652,8 +652,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-ho-thien",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-ho-thien",
+    "relatedFigures": [
       "nha-tran",
       "tran-nhan-tong"
     ],
@@ -664,8 +664,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-hoa-yen",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-hoa-yen",
+    "relatedFigures": [
       "nha-tran",
       "tran-nhan-tong",
       "ly-dao-tai",
@@ -679,8 +679,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-huong",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-huong",
+    "relatedFigures": [
       "pham-van-dong",
       "le-trung-hung",
       "le-thanh-tong",
@@ -694,8 +694,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-keo",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-keo",
+    "relatedFigures": [],
     "id": 57,
     "name": "chùa Keo",
     "description": [
@@ -703,8 +703,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-khai-tuong",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-khai-tuong",
+    "relatedFigures": [
       "phan-thanh-gian",
       "nguyen-tri-phuong",
       "truong-dinh",
@@ -720,8 +720,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-kien-so",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-kien-so",
+    "relatedFigures": [
       "ly-cong-uan",
       "ly-thai-to",
       "nha-ly",
@@ -735,8 +735,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-kim-ngan",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-kim-ngan",
+    "relatedFigures": [
       "le-dai-hanh"
     ],
     "id": 60,
@@ -746,8 +746,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-lan",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-lan",
+    "relatedFigures": [
       "tran-nhan-tong"
     ],
     "id": 61,
@@ -757,8 +757,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-lang",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-lang",
+    "relatedFigures": [
       "ly-than-tong",
       "ly-anh-tong",
       "nha-hau-le",
@@ -771,8 +771,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-loi-am",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-loi-am",
+    "relatedFigures": [],
     "id": 63,
     "name": "chùa Lôi Âm",
     "description": [
@@ -780,8 +780,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-luc-to",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-luc-to",
+    "relatedFigures": [
       "nha-minh",
       "ly-cong-uan",
       "nha-ly"
@@ -793,8 +793,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-mot-cot",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-mot-cot",
+    "relatedFigures": [
       "le-loi",
       "nha-ly",
       "ly-thai-tong",
@@ -817,8 +817,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-nhat-tru",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-nhat-tru",
+    "relatedFigures": [
       "do-phap-thuan",
       "ly-thai-tong",
       "le-hoan",
@@ -834,8 +834,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-pha-lai",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-pha-lai",
+    "relatedFigures": [],
     "id": 67,
     "name": "chùa Phả Lại",
     "description": [
@@ -843,15 +843,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-phap-van",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-phap-van",
+    "relatedFigures": [],
     "id": 68,
     "name": "chùa Pháp Vân",
     "description": []
   },
   {
-    "historicalDestinationCode": "chua-phat-tich",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-phat-tich",
+    "relatedFigures": [
       "tran-nhan-tong",
       "tran-nghe-tong",
       "ly-thien-to",
@@ -868,8 +868,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-phi-lai",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-phi-lai",
+    "relatedFigures": [],
     "id": 70,
     "name": "chùa Phi Lai",
     "description": [
@@ -877,8 +877,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-pho-minh",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-pho-minh",
+    "relatedFigures": [
       "nha-tran",
       "tran-nhan-tong",
       "nha-ly"
@@ -890,15 +890,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-quynh-lam",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-quynh-lam",
+    "relatedFigures": [],
     "id": 72,
     "name": "chùa Quỳnh Lâm",
     "description": []
   },
   {
-    "historicalDestinationCode": "chua-tay-phuong",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-tay-phuong",
+    "relatedFigures": [
       "nha-mac",
       "nha-tay-son",
       "le-than-tong"
@@ -910,8 +910,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-thanh-mai",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-thanh-mai",
+    "relatedFigures": [
       "tran-nhan-tong"
     ],
     "id": 74,
@@ -921,15 +921,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-thap",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-thap",
+    "relatedFigures": [],
     "id": 75,
     "name": "chùa Tháp",
     "description": []
   },
   {
-    "historicalDestinationCode": "chua-thay",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-thay",
+    "relatedFigures": [
       "nha-tran",
       "ly-than-tong",
       "nguyen-truc",
@@ -948,8 +948,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-thien-mu",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-thien-mu",
+    "relatedFigures": [
       "nguyen-hoang",
       "nguyen-phuc-chu",
       "ngo-dinh-diem",
@@ -962,8 +962,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-tram",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-tram",
+    "relatedFigures": [],
     "id": 78,
     "name": "chùa Trầm",
     "description": [
@@ -971,8 +971,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-van-phuc",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-van-phuc",
+    "relatedFigures": [
       "tran-nhan-tong",
       "tran-nghe-tong",
       "ly-thien-to",
@@ -989,15 +989,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "chua-vinh-nghiem",
-    "historicalFiguresLinked": [],
+    "placeCode": "chua-vinh-nghiem",
+    "relatedFigures": [],
     "id": 80,
     "name": "chùa Vĩnh Nghiêm",
     "description": []
   },
   {
-    "historicalDestinationCode": "chua-yen-tu",
-    "historicalFiguresLinked": [
+    "placeCode": "chua-yen-tu",
+    "relatedFigures": [
       "nha-tran",
       "tran-nhan-tong",
       "ly-dao-tai",
@@ -1011,8 +1011,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "co-do-hoa-lu",
-    "historicalFiguresLinked": [
+    "placeCode": "co-do-hoa-lu",
+    "relatedFigures": [
       "le-thi-phat-ngan",
       "duong-vuong",
       "tran-thai-tong",
@@ -1054,8 +1054,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dinh-doc-lap",
-    "historicalFiguresLinked": [
+    "placeCode": "dinh-doc-lap",
+    "relatedFigures": [
       "bui-quang-than",
       "pham-phu-quoc",
       "nguyen-van-thieu",
@@ -1072,8 +1072,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "duong-ha",
-    "historicalFiguresLinked": [],
+    "placeCode": "duong-ha",
+    "relatedFigures": [],
     "id": 84,
     "name": "Dương Hà",
     "description": [
@@ -1081,8 +1081,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "duong-kinh",
-    "historicalFiguresLinked": [
+    "placeCode": "duong-kinh",
+    "relatedFigures": [
       "pham-van-dong"
     ],
     "id": 85,
@@ -1092,8 +1092,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "duong-lang",
-    "historicalFiguresLinked": [],
+    "placeCode": "duong-lang",
+    "relatedFigures": [],
     "id": 86,
     "name": "Dương Lăng",
     "description": [
@@ -1101,8 +1101,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "duong-minh",
-    "historicalFiguresLinked": [],
+    "placeCode": "duong-minh",
+    "relatedFigures": [],
     "id": 87,
     "name": "Dương Minh",
     "description": [
@@ -1110,8 +1110,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "duong-nguyen",
-    "historicalFiguresLinked": [
+    "placeCode": "duong-nguyen",
+    "relatedFigures": [
       "nha-thanh",
       "nha-han"
     ],
@@ -1122,8 +1122,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "duong-quan",
-    "historicalFiguresLinked": [],
+    "placeCode": "duong-quan",
+    "relatedFigures": [],
     "id": 89,
     "name": "Dương Quan",
     "description": [
@@ -1131,15 +1131,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "duong-son",
-    "historicalFiguresLinked": [],
+    "placeCode": "duong-son",
+    "relatedFigures": [],
     "id": 90,
     "name": "Dương Sơn",
     "description": []
   },
   {
-    "historicalDestinationCode": "duong-tuyen",
-    "historicalFiguresLinked": [],
+    "placeCode": "duong-tuyen",
+    "relatedFigures": [],
     "id": 91,
     "name": "Dương Tuyền",
     "description": [
@@ -1147,8 +1147,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "duong-xuyen",
-    "historicalFiguresLinked": [],
+    "placeCode": "duong-xuyen",
+    "relatedFigures": [],
     "id": 92,
     "name": "Dương Xuyên",
     "description": [
@@ -1156,8 +1156,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-ba-binh",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-ba-binh",
+    "relatedFigures": [],
     "id": 93,
     "name": "đảo Ba Bình",
     "description": [
@@ -1165,8 +1165,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-co-lin",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-co-lin",
+    "relatedFigures": [],
     "id": 94,
     "name": "đảo Cô Lin",
     "description": [
@@ -1174,8 +1174,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-con-lon",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-con-lon",
+    "relatedFigures": [],
     "id": 95,
     "name": "đảo Côn Lôn",
     "description": [
@@ -1183,8 +1183,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-gac-ma",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-gac-ma",
+    "relatedFigures": [],
     "id": 96,
     "name": "đảo Gạc Ma",
     "description": [
@@ -1192,8 +1192,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-guam",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-guam",
+    "relatedFigures": [],
     "id": 97,
     "name": "đảo Guam",
     "description": [
@@ -1201,8 +1201,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-hai-nam",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-hai-nam",
+    "relatedFigures": [],
     "id": 98,
     "name": "đảo Hải Nam",
     "description": [
@@ -1210,8 +1210,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-hong-kong",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-hong-kong",
+    "relatedFigures": [],
     "id": 99,
     "name": "đảo Hồng Kông",
     "description": [
@@ -1219,8 +1219,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-loai-ta",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-loai-ta",
+    "relatedFigures": [],
     "id": 100,
     "name": "đảo Loại Ta",
     "description": [
@@ -1228,8 +1228,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-midway",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-midway",
+    "relatedFigures": [],
     "id": 101,
     "name": "đảo Midway",
     "description": [
@@ -1237,8 +1237,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-nam-yet",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-nam-yet",
+    "relatedFigures": [],
     "id": 102,
     "name": "đảo Nam Yết",
     "description": [
@@ -1246,8 +1246,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-phu-lam",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-phu-lam",
+    "relatedFigures": [],
     "id": 103,
     "name": "đảo Phú Lâm",
     "description": [
@@ -1255,8 +1255,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-phu-quoc",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-phu-quoc",
+    "relatedFigures": [],
     "id": 104,
     "name": "đảo Phú Quốc",
     "description": [
@@ -1264,8 +1264,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-sinh-ton",
-    "historicalFiguresLinked": [
+    "placeCode": "dao-sinh-ton",
+    "relatedFigures": [
       "ho-chi-minh",
       "tran-dang-khoa"
     ],
@@ -1276,8 +1276,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-song-tu-tay",
-    "historicalFiguresLinked": [
+    "placeCode": "dao-song-tu-tay",
+    "relatedFigures": [
       "tran-hung-dao"
     ],
     "id": 106,
@@ -1287,8 +1287,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-thi-tu",
-    "historicalFiguresLinked": [],
+    "placeCode": "dao-thi-tu",
+    "relatedFigures": [],
     "id": 107,
     "name": "đảo Thị Tứ",
     "description": [
@@ -1296,8 +1296,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dao-tho-chu",
-    "historicalFiguresLinked": [
+    "placeCode": "dao-tho-chu",
+    "relatedFigures": [
       "nguyen-hue",
       "nguyen-anh",
       "nguyen-lu",
@@ -1310,8 +1310,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-an-sinh",
-    "historicalFiguresLinked": [
+    "placeCode": "den-an-sinh",
+    "relatedFigures": [
       "nha-tran",
       "tran-nhan-tong",
       "tran-nghe-tong",
@@ -1329,8 +1329,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-dinh-tien-hoang",
-    "historicalFiguresLinked": [
+    "placeCode": "den-dinh-tien-hoang",
+    "relatedFigures": [
       "dinh-bo-linh",
       "dinh-dien",
       "dinh-toan",
@@ -1346,8 +1346,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-dong-co",
-    "historicalFiguresLinked": [],
+    "placeCode": "den-dong-co",
+    "relatedFigures": [],
     "id": 111,
     "name": "đền Đồng Cổ",
     "description": [
@@ -1355,8 +1355,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-hai-ba",
-    "historicalFiguresLinked": [],
+    "placeCode": "den-hai-ba",
+    "relatedFigures": [],
     "id": 112,
     "name": "đền Hai Bà",
     "description": [
@@ -1364,8 +1364,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-hai-ba-trung",
-    "historicalFiguresLinked": [],
+    "placeCode": "den-hai-ba-trung",
+    "relatedFigures": [],
     "id": 113,
     "name": "Đền Hai Bà Trưng",
     "description": [
@@ -1373,8 +1373,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-hung",
-    "historicalFiguresLinked": [
+    "placeCode": "den-hung",
+    "relatedFigures": [
       "nha-tran",
       "lac-long-quan",
       "nha-le",
@@ -1390,8 +1390,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-kiep-bac",
-    "historicalFiguresLinked": [
+    "placeCode": "den-kiep-bac",
+    "relatedFigures": [
       "pham-ngu-lao",
       "tran-quoc-tuan",
       "nguyen-trai",
@@ -1404,8 +1404,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-lang",
-    "historicalFiguresLinked": [
+    "placeCode": "den-lang",
+    "relatedFigures": [
       "le-ngoa-trieu",
       "le-long-viet",
       "le-hoan",
@@ -1422,8 +1422,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-mau-au-co",
-    "historicalFiguresLinked": [
+    "placeCode": "den-mau-au-co",
+    "relatedFigures": [
       "le-thanh-tong"
     ],
     "id": 117,
@@ -1433,8 +1433,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-ngoc-son",
-    "historicalFiguresLinked": [
+    "placeCode": "den-ngoc-son",
+    "relatedFigures": [
       "nha-tran",
       "nha-le",
       "le-chieu-thong",
@@ -1449,8 +1449,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-phu-dong",
-    "historicalFiguresLinked": [
+    "placeCode": "den-phu-dong",
+    "relatedFigures": [
       "ly-thai-to"
     ],
     "id": 119,
@@ -1460,8 +1460,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-thai",
-    "historicalFiguresLinked": [
+    "placeCode": "den-thai",
+    "relatedFigures": [
       "tran-thai-to",
       "tran-thanh-tong",
       "tran-thua",
@@ -1474,8 +1474,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-thai-vi",
-    "historicalFiguresLinked": [
+    "placeCode": "den-thai-vi",
+    "relatedFigures": [
       "tran-quang-khai",
       "nha-tran",
       "tran-nhan-tong",
@@ -1494,15 +1494,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-thuong",
-    "historicalFiguresLinked": [],
+    "placeCode": "den-thuong",
+    "relatedFigures": [],
     "id": 122,
     "name": "đền Thượng",
     "description": []
   },
   {
-    "historicalDestinationCode": "den-tran",
-    "historicalFiguresLinked": [
+    "placeCode": "den-tran",
+    "relatedFigures": [
       "nha-tran",
       "tran-hung-dao"
     ],
@@ -1513,8 +1513,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-tran-nam-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "den-tran-nam-dinh",
+    "relatedFigures": [
       "nguyen-che-nghia",
       "nha-tran",
       "pham-ngu-lao",
@@ -1530,8 +1530,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-tran-thai-binh",
-    "historicalFiguresLinked": [
+    "placeCode": "den-tran-thai-binh",
+    "relatedFigures": [
       "tran-quang-khai",
       "tran-khanh-du",
       "nha-tran",
@@ -1551,8 +1551,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-van-kiep",
-    "historicalFiguresLinked": [],
+    "placeCode": "den-van-kiep",
+    "relatedFigures": [],
     "id": 126,
     "name": "đền Vạn Kiếp",
     "description": [
@@ -1560,8 +1560,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-vua-dinh-tien-hoang",
-    "historicalFiguresLinked": [
+    "placeCode": "den-vua-dinh-tien-hoang",
+    "relatedFigures": [
       "dinh-bo-linh",
       "dinh-dien",
       "dinh-toan",
@@ -1577,8 +1577,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "den-vua-le-dai-hanh",
-    "historicalFiguresLinked": [
+    "placeCode": "den-vua-le-dai-hanh",
+    "relatedFigures": [
       "le-thi-phat-ngan",
       "le-ngoa-trieu",
       "duong-van-nga",
@@ -1597,8 +1597,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-ban",
-    "historicalFiguresLinked": [
+    "placeCode": "dien-ban",
+    "relatedFigures": [
       "nha-tran",
       "nguyen-hoang",
       "le-thanh-tong",
@@ -1614,8 +1614,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-bien",
-    "historicalFiguresLinked": [
+    "placeCode": "dien-bien",
+    "relatedFigures": [
       "le-thanh-tong"
     ],
     "id": 130,
@@ -1625,8 +1625,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-bien-phu",
-    "historicalFiguresLinked": [
+    "placeCode": "dien-bien-phu",
+    "relatedFigures": [
       "nha-le",
       "vo-nguyen-giap"
     ],
@@ -1637,15 +1637,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-can-chanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "dien-can-chanh",
+    "relatedFigures": [],
     "id": 132,
     "name": "Điện Cần Chánh",
     "description": []
   },
   {
-    "historicalDestinationCode": "dien-do-vuong",
-    "historicalFiguresLinked": [
+    "placeCode": "dien-do-vuong",
+    "relatedFigures": [
       "trinh-khai",
       "nguyen-hoan",
       "le-trung-hung",
@@ -1662,8 +1662,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-elysee",
-    "historicalFiguresLinked": [],
+    "placeCode": "dien-elysee",
+    "relatedFigures": [],
     "id": 134,
     "name": "điện Élysée",
     "description": [
@@ -1671,8 +1671,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-hon-chen",
-    "historicalFiguresLinked": [],
+    "placeCode": "dien-hon-chen",
+    "relatedFigures": [],
     "id": 135,
     "name": "Điện Hòn Chén",
     "description": [
@@ -1680,8 +1680,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-kien-trung",
-    "historicalFiguresLinked": [],
+    "placeCode": "dien-kien-trung",
+    "relatedFigures": [],
     "id": 136,
     "name": "Điện Kiến Trung",
     "description": [
@@ -1689,8 +1689,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-kinh-thien",
-    "historicalFiguresLinked": [
+    "placeCode": "dien-kinh-thien",
+    "relatedFigures": [
       "nha-hau-le",
       "le-thai-to"
     ],
@@ -1701,8 +1701,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-long-an",
-    "historicalFiguresLinked": [
+    "placeCode": "dien-long-an",
+    "relatedFigures": [
       "ton-that-thuyet",
       "le-truc"
     ],
@@ -1713,8 +1713,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-phung-tien",
-    "historicalFiguresLinked": [],
+    "placeCode": "dien-phung-tien",
+    "relatedFigures": [],
     "id": 139,
     "name": "điện Phụng Tiên",
     "description": [
@@ -1722,15 +1722,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "dien-thai-hoa",
-    "historicalFiguresLinked": [],
+    "placeCode": "dien-thai-hoa",
+    "relatedFigures": [],
     "id": 140,
     "name": "Điện Thái Hoà",
     "description": []
   },
   {
-    "historicalDestinationCode": "dien-voi-re",
-    "historicalFiguresLinked": [],
+    "placeCode": "dien-voi-re",
+    "relatedFigures": [],
     "id": 141,
     "name": "điện Voi Ré",
     "description": [
@@ -1738,8 +1738,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "do-dong",
-    "historicalFiguresLinked": [],
+    "placeCode": "do-dong",
+    "relatedFigures": [],
     "id": 142,
     "name": "Đỗ Động",
     "description": [
@@ -1747,8 +1747,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ho-bac",
-    "historicalFiguresLinked": [
+    "placeCode": "ho-bac",
+    "relatedFigures": [
       "nha-tuy",
       "nha-duong",
       "nha-ha",
@@ -1768,8 +1768,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ho-dong-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "ho-dong-dinh",
+    "relatedFigures": [
       "nha-tong",
       "nha-han"
     ],
@@ -1780,8 +1780,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ho-hoan-kiem",
-    "historicalFiguresLinked": [
+    "placeCode": "ho-hoan-kiem",
+    "relatedFigures": [
       "le-loi",
       "nguyen-khuyen",
       "ly-thuong-kiet",
@@ -1801,8 +1801,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ho-huu-tiep",
-    "historicalFiguresLinked": [],
+    "placeCode": "ho-huu-tiep",
+    "relatedFigures": [],
     "id": 146,
     "name": "hồ Hữu Tiệp",
     "description": [
@@ -1810,8 +1810,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ho-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "ho-nam",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "nha-nguyen-mong-co",
@@ -1828,8 +1828,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ho-nui-coc",
-    "historicalFiguresLinked": [],
+    "placeCode": "ho-nui-coc",
+    "relatedFigures": [],
     "id": 148,
     "name": "Hồ Núi Cốc",
     "description": [
@@ -1837,8 +1837,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ho-tay",
-    "historicalFiguresLinked": [
+    "placeCode": "ho-tay",
+    "relatedFigures": [
       "tran-nhan-tong",
       "ly-cong-uan",
       "nha-le",
@@ -1865,8 +1865,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ho-tinh-tam",
-    "historicalFiguresLinked": [],
+    "placeCode": "ho-tinh-tam",
+    "relatedFigures": [],
     "id": 150,
     "name": "hồ Tịnh Tâm",
     "description": [
@@ -1874,15 +1874,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "hoang-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "hoang-giang",
+    "relatedFigures": [],
     "id": 151,
     "name": "Hoàng Giang",
     "description": []
   },
   {
-    "historicalDestinationCode": "hoang-luong",
-    "historicalFiguresLinked": [],
+    "placeCode": "hoang-luong",
+    "relatedFigures": [],
     "id": 152,
     "name": "Hoàng Lương",
     "description": [
@@ -1890,15 +1890,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "hoang-mai",
-    "historicalFiguresLinked": [],
+    "placeCode": "hoang-mai",
+    "relatedFigures": [],
     "id": 153,
     "name": "Hoàng Mai",
     "description": []
   },
   {
-    "historicalDestinationCode": "hoang-son",
-    "historicalFiguresLinked": [
+    "placeCode": "hoang-son",
+    "relatedFigures": [
       "ly-bach",
       "nha-tan"
     ],
@@ -1909,8 +1909,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "hoang-su-phi",
-    "historicalFiguresLinked": [],
+    "placeCode": "hoang-su-phi",
+    "relatedFigures": [],
     "id": 155,
     "name": "Hoàng Su Phì",
     "description": [
@@ -1918,8 +1918,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "hoang-xa",
-    "historicalFiguresLinked": [],
+    "placeCode": "hoang-xa",
+    "relatedFigures": [],
     "id": 156,
     "name": "Hoàng Xá",
     "description": [
@@ -1927,8 +1927,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huong-cang",
-    "historicalFiguresLinked": [
+    "placeCode": "huong-cang",
+    "relatedFigures": [
       "nha-duong",
       "nha-thuong",
       "nha-tan",
@@ -1944,8 +1944,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huong-canh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huong-canh",
+    "relatedFigures": [],
     "id": 158,
     "name": "Hương Canh",
     "description": [
@@ -1953,8 +1953,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huong-dien",
-    "historicalFiguresLinked": [],
+    "placeCode": "huong-dien",
+    "relatedFigures": [],
     "id": 159,
     "name": "Hương Điền",
     "description": [
@@ -1962,15 +1962,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "huong-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "huong-giang",
+    "relatedFigures": [],
     "id": 160,
     "name": "Hương Giang",
     "description": []
   },
   {
-    "historicalDestinationCode": "huong-hoa",
-    "historicalFiguresLinked": [],
+    "placeCode": "huong-hoa",
+    "relatedFigures": [],
     "id": 161,
     "name": "Hương Hóa",
     "description": [
@@ -1978,8 +1978,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huong-khe",
-    "historicalFiguresLinked": [
+    "placeCode": "huong-khe",
+    "relatedFigures": [
       "le-anh-tuan",
       "ho-chi-minh"
     ],
@@ -1990,8 +1990,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huong-my",
-    "historicalFiguresLinked": [],
+    "placeCode": "huong-my",
+    "relatedFigures": [],
     "id": 163,
     "name": "hương Mỹ",
     "description": [
@@ -1999,8 +1999,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huong-nguyen",
-    "historicalFiguresLinked": [],
+    "placeCode": "huong-nguyen",
+    "relatedFigures": [],
     "id": 164,
     "name": "hương Nguyên",
     "description": [
@@ -2008,15 +2008,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "huong-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huong-thanh",
+    "relatedFigures": [],
     "id": 165,
     "name": "hương Thành",
     "description": []
   },
   {
-    "historicalDestinationCode": "huyen-an-duong",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-an-duong",
+    "relatedFigures": [
       "le-loi"
     ],
     "id": 166,
@@ -2026,8 +2026,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-an-thi",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-an-thi",
+    "relatedFigures": [
       "pham-ngu-lao",
       "nguyen-trung-ngan",
       "nha-nguyen-mong-co",
@@ -2050,8 +2050,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-ba-thuoc",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-ba-thuoc",
+    "relatedFigures": [],
     "id": 168,
     "name": "huyện Bá Thước",
     "description": [
@@ -2059,8 +2059,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-ba-vi",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-ba-vi",
+    "relatedFigures": [],
     "id": 169,
     "name": "huyện Ba Vì",
     "description": [
@@ -2068,8 +2068,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-bac-son",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-bac-son",
+    "relatedFigures": [
       "vo-nhai"
     ],
     "id": 170,
@@ -2079,8 +2079,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-ben-cat",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-ben-cat",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 171,
@@ -2090,8 +2090,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-binh-giang",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-binh-giang",
+    "relatedFigures": [
       "vu-khieu"
     ],
     "id": 172,
@@ -2101,8 +2101,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-bo-trach",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-bo-trach",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 173,
@@ -2112,8 +2112,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-cai-be",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-cai-be",
+    "relatedFigures": [],
     "id": 174,
     "name": "huyện Cái Bè",
     "description": [
@@ -2121,8 +2121,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-cam-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-cam-giang",
+    "relatedFigures": [],
     "id": 175,
     "name": "huyện Cẩm Giàng",
     "description": [
@@ -2130,8 +2130,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-cam-khe",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-cam-khe",
+    "relatedFigures": [
       "dinh-bo-linh",
       "nha-le",
       "hoang-lien-son"
@@ -2143,8 +2143,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-cam-lo",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-cam-lo",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 177,
@@ -2154,8 +2154,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-cam-xuyen",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-cam-xuyen",
+    "relatedFigures": [
       "le-duan",
       "nguyen-dinh-dong",
       "phan-dinh-giot",
@@ -2168,8 +2168,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-can-loc",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-can-loc",
+    "relatedFigures": [
       "nha-tran",
       "dang-minh-khiem",
       "dang-dung",
@@ -2187,8 +2187,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-chau-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-chau-giang",
+    "relatedFigures": [],
     "id": 180,
     "name": "huyện Châu Giang",
     "description": [
@@ -2196,8 +2196,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-chau-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-chau-thanh",
+    "relatedFigures": [],
     "id": 181,
     "name": "huyện Châu Thành",
     "description": [
@@ -2205,8 +2205,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-chi-linh",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-chi-linh",
+    "relatedFigures": [
       "tran-nhan-tong",
       "le-loi",
       "tran-nguyen-dan",
@@ -2224,8 +2224,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-chuong-my",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-chuong-my",
+    "relatedFigures": [
       "hoang-dieu",
       "hoang-van-thu",
       "ho-chi-minh"
@@ -2237,8 +2237,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-cu-chi",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-cu-chi",
+    "relatedFigures": [],
     "id": 184,
     "name": "huyện Củ Chi",
     "description": [
@@ -2246,8 +2246,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-dien-chau",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-dien-chau",
+    "relatedFigures": [
       "duong-vuong",
       "ly-nhan",
       "trieu-da"
@@ -2259,8 +2259,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-duy-xuyen",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-duy-xuyen",
+    "relatedFigures": [
       "phan-boi-chau"
     ],
     "id": 186,
@@ -2270,8 +2270,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-dai-tu",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-dai-tu",
+    "relatedFigures": [
       "nha-tran",
       "nguyen-hue",
       "nha-le"
@@ -2283,8 +2283,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-dien-bien",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-dien-bien",
+    "relatedFigures": [],
     "id": 188,
     "name": "huyện Điện Biên",
     "description": [
@@ -2292,8 +2292,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-do-gia",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-do-gia",
+    "relatedFigures": [
       "le-xuan",
       "ho-chi-minh"
     ],
@@ -2304,8 +2304,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-do-luong",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-do-luong",
+    "relatedFigures": [
       "le-loi",
       "le-thanh-tong",
       "nguyen-dang",
@@ -2329,8 +2329,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-doan-hung",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-doan-hung",
+    "relatedFigures": [],
     "id": 191,
     "name": "huyện Đoan Hùng",
     "description": [
@@ -2338,8 +2338,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-dong-anh",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-dong-anh",
+    "relatedFigures": [
       "nha-ngo",
       "nha-le",
       "pham-ngu-lao",
@@ -2367,8 +2367,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-dong-son",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-dong-son",
+    "relatedFigures": [
       "nguyen-chich",
       "duong-xa",
       "ho-chi-minh",
@@ -2381,8 +2381,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-duc-tho",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-duc-tho",
+    "relatedFigures": [
       "le-ninh",
       "hoang-cao-khai",
       "le-thuoc",
@@ -2403,8 +2403,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-gia-binh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-gia-binh",
+    "relatedFigures": [],
     "id": 195,
     "name": "huyện Gia Bình",
     "description": [
@@ -2412,8 +2412,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-gia-lam",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-gia-lam",
+    "relatedFigures": [
       "dang-xa",
       "duong-xa",
       "tran-quoc-tuan"
@@ -2425,8 +2425,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-gia-loc",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-gia-loc",
+    "relatedFigures": [
       "nguyen-che-nghia",
       "hoang-dieu",
       "le-loi",
@@ -2439,8 +2439,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-giang-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-giang-thanh",
+    "relatedFigures": [],
     "id": 198,
     "name": "huyện Giang Thành",
     "description": [
@@ -2448,8 +2448,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-giao-thuy",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-giao-thuy",
+    "relatedFigures": [],
     "id": 199,
     "name": "huyện Giao Thủy",
     "description": [
@@ -2457,8 +2457,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-gio-linh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-gio-linh",
+    "relatedFigures": [],
     "id": 200,
     "name": "huyện Gio Linh",
     "description": [
@@ -2466,8 +2466,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-ha-quang",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-ha-quang",
+    "relatedFigures": [],
     "id": 201,
     "name": "huyện Hà Quảng",
     "description": [
@@ -2475,8 +2475,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-ha-trung",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-ha-trung",
+    "relatedFigures": [],
     "id": 202,
     "name": "huyện Hà Trung",
     "description": [
@@ -2484,8 +2484,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-hai-hau",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-hai-hau",
+    "relatedFigures": [
       "tran-quoc-tuan"
     ],
     "id": 203,
@@ -2495,8 +2495,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-hai-lang",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-hai-lang",
+    "relatedFigures": [
       "nguyen-duc-hoan",
       "trieu-phong",
       "le-manh-that",
@@ -2509,8 +2509,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-ham-yen",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-ham-yen",
+    "relatedFigures": [],
     "id": 205,
     "name": "huyện Hàm Yên",
     "description": [
@@ -2518,8 +2518,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-hoa-lu",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-hoa-lu",
+    "relatedFigures": [
       "ly-cong-uan",
       "nha-le",
       "nha-ly",
@@ -2536,8 +2536,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-hoa-vang",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-hoa-vang",
+    "relatedFigures": [
       "pham-phu-thu"
     ],
     "id": 207,
@@ -2547,8 +2547,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-hoai-duc",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-hoai-duc",
+    "relatedFigures": [
       "duong-xa",
       "ho-tay"
     ],
@@ -2559,8 +2559,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-hoanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-hoanh",
+    "relatedFigures": [],
     "id": 209,
     "name": "huyện Hoành",
     "description": [
@@ -2568,8 +2568,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-hoc-mon",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-hoc-mon",
+    "relatedFigures": [],
     "id": 210,
     "name": "huyện Hóc Môn",
     "description": [
@@ -2577,8 +2577,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-hung-ha",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-hung-ha",
+    "relatedFigures": [
       "nha-tran",
       "le-quy-don",
       "pham-don-le",
@@ -2591,8 +2591,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-huong-son",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-huong-son",
+    "relatedFigures": [
       "le-xuan",
       "ho-chi-minh"
     ],
@@ -2603,8 +2603,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-huong-tra",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-huong-tra",
+    "relatedFigures": [],
     "id": 213,
     "name": "huyện Hương Trà",
     "description": [
@@ -2612,8 +2612,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-khoai-chau",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-khoai-chau",
+    "relatedFigures": [
       "nha-minh",
       "nha-ngo",
       "le-loi",
@@ -2635,8 +2635,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-kien-xuong",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-kien-xuong",
+    "relatedFigures": [
       "le-trung-hung",
       "le-loi",
       "thanh-thai"
@@ -2648,8 +2648,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-kim-bang",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-kim-bang",
+    "relatedFigures": [
       "le-thanh-tong"
     ],
     "id": 216,
@@ -2659,8 +2659,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-kim-dong",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-kim-dong",
+    "relatedFigures": [
       "pham-ngu-lao",
       "pham-bach-ho"
     ],
@@ -2671,8 +2671,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-kim-mon",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-kim-mon",
+    "relatedFigures": [
       "nha-duong",
       "ngo-chau",
       "vu-de"
@@ -2684,8 +2684,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-kim-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-kim-thanh",
+    "relatedFigures": [],
     "id": 219,
     "name": "huyện Kim Thành",
     "description": [
@@ -2693,8 +2693,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-kinh-mon",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-kinh-mon",
+    "relatedFigures": [
       "le-ninh",
       "tran-nhan-tong",
       "nha-ly",
@@ -2716,15 +2716,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-ky-anh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-ky-anh",
+    "relatedFigures": [],
     "id": 221,
     "name": "huyện Kỳ Anh",
     "description": []
   },
   {
-    "historicalDestinationCode": "huyen-lam-thao",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-lam-thao",
+    "relatedFigures": [],
     "id": 222,
     "name": "huyện Lâm Thao",
     "description": [
@@ -2732,8 +2732,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-le-thuy",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-le-thuy",
+    "relatedFigures": [
       "le-quy-don",
       "duong-xa",
       "ngo-dinh-diem",
@@ -2746,8 +2746,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-loi-duong",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-loi-duong",
+    "relatedFigures": [
       "le-thanh-tong"
     ],
     "id": 224,
@@ -2757,8 +2757,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-my-duc",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-my-duc",
+    "relatedFigures": [],
     "id": 225,
     "name": "huyện Mỹ Đức",
     "description": [
@@ -2766,8 +2766,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-my-hao",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-my-hao",
+    "relatedFigures": [
       "phan-dinh-phung"
     ],
     "id": 226,
@@ -2777,8 +2777,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-my-loc",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-my-loc",
+    "relatedFigures": [],
     "id": 227,
     "name": "huyện Mỹ Lộc",
     "description": [
@@ -2786,8 +2786,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-nam-dan",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-nam-dan",
+    "relatedFigures": [
       "nguyen-van-giao",
       "tran-quoc-hoan",
       "nguyen-van-truong",
@@ -2805,8 +2805,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-nam-sach",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-nam-sach",
+    "relatedFigures": [
       "nha-tran",
       "le-thanh-tong",
       "nha-ngo",
@@ -2826,8 +2826,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-nam-truc",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-nam-truc",
+    "relatedFigures": [
       "nguyen-khuyen",
       "tran-van-bao",
       "vu-tuan-chieu",
@@ -2840,8 +2840,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-nghi-loc",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-nghi-loc",
+    "relatedFigures": [],
     "id": 231,
     "name": "huyện Nghi Lộc",
     "description": [
@@ -2849,8 +2849,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-nghi-xuan",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-nghi-xuan",
+    "relatedFigures": [
       "tran-trong-kim",
       "nguyen-nghiem",
       "vu-ngoc-khanh",
@@ -2867,8 +2867,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-ninh-giang",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-ninh-giang",
+    "relatedFigures": [
       "duong-dinh-nghe",
       "nha-minh",
       "le-trung-hung",
@@ -2894,8 +2894,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-pho-yen",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-pho-yen",
+    "relatedFigures": [
       "pham-van-dong"
     ],
     "id": 234,
@@ -2905,8 +2905,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-phong-dien",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-phong-dien",
+    "relatedFigures": [
       "nguyen-dinh-chieu",
       "nguyen-tri-phuong"
     ],
@@ -2917,8 +2917,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-phu-cat",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-phu-cat",
+    "relatedFigures": [
       "nguyen-huu-quang"
     ],
     "id": 236,
@@ -2928,8 +2928,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-phu-cu",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-phu-cu",
+    "relatedFigures": [
       "phan-sao-nam"
     ],
     "id": 237,
@@ -2939,8 +2939,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-phu-ninh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-phu-ninh",
+    "relatedFigures": [],
     "id": 238,
     "name": "huyện Phù Ninh",
     "description": [
@@ -2948,8 +2948,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-phu-vang",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-phu-vang",
+    "relatedFigures": [
       "nha-tran",
       "nguyen-sinh-cung",
       "ho-chi-minh"
@@ -2961,8 +2961,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-phu-xuyen",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-phu-xuyen",
+    "relatedFigures": [
       "mac-phuc-nguyen",
       "hoang-long",
       "nha-mac"
@@ -2974,8 +2974,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-phuc-tho",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-phuc-tho",
+    "relatedFigures": [
       "nha-han"
     ],
     "id": 241,
@@ -2985,15 +2985,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-phuoc-long",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-phuoc-long",
+    "relatedFigures": [],
     "id": 242,
     "name": "huyện Phước Long",
     "description": []
   },
   {
-    "historicalDestinationCode": "huyen-quang-ninh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-quang-ninh",
+    "relatedFigures": [],
     "id": 243,
     "name": "huyện Quảng Ninh",
     "description": [
@@ -3001,8 +3001,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-quang-tin",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-quang-tin",
+    "relatedFigures": [
       "trieu-khanh",
       "vu-de",
       "nha-tay-han"
@@ -3014,8 +3014,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-quang-trach",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-quang-trach",
+    "relatedFigures": [],
     "id": 245,
     "name": "huyện Quảng Trạch",
     "description": [
@@ -3023,8 +3023,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-quy",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-quy",
+    "relatedFigures": [
       "ngo-chau"
     ],
     "id": 246,
@@ -3034,8 +3034,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-quynh-phu",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-quynh-phu",
+    "relatedFigures": [],
     "id": 247,
     "name": "huyện Quỳnh Phụ",
     "description": [
@@ -3043,8 +3043,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-soc-son",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-soc-son",
+    "relatedFigures": [
       "ly-cong-uan",
       "ngo-chan-luu",
       "ngo-quyen"
@@ -3056,8 +3056,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-son-duong",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-son-duong",
+    "relatedFigures": [],
     "id": 249,
     "name": "huyện Sơn Dương",
     "description": [
@@ -3065,8 +3065,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-son-tinh",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-son-tinh",
+    "relatedFigures": [
       "nha-le",
       "nha-ho",
       "thanh-thai"
@@ -3078,8 +3078,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-song-thao",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-song-thao",
+    "relatedFigures": [],
     "id": 251,
     "name": "huyện Sông Thao",
     "description": [
@@ -3087,8 +3087,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tam-dao",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-tam-dao",
+    "relatedFigures": [
       "hoang-hoa"
     ],
     "id": 252,
@@ -3098,15 +3098,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tam-nong",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-tam-nong",
+    "relatedFigures": [],
     "id": 253,
     "name": "huyện Tam Nông",
     "description": []
   },
   {
-    "historicalDestinationCode": "huyen-thach-ha",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-thach-ha",
+    "relatedFigures": [],
     "id": 254,
     "name": "huyện Thạch Hà",
     "description": [
@@ -3114,8 +3114,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thach-that",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-thach-that",
+    "relatedFigures": [
       "nguyen-loc"
     ],
     "id": 255,
@@ -3125,8 +3125,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thanh-ba",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-thanh-ba",
+    "relatedFigures": [],
     "id": 256,
     "name": "huyện Thanh Ba",
     "description": [
@@ -3134,8 +3134,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thanh-chuong",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-thanh-chuong",
+    "relatedFigures": [
       "tran-hoan",
       "vo-liet",
       "bui-duong-lich"
@@ -3147,8 +3147,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thanh-ha",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-thanh-ha",
+    "relatedFigures": [
       "mac-phuc-nguyen",
       "mac-dang-dung",
       "le-hien-tong",
@@ -3162,8 +3162,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thanh-mien",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-thanh-mien",
+    "relatedFigures": [],
     "id": 259,
     "name": "huyện Thanh Miện",
     "description": [
@@ -3171,8 +3171,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thanh-oai",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-thanh-oai",
+    "relatedFigures": [
       "nha-minh",
       "le-trung-hung",
       "le-thanh-tong",
@@ -3202,8 +3202,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thanh-son",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-thanh-son",
+    "relatedFigures": [
       "le-thanh-tong",
       "mac-phuc-nguyen",
       "le-trung"
@@ -3215,8 +3215,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thanh-thuy",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-thanh-thuy",
+    "relatedFigures": [],
     "id": 262,
     "name": "huyện Thanh Thủy",
     "description": [
@@ -3224,8 +3224,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thanh-tri",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-thanh-tri",
+    "relatedFigures": [
       "le-the-tong",
       "hoang-van-thu",
       "nguyen-sieu"
@@ -3237,8 +3237,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thien-loc",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-thien-loc",
+    "relatedFigures": [
       "nha-tran",
       "dang-minh-khiem",
       "dang-dung",
@@ -3256,8 +3256,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tho-xuan",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-tho-xuan",
+    "relatedFigures": [
       "le-van-linh",
       "le-thai-to",
       "le-thai-tong",
@@ -3273,8 +3273,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tho-xuong",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-tho-xuong",
+    "relatedFigures": [],
     "id": 266,
     "name": "huyện Thọ Xương",
     "description": [
@@ -3282,8 +3282,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thuan-chau",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-thuan-chau",
+    "relatedFigures": [],
     "id": 267,
     "name": "huyện Thuận Châu",
     "description": [
@@ -3291,8 +3291,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-thuong-tin",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-thuong-tin",
+    "relatedFigures": [
       "nguyen-phi-khanh",
       "nha-minh",
       "nha-tran",
@@ -3308,8 +3308,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tien-du",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-tien-du",
+    "relatedFigures": [
       "nha-tran",
       "vu-duc-dam",
       "nguyen-dang-dao",
@@ -3323,8 +3323,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tien-lu",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-tien-lu",
+    "relatedFigures": [
       "tran-nhan-tong",
       "hoang-hanh",
       "nha-ly",
@@ -3339,8 +3339,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tra-linh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-tra-linh",
+    "relatedFigures": [],
     "id": 271,
     "name": "huyện Trà Lĩnh",
     "description": [
@@ -3348,8 +3348,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-trieu-phong",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-trieu-phong",
+    "relatedFigures": [
       "tran-nhan-tong",
       "nha-tran",
       "nguyen-hoang",
@@ -3368,8 +3368,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-trung-khanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-trung-khanh",
+    "relatedFigures": [],
     "id": 273,
     "name": "huyện Trùng Khánh",
     "description": [
@@ -3377,8 +3377,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-trung-quoc",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-trung-quoc",
+    "relatedFigures": [
       "nha-tan"
     ],
     "id": 274,
@@ -3388,8 +3388,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-truong-sa",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-truong-sa",
+    "relatedFigures": [],
     "id": 275,
     "name": "huyện Trường Sa",
     "description": [
@@ -3397,8 +3397,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tu-ky",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-tu-ky",
+    "relatedFigures": [
       "nha-le"
     ],
     "id": 276,
@@ -3408,8 +3408,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tu-liem",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-tu-liem",
+    "relatedFigures": [
       "nha-duong"
     ],
     "id": 277,
@@ -3419,8 +3419,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tu-nghia",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-tu-nghia",
+    "relatedFigures": [],
     "id": 278,
     "name": "huyện Tư Nghĩa",
     "description": [
@@ -3428,8 +3428,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tu-son",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-tu-son",
+    "relatedFigures": [],
     "id": 279,
     "name": "huyện Từ Sơn",
     "description": [
@@ -3437,15 +3437,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-tuy-vien",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-tuy-vien",
+    "relatedFigures": [],
     "id": 280,
     "name": "huyện Tuy Viễn",
     "description": []
   },
   {
-    "historicalDestinationCode": "huyen-van-giang",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-van-giang",
+    "relatedFigures": [
       "ly-than-tong",
       "nha-ngo",
       "dinh-bo-linh",
@@ -3461,8 +3461,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-van-lam",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-van-lam",
+    "relatedFigures": [
       "trung-trac",
       "nha-tay-son",
       "thanh-thai"
@@ -3474,8 +3474,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-vi-xuyen",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-vi-xuyen",
+    "relatedFigures": [
       "vu-cong-tuan",
       "nha-le",
       "nha-thanh",
@@ -3488,8 +3488,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-vinh-cuu",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-vinh-cuu",
+    "relatedFigures": [],
     "id": 284,
     "name": "huyện Vĩnh Cửu",
     "description": [
@@ -3497,8 +3497,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-vinh-linh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-vinh-linh",
+    "relatedFigures": [],
     "id": 285,
     "name": "huyện Vĩnh Linh",
     "description": [
@@ -3506,15 +3506,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-vinh-thuan",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-vinh-thuan",
+    "relatedFigures": [],
     "id": 286,
     "name": "huyện Vĩnh Thuận",
     "description": []
   },
   {
-    "historicalDestinationCode": "huyen-vu-ban",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-vu-ban",
+    "relatedFigures": [
       "nguyen-binh",
       "nha-minh",
       "tran-huy-lieu",
@@ -3529,8 +3529,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-vu-thu",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-vu-thu",
+    "relatedFigures": [
       "vu-nghia",
       "vu-tien",
       "nha-hau-le",
@@ -3544,8 +3544,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-xuan-truong",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-xuan-truong",
+    "relatedFigures": [],
     "id": 289,
     "name": "huyện Xuân Trường",
     "description": [
@@ -3553,8 +3553,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-yen-binh",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-yen-binh",
+    "relatedFigures": [],
     "id": 290,
     "name": "huyện Yên Bình",
     "description": [
@@ -3562,8 +3562,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-yen-dung",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-yen-dung",
+    "relatedFigures": [
       "tran-nhan-tong"
     ],
     "id": 291,
@@ -3573,8 +3573,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-yen-hung",
-    "historicalFiguresLinked": [],
+    "placeCode": "huyen-yen-hung",
+    "relatedFigures": [],
     "id": 292,
     "name": "huyện Yên Hưng",
     "description": [
@@ -3582,8 +3582,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "huyen-yen-son",
-    "historicalFiguresLinked": [
+    "placeCode": "huyen-yen-son",
+    "relatedFigures": [
       "trung-trac"
     ],
     "id": 293,
@@ -3593,8 +3593,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "khu-di-tich-chien-thang-dien-bien-phu",
-    "historicalFiguresLinked": [
+    "placeCode": "khu-di-tich-chien-thang-dien-bien-phu",
+    "relatedFigures": [
       "vo-nguyen-giap",
       "hoang-van-thai"
     ],
@@ -3605,8 +3605,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "khu-di-tich-chu-tich-ho-chi-minh-tai-phu-chu-tich",
-    "historicalFiguresLinked": [
+    "placeCode": "khu-di-tich-chu-tich-ho-chi-minh-tai-phu-chu-tich",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 295,
@@ -3616,8 +3616,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "khu-di-tich-pac-bo",
-    "historicalFiguresLinked": [
+    "placeCode": "khu-di-tich-pac-bo",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 296,
@@ -3627,8 +3627,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "khu-lang-mo-va-den-tho-cac-vi-vua-trieu-ly",
-    "historicalFiguresLinked": [
+    "placeCode": "khu-lang-mo-va-den-tho-cac-vi-vua-trieu-ly",
+    "relatedFigures": [
       "ly-cong-uan",
       "ly-chieu-hoang",
       "nha-nuoc-viet-nam",
@@ -3654,8 +3654,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "khu-luu-niem-chu-tich-ton-duc-thang",
-    "historicalFiguresLinked": [
+    "placeCode": "khu-luu-niem-chu-tich-ton-duc-thang",
+    "relatedFigures": [
       "ton-duc-thang"
     ],
     "id": 298,
@@ -3665,8 +3665,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "khuc-phu",
-    "historicalFiguresLinked": [
+    "placeCode": "khuc-phu",
+    "relatedFigures": [
       "nha-tong",
       "nha-thanh"
     ],
@@ -3677,8 +3677,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "kinh-bac",
-    "historicalFiguresLinked": [
+    "placeCode": "kinh-bac",
+    "relatedFigures": [
       "le-thanh-tong",
       "ly-cong-uan",
       "duong-vuong",
@@ -3691,8 +3691,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "kinh-mon",
-    "historicalFiguresLinked": [
+    "placeCode": "kinh-mon",
+    "relatedFigures": [
       "le-ninh",
       "tran-nhan-tong",
       "nha-ly",
@@ -3714,8 +3714,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "kinh-thay",
-    "historicalFiguresLinked": [
+    "placeCode": "kinh-thay",
+    "relatedFigures": [
       "tran-dang-khoa"
     ],
     "id": 302,
@@ -3725,8 +3725,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lac-duong",
-    "historicalFiguresLinked": [
+    "placeCode": "lac-duong",
+    "relatedFigures": [
       "nha-hau-duong",
       "nha-chu",
       "nha-tan",
@@ -3740,8 +3740,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lac-lam",
-    "historicalFiguresLinked": [],
+    "placeCode": "lac-lam",
+    "relatedFigures": [],
     "id": 304,
     "name": "Lạc Lâm",
     "description": [
@@ -3749,8 +3749,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lac-son",
-    "historicalFiguresLinked": [],
+    "placeCode": "lac-son",
+    "relatedFigures": [],
     "id": 305,
     "name": "Lạc Sơn",
     "description": [
@@ -3758,8 +3758,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lac-thuy",
-    "historicalFiguresLinked": [],
+    "placeCode": "lac-thuy",
+    "relatedFigures": [],
     "id": 306,
     "name": "Lạc Thủy",
     "description": [
@@ -3767,8 +3767,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lac-xuyen",
-    "historicalFiguresLinked": [],
+    "placeCode": "lac-xuyen",
+    "relatedFigures": [],
     "id": 307,
     "name": "Lạc Xuyên",
     "description": [
@@ -3776,8 +3776,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lang-bac-ho",
-    "historicalFiguresLinked": [
+    "placeCode": "lang-bac-ho",
+    "relatedFigures": [
       "le-duan",
       "tran-quoc-hoan",
       "ho-chi-minh",
@@ -3790,8 +3790,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lang-khai-dinh",
-    "historicalFiguresLinked": [],
+    "placeCode": "lang-khai-dinh",
+    "relatedFigures": [],
     "id": 309,
     "name": "lăng Khải Định",
     "description": [
@@ -3799,8 +3799,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lang-thieu-tri",
-    "historicalFiguresLinked": [],
+    "placeCode": "lang-thieu-tri",
+    "relatedFigures": [],
     "id": 310,
     "name": "lăng Thiệu Trị",
     "description": [
@@ -3808,8 +3808,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lang-tu-duc",
-    "historicalFiguresLinked": [],
+    "placeCode": "lang-tu-duc",
+    "relatedFigures": [],
     "id": 311,
     "name": "Lăng Tự Đức",
     "description": [
@@ -3817,8 +3817,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "le-chung",
-    "historicalFiguresLinked": [],
+    "placeCode": "le-chung",
+    "relatedFigures": [],
     "id": 312,
     "name": "Lê Chung",
     "description": [
@@ -3826,8 +3826,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lo-bac-duc",
-    "historicalFiguresLinked": [
+    "placeCode": "lo-bac-duc",
+    "relatedFigures": [
       "duong-boc"
     ],
     "id": 313,
@@ -3837,8 +3837,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "lo-thien-truong",
-    "historicalFiguresLinked": [
+    "placeCode": "lo-thien-truong",
+    "relatedFigures": [
       "nha-tran",
       "le-thanh-tong",
       "nha-le",
@@ -3851,8 +3851,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ly-quoc",
-    "historicalFiguresLinked": [],
+    "placeCode": "ly-quoc",
+    "relatedFigures": [],
     "id": 315,
     "name": "Lý Quốc",
     "description": [
@@ -3860,8 +3860,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ly-son",
-    "historicalFiguresLinked": [],
+    "placeCode": "ly-son",
+    "relatedFigures": [],
     "id": 316,
     "name": "Lý Sơn",
     "description": [
@@ -3869,8 +3869,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "ngo-xa",
-    "historicalFiguresLinked": [],
+    "placeCode": "ngo-xa",
+    "relatedFigures": [],
     "id": 317,
     "name": "Ngô Xá",
     "description": [
@@ -3878,8 +3878,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-altay",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-altay",
+    "relatedFigures": [],
     "id": 318,
     "name": "núi Altay",
     "description": [
@@ -3887,8 +3887,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-ba-ra",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-ba-ra",
+    "relatedFigures": [
       "nguyen-van-thieu",
       "nguyen-thanh-trung"
     ],
@@ -3899,8 +3899,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-ban",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-ban",
+    "relatedFigures": [
       "nguyen-hue",
       "tran-trong-kim",
       "phan-tran-chuc"
@@ -3912,8 +3912,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-bokor",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-bokor",
+    "relatedFigures": [
       "huynh-phu-so"
     ],
     "id": 321,
@@ -3923,8 +3923,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-cao-ba-lanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-cao-ba-lanh",
+    "relatedFigures": [],
     "id": 322,
     "name": "núi Cao Ba Lanh",
     "description": [
@@ -3932,8 +3932,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-chi-linh",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-chi-linh",
+    "relatedFigures": [
       "le-lai",
       "le-loi"
     ],
@@ -3944,8 +3944,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-con-lon",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-con-lon",
+    "relatedFigures": [],
     "id": 324,
     "name": "núi Côn Lôn",
     "description": [
@@ -3953,8 +3953,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-dung-quyet",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-dung-quyet",
+    "relatedFigures": [],
     "id": 325,
     "name": "núi Dũng Quyết",
     "description": [
@@ -3962,15 +3962,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-ham-rong",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-ham-rong",
+    "relatedFigures": [],
     "id": 326,
     "name": "núi Hàm Rồng",
     "description": []
   },
   {
-    "historicalDestinationCode": "nui-hong-linh",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-hong-linh",
+    "relatedFigures": [],
     "id": 327,
     "name": "núi Hồng Lĩnh",
     "description": [
@@ -3978,8 +3978,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-ky-lan",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-ky-lan",
+    "relatedFigures": [
       "nha-dinh",
       "dinh-tien-hoang"
     ],
@@ -3990,8 +3990,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-lam-thanh",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-lam-thanh",
+    "relatedFigures": [
       "nha-minh",
       "le-loi",
       "nguyen-canh-di",
@@ -4028,8 +4028,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-le",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-le",
+    "relatedFigures": [],
     "id": 330,
     "name": "Núi Le",
     "description": [
@@ -4037,8 +4037,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-ngu-binh",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-ngu-binh",
+    "relatedFigures": [
       "nguyen-phuc-khoat"
     ],
     "id": 331,
@@ -4048,8 +4048,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-ngu-linh",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-ngu-linh",
+    "relatedFigures": [
       "nha-duong"
     ],
     "id": 332,
@@ -4059,8 +4059,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-quyet",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-quyet",
+    "relatedFigures": [],
     "id": 333,
     "name": "núi Quyết",
     "description": [
@@ -4068,8 +4068,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-tam-dao",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-tam-dao",
+    "relatedFigures": [
       "le-quy-don"
     ],
     "id": 334,
@@ -4079,8 +4079,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-tam-diep",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-tam-diep",
+    "relatedFigures": [
       "duong-dinh-nghe",
       "nguyen-hue",
       "le-loi",
@@ -4098,8 +4098,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-tan-vien",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-tan-vien",
+    "relatedFigures": [
       "nha-duong",
       "ho-chi-minh",
       "nguyen-trai"
@@ -4111,8 +4111,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-thai-son",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-thai-son",
+    "relatedFigures": [
       "do-phu"
     ],
     "id": 337,
@@ -4122,8 +4122,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-thanh",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-thanh",
+    "relatedFigures": [
       "nguyen-hue"
     ],
     "id": 338,
@@ -4133,8 +4133,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-thi",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-thi",
+    "relatedFigures": [],
     "id": 339,
     "name": "Núi Thị",
     "description": [
@@ -4142,8 +4142,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-truong-son",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-truong-son",
+    "relatedFigures": [],
     "id": 340,
     "name": "núi Trường Sơn",
     "description": [
@@ -4151,15 +4151,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-voi",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-voi",
+    "relatedFigures": [],
     "id": 341,
     "name": "núi Voi",
     "description": []
   },
   {
-    "historicalDestinationCode": "nui-yen",
-    "historicalFiguresLinked": [],
+    "placeCode": "nui-yen",
+    "relatedFigures": [],
     "id": 342,
     "name": "núi Yên",
     "description": [
@@ -4167,8 +4167,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nui-yen-tu",
-    "historicalFiguresLinked": [
+    "placeCode": "nui-yen-tu",
+    "relatedFigures": [
       "nha-tran",
       "tran-nhan-tong",
       "ly-dao-tai",
@@ -4182,8 +4182,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-anh",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-anh",
+    "relatedFigures": [],
     "id": 344,
     "name": "nước Anh",
     "description": [
@@ -4191,8 +4191,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-da-nang",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-da-nang",
+    "relatedFigures": [
       "trieu-viet-vuong",
       "trieu-quang-phuc",
       "ly-phat-tu",
@@ -4208,8 +4208,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-ky",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-ky",
+    "relatedFigures": [
       "nha-ha",
       "nha-thuong",
       "nha-chu",
@@ -4223,8 +4223,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-lo",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-lo",
+    "relatedFigures": [
       "nha-chu"
     ],
     "id": 347,
@@ -4234,15 +4234,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-luong",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-luong",
+    "relatedFigures": [],
     "id": 348,
     "name": "nước Lương",
     "description": []
   },
   {
-    "historicalDestinationCode": "nuoc-mi",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-mi",
+    "relatedFigures": [],
     "id": 349,
     "name": "nước Mĩ",
     "description": [
@@ -4250,8 +4250,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-my",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-my",
+    "relatedFigures": [],
     "id": 350,
     "name": "nước Mỹ",
     "description": [
@@ -4259,8 +4259,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-nam",
+    "relatedFigures": [
       "nha-minh",
       "nguyen-hue",
       "le-loi",
@@ -4293,8 +4293,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-ngo",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-ngo",
+    "relatedFigures": [
       "nha-thuong",
       "nha-chu",
       "vu-vuong",
@@ -4307,8 +4307,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-nguy",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-nguy",
+    "relatedFigures": [],
     "id": 353,
     "name": "nước Nguỵ",
     "description": [
@@ -4316,8 +4316,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-phap",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-phap",
+    "relatedFigures": [],
     "id": 354,
     "name": "nước Pháp",
     "description": [
@@ -4325,8 +4325,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-quac",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-quac",
+    "relatedFigures": [],
     "id": 355,
     "name": "nước Quắc",
     "description": [
@@ -4334,8 +4334,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-so",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-so",
+    "relatedFigures": [
       "trieu-vu",
       "ly-tin",
       "nha-ha",
@@ -4354,8 +4354,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-tan",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-tan",
+    "relatedFigures": [
       "nha-ha",
       "nha-thuong",
       "nha-chu"
@@ -4367,8 +4367,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-tau",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-tau",
+    "relatedFigures": [
       "hoang-ha",
       "nha-ha",
       "nha-tan",
@@ -4382,8 +4382,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-te",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-te",
+    "relatedFigures": [
       "nha-chu",
       "vu-vuong"
     ],
@@ -4394,8 +4394,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-thuc",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-thuc",
+    "relatedFigures": [],
     "id": 360,
     "name": "nước Thục",
     "description": [
@@ -4403,8 +4403,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-tong",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-tong",
+    "relatedFigures": [
       "nha-ha",
       "nha-thuong",
       "nha-chu",
@@ -4419,8 +4419,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-tran",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-tran",
+    "relatedFigures": [
       "tran-hoan",
       "nha-chu",
       "vu-vuong",
@@ -4433,15 +4433,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-trau",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-trau",
+    "relatedFigures": [],
     "id": 363,
     "name": "nước Trâu",
     "description": []
   },
   {
-    "historicalDestinationCode": "nuoc-trieu",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-trieu",
+    "relatedFigures": [
       "trieu-vu",
       "hoang-ha",
       "nha-thuong",
@@ -4457,8 +4457,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-trinh",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-trinh",
+    "relatedFigures": [
       "nha-chu"
     ],
     "id": 365,
@@ -4468,8 +4468,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-van-xuan",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-van-xuan",
+    "relatedFigures": [
       "trieu-viet-vuong",
       "nha-tuy",
       "duong-dinh-nghe",
@@ -4486,8 +4486,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-ve",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-ve",
+    "relatedFigures": [
       "nha-thuong",
       "nha-chu",
       "nha-an"
@@ -4499,8 +4499,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-viet",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-viet",
+    "relatedFigures": [],
     "id": 368,
     "name": "nước Việt",
     "description": [
@@ -4508,8 +4508,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-xiem",
-    "historicalFiguresLinked": [],
+    "placeCode": "nuoc-xiem",
+    "relatedFigures": [],
     "id": 369,
     "name": "nước Xiêm",
     "description": [
@@ -4517,8 +4517,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "nuoc-yen",
-    "historicalFiguresLinked": [
+    "placeCode": "nuoc-yen",
+    "relatedFigures": [
       "ly-tin",
       "nha-thuong",
       "nha-chu",
@@ -4532,8 +4532,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phan-dien",
-    "historicalFiguresLinked": [],
+    "placeCode": "phan-dien",
+    "relatedFigures": [],
     "id": 371,
     "name": "Phan Điền",
     "description": [
@@ -4541,15 +4541,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "phan-rang",
-    "historicalFiguresLinked": [],
+    "placeCode": "phan-rang",
+    "relatedFigures": [],
     "id": 372,
     "name": "Phan Rang",
     "description": []
   },
   {
-    "historicalDestinationCode": "phan-thiet",
-    "historicalFiguresLinked": [
+    "placeCode": "phan-thiet",
+    "relatedFigures": [
       "nguyen-dinh-chieu"
     ],
     "id": 373,
@@ -4559,8 +4559,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-dien-chau",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-dien-chau",
+    "relatedFigures": [
       "nha-hau-le"
     ],
     "id": 374,
@@ -4570,8 +4570,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-ha-trung",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-ha-trung",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-le",
       "thanh-thai"
@@ -4583,8 +4583,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-hoai-duc",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-hoai-duc",
+    "relatedFigures": [
       "nha-minh",
       "le-thanh-tong",
       "nha-mac"
@@ -4596,8 +4596,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-lang-thuong",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-lang-thuong",
+    "relatedFigures": [
       "le-trung-hung"
     ],
     "id": 377,
@@ -4607,8 +4607,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-ly",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-ly",
+    "relatedFigures": [
       "tran-quang-khai",
       "le-loi",
       "tran-tu-binh",
@@ -4630,8 +4630,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-nghia-hung",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-nghia-hung",
+    "relatedFigures": [
       "nha-minh",
       "nha-ly",
       "tran-anh-tong",
@@ -4645,8 +4645,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-ngoc-ma",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-ngoc-ma",
+    "relatedFigures": [
       "nha-minh",
       "nha-tran",
       "tran-minh-tong",
@@ -4661,8 +4661,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-thien-truong",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-thien-truong",
+    "relatedFigures": [
       "nha-tran",
       "le-thanh-tong",
       "nha-le",
@@ -4675,8 +4675,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phu-vuon-thien",
-    "historicalFiguresLinked": [
+    "placeCode": "phu-vuon-thien",
+    "relatedFigures": [
       "le-long-tich",
       "le-long-thau",
       "le-thi-phat-ngan",
@@ -4693,8 +4693,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phuong-an-cuu",
-    "historicalFiguresLinked": [],
+    "placeCode": "phuong-an-cuu",
+    "relatedFigures": [],
     "id": 383,
     "name": "phường An Cựu",
     "description": [
@@ -4702,8 +4702,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "phuong-bich-cau",
-    "historicalFiguresLinked": [
+    "placeCode": "phuong-bich-cau",
+    "relatedFigures": [
       "ly-cong-uan",
       "nguyen-thai-hoc",
       "nha-ly",
@@ -4719,8 +4719,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-ba-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-ba-dinh",
+    "relatedFigures": [
       "dinh-cong-trang",
       "ho-chi-minh",
       "hoang-hoa-tham",
@@ -4736,8 +4736,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-cai-rang",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-cai-rang",
+    "relatedFigures": [
       "tran-thien-khiem"
     ],
     "id": 386,
@@ -4747,8 +4747,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-cau-giay",
-    "historicalFiguresLinked": [],
+    "placeCode": "quan-cau-giay",
+    "relatedFigures": [],
     "id": 387,
     "name": "quận Cầu Giấy",
     "description": [
@@ -4756,8 +4756,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-dao-hoang-sa",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-dao-hoang-sa",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "le-quy-don",
@@ -4775,8 +4775,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-dao-tay-sa",
-    "historicalFiguresLinked": [],
+    "placeCode": "quan-dao-tay-sa",
+    "relatedFigures": [],
     "id": 389,
     "name": "quần đảo Tây Sa",
     "description": [
@@ -4784,8 +4784,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-dao-truong-sa",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-dao-truong-sa",
+    "relatedFigures": [
       "nha-minh",
       "pham-van-dong",
       "nha-le",
@@ -4807,8 +4807,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-dong-da",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-dong-da",
+    "relatedFigures": [
       "le-duan",
       "ho-tay"
     ],
@@ -4819,8 +4819,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-hai-ba-trung",
-    "historicalFiguresLinked": [],
+    "placeCode": "quan-hai-ba-trung",
+    "relatedFigures": [],
     "id": 392,
     "name": "quận Hai Bà Trưng",
     "description": [
@@ -4828,8 +4828,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-hoan-kiem",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-hoan-kiem",
+    "relatedFigures": [
       "ly-nam-de",
       "ly-thai-to",
       "nha-luong",
@@ -4843,8 +4843,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-hoang-mai",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-hoang-mai",
+    "relatedFigures": [
       "hoang-van-thu",
       "nha-le",
       "duong-xa",
@@ -4857,8 +4857,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-long-bien",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-long-bien",
+    "relatedFigures": [
       "nguyen-gia-thieu",
       "ly-thuong-kiet"
     ],
@@ -4869,8 +4869,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-nam-hai",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-nam-hai",
+    "relatedFigures": [
       "nha-tan"
     ],
     "id": 396,
@@ -4880,8 +4880,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-nam-tu-liem",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-nam-tu-liem",
+    "relatedFigures": [
       "duong-xa",
       "ho-tay"
     ],
@@ -4892,8 +4892,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-tan-phu",
-    "historicalFiguresLinked": [],
+    "placeCode": "quan-tan-phu",
+    "relatedFigures": [],
     "id": 398,
     "name": "Quận Tân Phú",
     "description": [
@@ -4901,8 +4901,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-thanh-xuan",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-thanh-xuan",
+    "relatedFigures": [
       "nguyen-trai",
       "nha-dinh",
       "dinh-tien-hoang"
@@ -4914,8 +4914,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-the-di-tich-co-do-hue",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-the-di-tich-co-do-hue",
+    "relatedFigures": [
       "nguyen-hoang",
       "nguyen-phuc-luan",
       "hoang-thai-hau",
@@ -4935,8 +4935,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "quan-the-di-tich-danh-thang-yen-tu",
-    "historicalFiguresLinked": [
+    "placeCode": "quan-the-di-tich-danh-thang-yen-tu",
+    "relatedFigures": [
       "tran-nguyen-dan",
       "le-loi",
       "tran-minh-tong",
@@ -4972,8 +4972,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ba",
-    "historicalFiguresLinked": [
+    "placeCode": "song-ba",
+    "relatedFigures": [
       "nha-duong",
       "nguyen-hoang",
       "le-thanh-tong",
@@ -4986,8 +4986,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ba-che",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ba-che",
+    "relatedFigures": [],
     "id": 403,
     "name": "sông Ba Chẽ",
     "description": [
@@ -4995,8 +4995,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-bac-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-bac-giang",
+    "relatedFigures": [],
     "id": 404,
     "name": "Sông Bắc Giang",
     "description": [
@@ -5004,8 +5004,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-bac-luan",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-bac-luan",
+    "relatedFigures": [],
     "id": 405,
     "name": "sông Bắc Luân",
     "description": [
@@ -5013,8 +5013,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-bach-dang",
-    "historicalFiguresLinked": [
+    "placeCode": "song-bach-dang",
+    "relatedFigures": [
       "ngo-quyen",
       "le-dai-hanh"
     ],
@@ -5025,8 +5025,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-bao-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "song-bao-dinh",
+    "relatedFigures": [
       "nha-minh",
       "duong-ngan-dich",
       "nguyen-phuc-tan",
@@ -5039,8 +5039,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-bassac",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-bassac",
+    "relatedFigures": [],
     "id": 408,
     "name": "sông Bassac",
     "description": [
@@ -5048,8 +5048,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-be",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-be",
+    "relatedFigures": [],
     "id": 409,
     "name": "sông Bé",
     "description": [
@@ -5057,8 +5057,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ben-hai",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ben-hai",
+    "relatedFigures": [],
     "id": 410,
     "name": "sông Bến Hải",
     "description": [
@@ -5066,8 +5066,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ben-nghe",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ben-nghe",
+    "relatedFigures": [],
     "id": 411,
     "name": "sông Bến Nghé",
     "description": [
@@ -5075,8 +5075,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-bo",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-bo",
+    "relatedFigures": [],
     "id": 412,
     "name": "sông Bồ",
     "description": [
@@ -5084,8 +5084,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-boi",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-boi",
+    "relatedFigures": [],
     "id": 413,
     "name": "sông Bôi",
     "description": [
@@ -5093,8 +5093,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-buoi",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-buoi",
+    "relatedFigures": [],
     "id": 414,
     "name": "sông Bưởi",
     "description": [
@@ -5102,15 +5102,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ca",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ca",
+    "relatedFigures": [],
     "id": 415,
     "name": "sông Cả",
     "description": []
   },
   {
-    "historicalDestinationCode": "song-ca-lo",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ca-lo",
+    "relatedFigures": [],
     "id": 416,
     "name": "sông Cà Lồ",
     "description": [
@@ -5118,22 +5118,22 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-cai",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-cai",
+    "relatedFigures": [],
     "id": 417,
     "name": "sông Cái",
     "description": []
   },
   {
-    "historicalDestinationCode": "song-cam",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-cam",
+    "relatedFigures": [],
     "id": 418,
     "name": "Sông Cấm",
     "description": []
   },
   {
-    "historicalDestinationCode": "song-cau",
-    "historicalFiguresLinked": [
+    "placeCode": "song-cau",
+    "relatedFigures": [
       "trieu-viet-vuong",
       "ly-thuong-kiet",
       "truong-hong",
@@ -5150,8 +5150,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-chanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-chanh",
+    "relatedFigures": [],
     "id": 420,
     "name": "sông Chanh",
     "description": [
@@ -5159,8 +5159,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-chay",
-    "historicalFiguresLinked": [
+    "placeCode": "song-chay",
+    "relatedFigures": [
       "le-quy-don"
     ],
     "id": 421,
@@ -5170,8 +5170,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-chu",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-chu",
+    "relatedFigures": [],
     "id": 422,
     "name": "sông Chu",
     "description": [
@@ -5179,15 +5179,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-con",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-con",
+    "relatedFigures": [],
     "id": 423,
     "name": "sông Con",
     "description": []
   },
   {
-    "historicalDestinationCode": "song-cong",
-    "historicalFiguresLinked": [
+    "placeCode": "song-cong",
+    "relatedFigures": [
       "pham-cuong",
       "do-can",
       "ly-bi"
@@ -5199,8 +5199,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-cuu-an",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-cuu-an",
+    "relatedFigures": [],
     "id": 425,
     "name": "sông Cửu An",
     "description": [
@@ -5208,8 +5208,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-cuu-long",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-cuu-long",
+    "relatedFigures": [],
     "id": 426,
     "name": "sông Cửu Long",
     "description": [
@@ -5217,8 +5217,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-diem-ho",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-diem-ho",
+    "relatedFigures": [],
     "id": 427,
     "name": "sông Diêm Hộ",
     "description": [
@@ -5226,8 +5226,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-duong-tu",
-    "historicalFiguresLinked": [
+    "placeCode": "song-duong-tu",
+    "relatedFigures": [
       "hoang-ha"
     ],
     "id": 428,
@@ -5237,8 +5237,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-da",
-    "historicalFiguresLinked": [
+    "placeCode": "song-da",
+    "relatedFigures": [
       "le-quy-don",
       "hoang-nham"
     ],
@@ -5249,8 +5249,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-dai-hoang",
-    "historicalFiguresLinked": [
+    "placeCode": "song-dai-hoang",
+    "relatedFigures": [
       "dinh-bo-linh",
       "hoang-long",
       "dinh-dien",
@@ -5264,8 +5264,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-day",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-day",
+    "relatedFigures": [],
     "id": 431,
     "name": "sông Đáy",
     "description": [
@@ -5273,8 +5273,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-dong-nai",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-dong-nai",
+    "relatedFigures": [],
     "id": 432,
     "name": "sông Đồng Nai",
     "description": [
@@ -5282,8 +5282,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-duong",
-    "historicalFiguresLinked": [
+    "placeCode": "song-duong",
+    "relatedFigures": [
       "hoang-cam"
     ],
     "id": 433,
@@ -5293,8 +5293,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-gam",
-    "historicalFiguresLinked": [
+    "placeCode": "song-gam",
+    "relatedFigures": [
       "ly-bon"
     ],
     "id": 434,
@@ -5304,8 +5304,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-gia",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-gia",
+    "relatedFigures": [],
     "id": 435,
     "name": "sông Giá",
     "description": [
@@ -5313,8 +5313,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-gianh",
-    "historicalFiguresLinked": [
+    "placeCode": "song-gianh",
+    "relatedFigures": [
       "nguyen-hoang",
       "le-trung-hung",
       "nguyen-binh-khiem",
@@ -5327,8 +5327,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hai-trieu",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-hai-trieu",
+    "relatedFigures": [],
     "id": 437,
     "name": "sông Hải Triều",
     "description": [
@@ -5336,8 +5336,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-han",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-han",
+    "relatedFigures": [],
     "id": 438,
     "name": "sông Hán",
     "description": [
@@ -5345,8 +5345,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hang",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-hang",
+    "relatedFigures": [],
     "id": 439,
     "name": "Sông Hằng",
     "description": [
@@ -5354,8 +5354,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hat",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-hat",
+    "relatedFigures": [],
     "id": 440,
     "name": "sông Hát",
     "description": [
@@ -5363,8 +5363,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hau",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-hau",
+    "relatedFigures": [],
     "id": 441,
     "name": "sông Hậu",
     "description": [
@@ -5372,15 +5372,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hieu",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-hieu",
+    "relatedFigures": [],
     "id": 442,
     "name": "sông Hiếu",
     "description": []
   },
   {
-    "historicalDestinationCode": "song-hoa",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-hoa",
+    "relatedFigures": [],
     "id": 443,
     "name": "sông Hóa",
     "description": [
@@ -5388,8 +5388,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hoai",
-    "historicalFiguresLinked": [
+    "placeCode": "song-hoai",
+    "relatedFigures": [
       "hoang-ha"
     ],
     "id": 444,
@@ -5399,8 +5399,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hoang",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-hoang",
+    "relatedFigures": [],
     "id": 445,
     "name": "sông Hoàng",
     "description": [
@@ -5408,8 +5408,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hoang-ha",
-    "historicalFiguresLinked": [
+    "placeCode": "song-hoang-ha",
+    "relatedFigures": [
       "hoang-ha",
       "nha-tay-han"
     ],
@@ -5420,8 +5420,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hoang-long",
-    "historicalFiguresLinked": [
+    "placeCode": "song-hoang-long",
+    "relatedFigures": [
       "dinh-bo-linh",
       "hoang-long",
       "dinh-dien",
@@ -5435,8 +5435,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-hong",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-hong",
+    "relatedFigures": [],
     "id": 448,
     "name": "sông Hồng",
     "description": [
@@ -5444,8 +5444,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-huong",
-    "historicalFiguresLinked": [
+    "placeCode": "song-huong",
+    "relatedFigures": [
       "le-quy-don",
       "nguyen-hoang",
       "le-thanh-tong",
@@ -5458,8 +5458,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-kim-sa",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-kim-sa",
+    "relatedFigures": [],
     "id": 450,
     "name": "sông Kim Sa",
     "description": [
@@ -5467,8 +5467,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-kinh-thay",
-    "historicalFiguresLinked": [
+    "placeCode": "song-kinh-thay",
+    "relatedFigures": [
       "tran-dang-khoa"
     ],
     "id": 451,
@@ -5478,8 +5478,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ky-cung",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ky-cung",
+    "relatedFigures": [],
     "id": 452,
     "name": "sông Kỳ Cùng",
     "description": [
@@ -5487,8 +5487,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-lam",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-lam",
+    "relatedFigures": [],
     "id": 453,
     "name": "sông Lam",
     "description": [
@@ -5496,8 +5496,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-len",
-    "historicalFiguresLinked": [
+    "placeCode": "song-len",
+    "relatedFigures": [
       "le-hoan"
     ],
     "id": 454,
@@ -5507,8 +5507,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-lieu",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-lieu",
+    "relatedFigures": [],
     "id": 455,
     "name": "sông Liêu",
     "description": [
@@ -5516,8 +5516,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-lo",
-    "historicalFiguresLinked": [
+    "placeCode": "song-lo",
+    "relatedFigures": [
       "le-quy-don"
     ],
     "id": 456,
@@ -5527,8 +5527,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-long-tau",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-long-tau",
+    "relatedFigures": [],
     "id": 457,
     "name": "sông Lòng Tàu",
     "description": [
@@ -5536,8 +5536,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-luc-dau",
-    "historicalFiguresLinked": [
+    "placeCode": "song-luc-dau",
+    "relatedFigures": [
       "tran-khanh-du",
       "tran-thu-do",
       "truong-van-ho"
@@ -5549,8 +5549,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-luc-nam",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-luc-nam",
+    "relatedFigures": [],
     "id": 459,
     "name": "sông Lục Nam",
     "description": [
@@ -5558,8 +5558,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-luoc",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-luoc",
+    "relatedFigures": [],
     "id": 460,
     "name": "sông Luộc",
     "description": [
@@ -5567,8 +5567,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ma",
-    "historicalFiguresLinked": [
+    "placeCode": "song-ma",
+    "relatedFigures": [
       "le-dai-hanh"
     ],
     "id": 461,
@@ -5578,8 +5578,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-man-thit",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-man-thit",
+    "relatedFigures": [],
     "id": 462,
     "name": "sông Mân Thít",
     "description": [
@@ -5587,8 +5587,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-me-cong",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-me-cong",
+    "relatedFigures": [],
     "id": 463,
     "name": "sông Mê Công",
     "description": [
@@ -5596,8 +5596,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-me-kong",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-me-kong",
+    "relatedFigures": [],
     "id": 464,
     "name": "sông Mê Kông",
     "description": [
@@ -5605,8 +5605,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-me-nam",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-me-nam",
+    "relatedFigures": [],
     "id": 465,
     "name": "sông Mê Nam",
     "description": [
@@ -5614,8 +5614,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-mekong",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-mekong",
+    "relatedFigures": [],
     "id": 466,
     "name": "sông Mekong",
     "description": [
@@ -5623,8 +5623,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-my-tho",
-    "historicalFiguresLinked": [
+    "placeCode": "song-my-tho",
+    "relatedFigures": [
       "nguyen-hue",
       "nguyen-anh"
     ],
@@ -5635,8 +5635,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-nam-dinh",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-nam-dinh",
+    "relatedFigures": [],
     "id": 468,
     "name": "sông Nam Định",
     "description": [
@@ -5644,8 +5644,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ngan-sau",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ngan-sau",
+    "relatedFigures": [],
     "id": 469,
     "name": "sông Ngàn Sâu",
     "description": [
@@ -5653,8 +5653,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ngu-ha",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ngu-ha",
+    "relatedFigures": [],
     "id": 470,
     "name": "sông Ngự Hà",
     "description": [
@@ -5662,8 +5662,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-nguyet-duc",
-    "historicalFiguresLinked": [
+    "placeCode": "song-nguyet-duc",
+    "relatedFigures": [
       "trieu-viet-vuong",
       "ly-thuong-kiet",
       "truong-hong",
@@ -5680,8 +5680,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-nhat-le",
-    "historicalFiguresLinked": [
+    "placeCode": "song-nhat-le",
+    "relatedFigures": [
       "vo-nguyen-giap",
       "nha-trieu",
       "ly-thuong-kiet",
@@ -5698,8 +5698,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-nhi",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-nhi",
+    "relatedFigures": [],
     "id": 473,
     "name": "sông Nhị",
     "description": [
@@ -5707,8 +5707,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-nhi-ha",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-nhi-ha",
+    "relatedFigures": [],
     "id": 474,
     "name": "sông Nhị Hà",
     "description": [
@@ -5716,8 +5716,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-nhu-nguyet",
-    "historicalFiguresLinked": [
+    "placeCode": "song-nhu-nguyet",
+    "relatedFigures": [
       "trieu-viet-vuong",
       "ly-thuong-kiet",
       "truong-hong",
@@ -5734,8 +5734,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-nhue",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-nhue",
+    "relatedFigures": [],
     "id": 476,
     "name": "sông Nhuệ",
     "description": [
@@ -5743,8 +5743,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-phan",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-phan",
+    "relatedFigures": [],
     "id": 477,
     "name": "sông Phần",
     "description": [
@@ -5752,8 +5752,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-rach-cat",
-    "historicalFiguresLinked": [
+    "placeCode": "song-rach-cat",
+    "relatedFigures": [
       "nguyen-dinh-chieu"
     ],
     "id": 478,
@@ -5763,8 +5763,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-rach-gam",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-rach-gam",
+    "relatedFigures": [],
     "id": 479,
     "name": "sông Rạch Gầm",
     "description": [
@@ -5772,8 +5772,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-sai-gon",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-sai-gon",
+    "relatedFigures": [],
     "id": 480,
     "name": "sông Sài Gòn",
     "description": [
@@ -5781,8 +5781,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-sao-khe",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-sao-khe",
+    "relatedFigures": [],
     "id": 481,
     "name": "sông Sào Khê",
     "description": [
@@ -5790,8 +5790,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-serepok",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-serepok",
+    "relatedFigures": [],
     "id": 482,
     "name": "sông Sêrêpôk",
     "description": [
@@ -5799,8 +5799,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-soai-rap",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-soai-rap",
+    "relatedFigures": [],
     "id": 483,
     "name": "sông Soài Rạp",
     "description": [
@@ -5808,8 +5808,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-srepok",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-srepok",
+    "relatedFigures": [],
     "id": 484,
     "name": "sông Srepok",
     "description": [
@@ -5817,8 +5817,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-thach-han",
-    "historicalFiguresLinked": [
+    "placeCode": "song-thach-han",
+    "relatedFigures": [
       "trieu-phong"
     ],
     "id": 485,
@@ -5828,8 +5828,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-thai-binh",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-thai-binh",
+    "relatedFigures": [],
     "id": 486,
     "name": "sông Thái Bình",
     "description": [
@@ -5837,8 +5837,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-thao",
-    "historicalFiguresLinked": [
+    "placeCode": "song-thao",
+    "relatedFigures": [
       "nguyen-duy",
       "do-nhuan"
     ],
@@ -5849,8 +5849,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-thi-cau",
-    "historicalFiguresLinked": [
+    "placeCode": "song-thi-cau",
+    "relatedFigures": [
       "trieu-viet-vuong",
       "ly-thuong-kiet",
       "truong-hong",
@@ -5867,8 +5867,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-thien-duc",
-    "historicalFiguresLinked": [
+    "placeCode": "song-thien-duc",
+    "relatedFigures": [
       "hoang-cam"
     ],
     "id": 489,
@@ -5878,8 +5878,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-thien-mac",
-    "historicalFiguresLinked": [
+    "placeCode": "song-thien-mac",
+    "relatedFigures": [
       "nha-tran",
       "tran-binh-trong",
       "tran-quoc-tuan",
@@ -5892,8 +5892,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-thu-bon",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-thu-bon",
+    "relatedFigures": [],
     "id": 491,
     "name": "sông Thu Bồn",
     "description": [
@@ -5901,8 +5901,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-thuong",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-thuong",
+    "relatedFigures": [],
     "id": 492,
     "name": "sông Thương",
     "description": [
@@ -5910,8 +5910,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-tich",
-    "historicalFiguresLinked": [
+    "placeCode": "song-tich",
+    "relatedFigures": [
       "le-ngan",
       "ly-trien",
       "do-bi"
@@ -5923,8 +5923,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-tien",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-tien",
+    "relatedFigures": [],
     "id": 494,
     "name": "sông Tiền",
     "description": [
@@ -5932,8 +5932,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-to",
-    "historicalFiguresLinked": [
+    "placeCode": "song-to",
+    "relatedFigures": [
       "nha-duong",
       "hoang-quoc-viet",
       "phan-dinh-phung",
@@ -5946,8 +5946,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-to-lich",
-    "historicalFiguresLinked": [
+    "placeCode": "song-to-lich",
+    "relatedFigures": [
       "nha-duong",
       "hoang-quoc-viet",
       "phan-dinh-phung",
@@ -5960,8 +5960,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-truong-giang",
-    "historicalFiguresLinked": [
+    "placeCode": "song-truong-giang",
+    "relatedFigures": [
       "hoang-ha"
     ],
     "id": 497,
@@ -5971,8 +5971,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-vam-co",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-vam-co",
+    "relatedFigures": [],
     "id": 498,
     "name": "sông Vàm Cỏ",
     "description": [
@@ -5980,8 +5980,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-vam-co-dong",
-    "historicalFiguresLinked": [
+    "placeCode": "song-vam-co-dong",
+    "relatedFigures": [
       "hoang-viet",
       "nguyen-trung-truc"
     ],
@@ -5992,8 +5992,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-vam-co-tay",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-vam-co-tay",
+    "relatedFigures": [],
     "id": 500,
     "name": "sông Vàm Cỏ Tây",
     "description": [
@@ -6001,8 +6001,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-vang",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-vang",
+    "relatedFigures": [],
     "id": 501,
     "name": "sông Vang",
     "description": [
@@ -6010,8 +6010,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-ve",
-    "historicalFiguresLinked": [],
+    "placeCode": "song-ve",
+    "relatedFigures": [],
     "id": 502,
     "name": "sông Vệ",
     "description": [
@@ -6019,8 +6019,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-vi",
-    "historicalFiguresLinked": [
+    "placeCode": "song-vi",
+    "relatedFigures": [
       "hoang-ha"
     ],
     "id": 503,
@@ -6030,8 +6030,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "song-vi-hoang",
-    "historicalFiguresLinked": [
+    "placeCode": "song-vi-hoang",
+    "relatedFigures": [
       "nha-tran"
     ],
     "id": 504,
@@ -6041,15 +6041,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-an",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-an",
+    "relatedFigures": [],
     "id": 505,
     "name": "Thành An",
     "description": []
   },
   {
-    "historicalDestinationCode": "thanh-binh-lo",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-binh-lo",
+    "relatedFigures": [
       "trieu-viet-vuong",
       "ly-cong-uan",
       "ly-phat-tu",
@@ -6077,8 +6077,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-co",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-co",
+    "relatedFigures": [],
     "id": 507,
     "name": "thành Cố",
     "description": [
@@ -6086,8 +6086,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-co-loa",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-co-loa",
+    "relatedFigures": [
       "duong-vuong",
       "ngo-quyen"
     ],
@@ -6098,8 +6098,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-co-quang-tri",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-co-quang-tri",
+    "relatedFigures": [
       "trieu-phong"
     ],
     "id": 509,
@@ -6109,15 +6109,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-cong",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-cong",
+    "relatedFigures": [],
     "id": 510,
     "name": "Thành Công",
     "description": []
   },
   {
-    "historicalDestinationCode": "thanh-da-bang",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-da-bang",
+    "relatedFigures": [
       "ho-han-thuong",
       "nha-minh",
       "hoang-trung",
@@ -6134,8 +6134,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-dai-la",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-dai-la",
+    "relatedFigures": [
       "nha-duong",
       "nha-tran",
       "hoang-dieu",
@@ -6155,8 +6155,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-do",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-do",
+    "relatedFigures": [],
     "id": 513,
     "name": "Thành Đô",
     "description": [
@@ -6164,8 +6164,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-do-ban",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-do-ban",
+    "relatedFigures": [
       "nha-minh",
       "le-thanh-tong",
       "vo-tanh",
@@ -6188,8 +6188,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-gia-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-gia-dinh",
+    "relatedFigures": [
       "nha-minh",
       "nguyen-hue",
       "mac-cuu",
@@ -6205,8 +6205,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-ha-noi",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-ha-noi",
+    "relatedFigures": [
       "nha-duong",
       "nha-tran",
       "hoang-dieu",
@@ -6226,8 +6226,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-hai-duong",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-hai-duong",
+    "relatedFigures": [
       "nha-mac"
     ],
     "id": 517,
@@ -6237,8 +6237,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-hoa",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-hoa",
+    "relatedFigures": [],
     "id": 518,
     "name": "thành Hoa",
     "description": [
@@ -6246,8 +6246,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-hoa-lu",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-hoa-lu",
+    "relatedFigures": [
       "le-thi-phat-ngan",
       "nha-le",
       "duong-vuong",
@@ -6288,8 +6288,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-hoang",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-hoang",
+    "relatedFigures": [],
     "id": 520,
     "name": "Thành Hoàng",
     "description": [
@@ -6297,8 +6297,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-hue",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-hue",
+    "relatedFigures": [
       "nguyen-phuc-lan",
       "le-duan",
       "tran-nguyen-dan",
@@ -6318,8 +6318,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-hung",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-hung",
+    "relatedFigures": [],
     "id": 522,
     "name": "Thành Hưng",
     "description": [
@@ -6327,8 +6327,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-hung-hoa",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-hung-hoa",
+    "relatedFigures": [
       "le-thanh-tong",
       "tran-trong-kim",
       "le-trung",
@@ -6342,8 +6342,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-khu-tuc",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-khu-tuc",
+    "relatedFigures": [
       "nha-tuy",
       "pham-van",
       "ly-thanh-tong",
@@ -6356,8 +6356,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-loi",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-loi",
+    "relatedFigures": [
       "pham-van"
     ],
     "id": 525,
@@ -6367,8 +6367,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-minh",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-minh",
+    "relatedFigures": [],
     "id": 526,
     "name": "thành Minh",
     "description": [
@@ -6376,8 +6376,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-nam",
+    "relatedFigures": [
       "tran-quang-khai",
       "tran-khanh-du",
       "le-thanh-tong",
@@ -6407,8 +6407,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-nam-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-nam-dinh",
+    "relatedFigures": [
       "tran-quang-khai",
       "tran-khanh-du",
       "le-thanh-tong",
@@ -6438,8 +6438,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-nha-ho",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-nha-ho",
+    "relatedFigures": [
       "nha-tran",
       "le-thanh-tong",
       "le-kinh-tong",
@@ -6457,8 +6457,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-bac-ninh",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-bac-ninh",
+    "relatedFigures": [
       "ly-thai-to",
       "hoang-long",
       "phan-ke-toai",
@@ -6471,8 +6471,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-buon-ma-thuot",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-buon-ma-thuot",
+    "relatedFigures": [
       "nguyen-cong-tru",
       "ngo-dinh-diem",
       "ho-chi-minh",
@@ -6486,8 +6486,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-can-tho",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-can-tho",
+    "relatedFigures": [
       "vo-tanh",
       "nguyen-anh",
       "tran-thien-khiem",
@@ -6527,8 +6527,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-cao-bang",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-pho-cao-bang",
+    "relatedFigures": [],
     "id": 533,
     "name": "thành phố Cao Bằng",
     "description": [
@@ -6536,8 +6536,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-cho-lon",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-cho-lon",
+    "relatedFigures": [
       "nha-thanh",
       "ho-chi-minh",
       "tran-hung-dao"
@@ -6549,8 +6549,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-da-nang",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-da-nang",
+    "relatedFigures": [
       "le-quy-don",
       "le-thanh-tong",
       "le-loi",
@@ -6577,8 +6577,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-dien-bien-phu",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-dien-bien-phu",
+    "relatedFigures": [
       "nha-le",
       "vo-nguyen-giap"
     ],
@@ -6589,8 +6589,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-dong-ha",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-pho-dong-ha",
+    "relatedFigures": [],
     "id": 537,
     "name": "thành phố Đông Hà",
     "description": [
@@ -6598,8 +6598,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-ha-noi",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-ha-noi",
+    "relatedFigures": [
       "nha-minh",
       "le-loi",
       "ly-phat-tu",
@@ -6655,8 +6655,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-ha-tinh",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-pho-ha-tinh",
+    "relatedFigures": [],
     "id": 539,
     "name": "thành phố Hà Tĩnh",
     "description": [
@@ -6664,8 +6664,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-hai-phong",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-hai-phong",
+    "relatedFigures": [
       "duong-tu",
       "le-trung-hung",
       "le-quang-dao",
@@ -6701,8 +6701,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-ho-chi-minh",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-ho-chi-minh",
+    "relatedFigures": [
       "nguyen-anh",
       "nguyen-thien-thuat",
       "phan-dinh-phung",
@@ -6725,8 +6725,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-hue",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-hue",
+    "relatedFigures": [
       "vo-tanh",
       "tran-nguyen-dan",
       "nha-nuoc-viet-nam",
@@ -6768,8 +6768,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-hung-yen",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-hung-yen",
+    "relatedFigures": [
       "le-loi",
       "hoang-dieu",
       "hoang-cao-khai",
@@ -6795,8 +6795,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-lang-son",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-lang-son",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "nha-tran",
@@ -6815,8 +6815,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-lao-cai",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-pho-lao-cai",
+    "relatedFigures": [],
     "id": 545,
     "name": "thành phố Lào Cai",
     "description": [
@@ -6824,8 +6824,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-long-xuyen",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-long-xuyen",
+    "relatedFigures": [
       "nguyen-hue",
       "vo-tanh",
       "nguyen-anh",
@@ -6849,8 +6849,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-nam-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-nam-dinh",
+    "relatedFigures": [
       "tran-quang-khai",
       "tran-khanh-du",
       "le-thanh-tong",
@@ -6880,8 +6880,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-new-york",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-pho-new-york",
+    "relatedFigures": [],
     "id": 548,
     "name": "Thành phố New York",
     "description": [
@@ -6889,8 +6889,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-nha-trang",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-nha-trang",
+    "relatedFigures": [
       "ly-tu-trong",
       "tran-van-on",
       "le-thanh-ton",
@@ -6940,8 +6940,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-ninh-binh",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-ninh-binh",
+    "relatedFigures": [
       "tran-nhan-tong",
       "nguyen-hue",
       "hoang-ha",
@@ -6962,8 +6962,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-phu-ly",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-phu-ly",
+    "relatedFigures": [
       "tran-quang-khai",
       "le-loi",
       "tran-tu-binh",
@@ -6985,8 +6985,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-quy-nhon",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-quy-nhon",
+    "relatedFigures": [
       "nguyen-hue",
       "le-loi",
       "bui-thi-xuan",
@@ -7007,8 +7007,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-song-cong",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-pho-song-cong",
+    "relatedFigures": [],
     "id": 553,
     "name": "thành phố Sông Công",
     "description": [
@@ -7016,8 +7016,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-tam-diep",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-tam-diep",
+    "relatedFigures": [
       "duong-dinh-nghe",
       "nha-tran",
       "ngo-quyen",
@@ -7035,8 +7035,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-thai-binh",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-thai-binh",
+    "relatedFigures": [
       "le-quy-don",
       "hoang-dieu",
       "le-loi",
@@ -7059,8 +7059,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-thai-nguyen",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-thai-nguyen",
+    "relatedFigures": [
       "trung-vuong",
       "hoang-van-thu",
       "phan-dinh-phung",
@@ -7073,8 +7073,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-thanh-hoa",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-thanh-hoa",
+    "relatedFigures": [
       "duong-dinh-nghe",
       "le-loi",
       "hoang-long",
@@ -7096,8 +7096,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-tuyen-quang",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-tuyen-quang",
+    "relatedFigures": [
       "vo-nguyen-giap",
       "nha-mac"
     ],
@@ -7108,8 +7108,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-uong-bi",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-uong-bi",
+    "relatedFigures": [
       "trung-vuong"
     ],
     "id": 559,
@@ -7119,8 +7119,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-viet-tri",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-viet-tri",
+    "relatedFigures": [
       "le-quy-don",
       "dang-minh-khiem",
       "vu-due",
@@ -7145,8 +7145,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-vinh",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-vinh",
+    "relatedFigures": [
       "nguyen-hue",
       "le-loi",
       "do-muoi",
@@ -7170,8 +7170,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-vung-tau",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-pho-vung-tau",
+    "relatedFigures": [
       "le-quy-don",
       "nguyen-thi-minh-khai",
       "nguyen-phuc-tan",
@@ -7185,8 +7185,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-pho-westminster",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-pho-westminster",
+    "relatedFigures": [],
     "id": 563,
     "name": "thành phố Westminster",
     "description": [
@@ -7194,8 +7194,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-sai-gon",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-sai-gon",
+    "relatedFigures": [
       "nha-minh",
       "nguyen-hue",
       "mac-cuu",
@@ -7211,8 +7211,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-son",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-son",
+    "relatedFigures": [],
     "id": 565,
     "name": "Thành Sơn",
     "description": [
@@ -7220,8 +7220,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-son-tay",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-son-tay",
+    "relatedFigures": [
       "le-loi",
       "ngo-quyen",
       "ho-chi-minh",
@@ -7235,8 +7235,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-tay-do",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-tay-do",
+    "relatedFigures": [
       "nha-tran",
       "le-thanh-tong",
       "le-kinh-tong",
@@ -7254,8 +7254,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-tay-giai",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-tay-giai",
+    "relatedFigures": [
       "nha-tran",
       "le-thanh-tong",
       "le-kinh-tong",
@@ -7273,8 +7273,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-thai",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-thai",
+    "relatedFigures": [
       "truong-quang-dan",
       "hoang-cao-khai",
       "phan-dinh-binh",
@@ -7288,8 +7288,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-thang",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-thang",
+    "relatedFigures": [
       "nha-ha",
       "nha-thuong",
       "nha-chu"
@@ -7301,8 +7301,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-thang-long",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-thang-long",
+    "relatedFigures": [
       "nha-duong",
       "nha-tran",
       "hoang-dieu",
@@ -7322,8 +7322,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-to",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-to",
+    "relatedFigures": [],
     "id": 572,
     "name": "Thành Tổ",
     "description": [
@@ -7331,8 +7331,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-tong",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-tong",
+    "relatedFigures": [],
     "id": 573,
     "name": "Thành Tông",
     "description": [
@@ -7340,15 +7340,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-trung",
-    "historicalFiguresLinked": [],
+    "placeCode": "thanh-trung",
+    "relatedFigures": [],
     "id": 574,
     "name": "thành Trung",
     "description": []
   },
   {
-    "historicalDestinationCode": "thanh-tuyen-quang",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-tuyen-quang",
+    "relatedFigures": [
       "vo-nguyen-giap",
       "nha-mac"
     ],
@@ -7359,8 +7359,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-vinh-long",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-vinh-long",
+    "relatedFigures": [
       "phan-thanh-gian",
       "phan-van-tri"
     ],
@@ -7371,8 +7371,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thanh-vuong",
-    "historicalFiguresLinked": [
+    "placeCode": "thanh-vuong",
+    "relatedFigures": [
       "thanh-vuong"
     ],
     "id": 577,
@@ -7382,8 +7382,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-tran-cau-dien",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-tran-cau-dien",
+    "relatedFigures": [],
     "id": 578,
     "name": "thị trấn Cầu Diễn",
     "description": [
@@ -7391,8 +7391,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-tran-chu",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-tran-chu",
+    "relatedFigures": [
       "le-duan",
       "le-loi",
       "le-hong-phong"
@@ -7404,8 +7404,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-tran-chuc-son",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-tran-chuc-son",
+    "relatedFigures": [
       "nha-minh",
       "le-loi"
     ],
@@ -7416,8 +7416,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-tran-dong-khe",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-tran-dong-khe",
+    "relatedFigures": [],
     "id": 581,
     "name": "Thị trấn Đông Khê",
     "description": [
@@ -7425,8 +7425,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-tran-sa-pa",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-tran-sa-pa",
+    "relatedFigures": [],
     "id": 582,
     "name": "thị trấn Sa Pa",
     "description": [
@@ -7434,8 +7434,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-tran-thanh-son",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-tran-thanh-son",
+    "relatedFigures": [
       "le-thanh-tong",
       "mac-phuc-nguyen",
       "le-trung"
@@ -7447,15 +7447,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-tran-vinh-loc",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-tran-vinh-loc",
+    "relatedFigures": [],
     "id": 584,
     "name": "thị trấn Vĩnh Lộc",
     "description": []
   },
   {
-    "historicalDestinationCode": "thi-tran-yen-ninh",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-tran-yen-ninh",
+    "relatedFigures": [],
     "id": 585,
     "name": "thị trấn Yên Ninh",
     "description": [
@@ -7463,8 +7463,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-bac-can",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-bac-can",
+    "relatedFigures": [
       "nguyen-thi-minh-khai",
       "vo-nguyen-giap",
       "tran-hung-dao"
@@ -7476,8 +7476,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-bac-kan",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-bac-kan",
+    "relatedFigures": [
       "nguyen-thi-minh-khai",
       "vo-nguyen-giap",
       "tran-hung-dao"
@@ -7489,8 +7489,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-bac-ninh",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-bac-ninh",
+    "relatedFigures": [
       "ly-thai-to",
       "hoang-long",
       "phan-ke-toai",
@@ -7503,8 +7503,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-cam-duong",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-xa-cam-duong",
+    "relatedFigures": [],
     "id": 589,
     "name": "thị xã Cam Đường",
     "description": [
@@ -7512,8 +7512,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-cao-bang",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-xa-cao-bang",
+    "relatedFigures": [],
     "id": 590,
     "name": "thị xã Cao Bằng",
     "description": [
@@ -7521,8 +7521,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-chi-linh",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-chi-linh",
+    "relatedFigures": [
       "tran-nhan-tong",
       "le-loi",
       "tran-nguyen-dan",
@@ -7540,8 +7540,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-ha-dong",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-ha-dong",
+    "relatedFigures": [
       "le-the-tong",
       "tran-chan",
       "ho-chi-minh",
@@ -7558,8 +7558,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-hai-duong",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-hai-duong",
+    "relatedFigures": [
       "pham-ngu-lao",
       "tran-binh-trong",
       "ngo-quyen",
@@ -7575,8 +7575,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-huong-thuy",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-xa-huong-thuy",
+    "relatedFigures": [],
     "id": 594,
     "name": "thị xã Hương Thủy",
     "description": [
@@ -7584,8 +7584,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-kon-tum",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-kon-tum",
+    "relatedFigures": [
       "nguyen-hue",
       "le-loi",
       "phan-dinh-phung",
@@ -7601,8 +7601,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-la-gi",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-la-gi",
+    "relatedFigures": [
       "ngo-dinh-diem",
       "nguyen-thong"
     ],
@@ -7613,8 +7613,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-lai-chau",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-lai-chau",
+    "relatedFigures": [
       "hoang-lien-son"
     ],
     "id": 597,
@@ -7624,8 +7624,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-lang-son",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-lang-son",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "nha-tran",
@@ -7644,8 +7644,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-lao-cai",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-xa-lao-cai",
+    "relatedFigures": [],
     "id": 599,
     "name": "thị xã Lào Cai",
     "description": [
@@ -7653,8 +7653,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-ninh-binh",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-ninh-binh",
+    "relatedFigures": [
       "tran-nhan-tong",
       "nguyen-hue",
       "hoang-ha",
@@ -7675,8 +7675,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-phu-tho",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-phu-tho",
+    "relatedFigures": [
       "dinh-bo-linh",
       "ho-chi-minh"
     ],
@@ -7687,8 +7687,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-phuoc-long",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-phuoc-long",
+    "relatedFigures": [
       "nguyen-van-thieu",
       "nguyen-thanh-trung"
     ],
@@ -7699,8 +7699,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-quang-tri",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-quang-tri",
+    "relatedFigures": [
       "nguyen-hoang",
       "le-thanh-tong",
       "nguyen-anh",
@@ -7718,8 +7718,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-quang-yen",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-xa-quang-yen",
+    "relatedFigures": [],
     "id": 604,
     "name": "thị xã Quảng Yên",
     "description": [
@@ -7727,8 +7727,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-son-la",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-son-la",
+    "relatedFigures": [
       "le-thai-tong"
     ],
     "id": 605,
@@ -7738,8 +7738,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-son-tay",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-son-tay",
+    "relatedFigures": [
       "le-loi",
       "nha-ngo",
       "nha-nuoc-viet-nam",
@@ -7754,8 +7754,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-tay-ninh",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-tay-ninh",
+    "relatedFigures": [
       "phan-thanh-gian",
       "nguyen-dinh-chieu",
       "nguyen-thi-minh-khai",
@@ -7776,8 +7776,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-thai-nguyen",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-thai-nguyen",
+    "relatedFigures": [
       "trung-vuong",
       "hoang-van-thu",
       "phan-dinh-phung"
@@ -7789,8 +7789,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-tu-son",
-    "historicalFiguresLinked": [],
+    "placeCode": "thi-xa-tu-son",
+    "relatedFigures": [],
     "id": 609,
     "name": "thị xã Từ Sơn",
     "description": [
@@ -7798,8 +7798,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-tuyen-quang",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-tuyen-quang",
+    "relatedFigures": [
       "vo-nguyen-giap",
       "nha-mac"
     ],
@@ -7810,8 +7810,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thi-xa-vinh-yen",
-    "historicalFiguresLinked": [
+    "placeCode": "thi-xa-vinh-yen",
+    "relatedFigures": [
       "le-duan",
       "nguyen-tat-thanh",
       "nguyen-thai-hoc",
@@ -7828,8 +7828,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thua-tuyen-nghe-an",
-    "historicalFiguresLinked": [
+    "placeCode": "thua-tuyen-nghe-an",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-le",
       "nha-ly",
@@ -7843,8 +7843,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thua-tuyen-son-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "thua-tuyen-son-nam",
+    "relatedFigures": [
       "nguyen-binh",
       "le-thanh-tong",
       "dang-xa",
@@ -7862,8 +7862,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "thua-tuyen-thien-truong",
-    "historicalFiguresLinked": [
+    "placeCode": "thua-tuyen-thien-truong",
+    "relatedFigures": [
       "nha-tran",
       "le-thanh-tong",
       "nha-le",
@@ -7876,8 +7876,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-an-giang",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-an-giang",
+    "relatedFigures": [
       "ngo-dinh-diem"
     ],
     "id": 615,
@@ -7887,8 +7887,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ba-ria",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ba-ria",
+    "relatedFigures": [
       "nguyen-phuc-nguyen"
     ],
     "id": 616,
@@ -7898,8 +7898,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-bac-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-bac-giang",
+    "relatedFigures": [],
     "id": 617,
     "name": "tỉnh Bắc Giang",
     "description": [
@@ -7907,8 +7907,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-bac-kan",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-bac-kan",
+    "relatedFigures": [],
     "id": 618,
     "name": "tỉnh Bắc Kạn",
     "description": [
@@ -7916,8 +7916,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-bac-ninh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-bac-ninh",
+    "relatedFigures": [
       "ly-cong-uan",
       "le-thanh-tong",
       "duong-vuong",
@@ -7936,8 +7936,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-battambang",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-battambang",
+    "relatedFigures": [],
     "id": 620,
     "name": "tỉnh Battambang",
     "description": [
@@ -7945,8 +7945,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ben-tre",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ben-tre",
+    "relatedFigures": [
       "le-quy-don",
       "nguyen-dinh-chieu",
       "phan-thanh-gian",
@@ -7959,8 +7959,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-bien-hoa",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-bien-hoa",
+    "relatedFigures": [
       "nguyen-phuc-chu"
     ],
     "id": 622,
@@ -7970,8 +7970,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-binh-duong",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-binh-duong",
+    "relatedFigures": [
       "ngo-dinh-diem",
       "ho-chi-minh"
     ],
@@ -7982,8 +7982,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-binh-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-binh-dinh",
+    "relatedFigures": [
       "nha-tuy",
       "nguyen-hue",
       "vo-tanh",
@@ -8008,8 +8008,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-binh-phuoc",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-binh-phuoc",
+    "relatedFigures": [],
     "id": 625,
     "name": "tỉnh Bình Phước",
     "description": [
@@ -8017,8 +8017,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-binh-thuan",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-binh-thuan",
+    "relatedFigures": [
       "nguyen-phuc-tan",
       "nguyen-phuc-chu",
       "ho-chi-minh",
@@ -8031,8 +8031,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-can-tho",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-can-tho",
+    "relatedFigures": [
       "dang-van-quang",
       "ngo-dinh-diem"
     ],
@@ -8043,8 +8043,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-cao-bang",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-cao-bang",
+    "relatedFigures": [
       "nha-tran",
       "nha-ly",
       "nha-mac",
@@ -8057,8 +8057,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-dien-bien",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-dien-bien",
+    "relatedFigures": [
       "le-thanh-tong"
     ],
     "id": 629,
@@ -8068,8 +8068,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-dinh-tuong",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-dinh-tuong",
+    "relatedFigures": [
       "nha-minh",
       "duong-ngan-dich",
       "nguyen-anh",
@@ -8084,8 +8084,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-dong-nai",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-dong-nai",
+    "relatedFigures": [
       "nha-minh",
       "tran-thuong-xuyen",
       "nguyen-phuc-tan",
@@ -8098,8 +8098,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-dong-thap",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-dong-thap",
+    "relatedFigures": [],
     "id": 632,
     "name": "tỉnh Đồng Tháp",
     "description": [
@@ -8107,8 +8107,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-gia-dinh",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-gia-dinh",
+    "relatedFigures": [],
     "id": 633,
     "name": "tỉnh Gia Định",
     "description": [
@@ -8116,8 +8116,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-gia-lai",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-gia-lai",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 634,
@@ -8127,8 +8127,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ha-dong",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-ha-dong",
+    "relatedFigures": [],
     "id": 635,
     "name": "tỉnh Hà Đông",
     "description": [
@@ -8136,8 +8136,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ha-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-ha-giang",
+    "relatedFigures": [],
     "id": 636,
     "name": "tỉnh Hà Giang",
     "description": [
@@ -8145,8 +8145,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ha-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ha-nam",
+    "relatedFigures": [
       "tran-tu-binh",
       "ly-thuong-kiet",
       "tran-quoc-tuan",
@@ -8170,8 +8170,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ha-noi",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ha-noi",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "nha-tran",
@@ -8187,8 +8187,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ha-tay",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ha-tay",
+    "relatedFigures": [
       "ngo-quyen"
     ],
     "id": 639,
@@ -8198,8 +8198,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ha-tien",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ha-tien",
+    "relatedFigures": [
       "nha-minh",
       "mac-cuu",
       "mac-thien-tu",
@@ -8213,8 +8213,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ha-tinh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ha-tinh",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-hau-le",
       "ho-chi-minh"
@@ -8226,8 +8226,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-hai-duong",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-hai-duong",
+    "relatedFigures": [
       "tran-nguyen-dan",
       "nguyen-thai-hoc",
       "nguyen-van-toan",
@@ -8247,8 +8247,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-hai-hung",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-hai-hung",
+    "relatedFigures": [],
     "id": 643,
     "name": "tỉnh Hải Hưng",
     "description": [
@@ -8256,8 +8256,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-hai-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-hai-nam",
+    "relatedFigures": [
       "nha-tuy",
       "nha-minh",
       "nha-tong",
@@ -8272,8 +8272,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ho-bac",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ho-bac",
+    "relatedFigures": [
       "nha-tuy",
       "nha-duong",
       "nha-ha",
@@ -8293,8 +8293,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ho-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ho-nam",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "nha-nguyen-mong-co",
@@ -8311,8 +8311,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-hoa-binh",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-hoa-binh",
+    "relatedFigures": [],
     "id": 647,
     "name": "tỉnh Hòa Bình",
     "description": [
@@ -8320,8 +8320,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-hoang-lien-son",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-hoang-lien-son",
+    "relatedFigures": [
       "hoang-lien-son"
     ],
     "id": 648,
@@ -8331,8 +8331,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-hung-hoa",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-hung-hoa",
+    "relatedFigures": [
       "nha-tran",
       "le-quy-don",
       "le-loi",
@@ -8350,8 +8350,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-hung-yen",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-hung-yen",
+    "relatedFigures": [
       "pham-ngu-lao",
       "ly-thuong-kiet",
       "tran-quoc-tuan",
@@ -8364,8 +8364,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-kampong-cham",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-kampong-cham",
+    "relatedFigures": [],
     "id": 651,
     "name": "tỉnh Kampong Cham",
     "description": [
@@ -8373,8 +8373,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-kampot",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-kampot",
+    "relatedFigures": [],
     "id": 652,
     "name": "tỉnh Kampot",
     "description": [
@@ -8382,8 +8382,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-kien-an",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-kien-an",
+    "relatedFigures": [],
     "id": 653,
     "name": "tỉnh Kiến An",
     "description": [
@@ -8391,8 +8391,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-kien-giang",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-kien-giang",
+    "relatedFigures": [
       "mac-cuu",
       "ngo-dinh-diem",
       "nguyen-trung-truc"
@@ -8404,8 +8404,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-kon-tum",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-kon-tum",
+    "relatedFigures": [
       "nguyen-hue",
       "le-thanh-tong",
       "nguyen-lu",
@@ -8420,8 +8420,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-lai-chau",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-lai-chau",
+    "relatedFigures": [
       "le-loi"
     ],
     "id": 656,
@@ -8431,8 +8431,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-lam-dong",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-lam-dong",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 657,
@@ -8442,8 +8442,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-lang-son",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-lang-son",
+    "relatedFigures": [
       "nha-mac"
     ],
     "id": 658,
@@ -8453,8 +8453,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-lao-cai",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-lao-cai",
+    "relatedFigures": [
       "nha-tran",
       "le-tuong-duc",
       "ho-quy-ly"
@@ -8466,8 +8466,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-long-khanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-long-khanh",
+    "relatedFigures": [],
     "id": 660,
     "name": "tỉnh Long Khánh",
     "description": [
@@ -8475,8 +8475,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-mondolkiri",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-mondolkiri",
+    "relatedFigures": [],
     "id": 661,
     "name": "tỉnh Mondolkiri",
     "description": [
@@ -8484,8 +8484,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-my-tho",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-my-tho",
+    "relatedFigures": [],
     "id": 662,
     "name": "tỉnh Mỹ Tho",
     "description": [
@@ -8493,8 +8493,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-nam-dinh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-nam-dinh",
+    "relatedFigures": [
       "nha-minh",
       "nha-le",
       "nha-luong",
@@ -8529,8 +8529,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-nam-ha",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-nam-ha",
+    "relatedFigures": [
       "ly-nhan"
     ],
     "id": 664,
@@ -8540,8 +8540,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-nghe-an",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-nghe-an",
+    "relatedFigures": [
       "nha-minh",
       "tran-nhan-tong",
       "nguyen-hue",
@@ -8564,8 +8564,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-nghia-lo",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-nghia-lo",
+    "relatedFigures": [
       "hoang-lien-son"
     ],
     "id": 666,
@@ -8575,8 +8575,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ninh-binh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-ninh-binh",
+    "relatedFigures": [
       "hoang-ha",
       "nha-le",
       "nha-hau-tran",
@@ -8617,8 +8617,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ninh-thuan",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-ninh-thuan",
+    "relatedFigures": [],
     "id": 668,
     "name": "tỉnh Ninh Thuận",
     "description": [
@@ -8626,8 +8626,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-phu-khanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-phu-khanh",
+    "relatedFigures": [],
     "id": 669,
     "name": "tỉnh Phú Khánh",
     "description": [
@@ -8635,8 +8635,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-phu-tho",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-phu-tho",
+    "relatedFigures": [
       "nha-le",
       "duong-vuong",
       "ho-chi-minh"
@@ -8648,8 +8648,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-phu-yen",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-phu-yen",
+    "relatedFigures": [
       "nguyen-hoang",
       "nguyen-hue",
       "le-thanh-tong",
@@ -8664,8 +8664,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-phuc-kien",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-phuc-kien",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "hoang-ha",
@@ -8679,8 +8679,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-phuc-yen",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-phuc-yen",
+    "relatedFigures": [
       "phan-ke-toai"
     ],
     "id": 673,
@@ -8690,8 +8690,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-prey-veng",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-prey-veng",
+    "relatedFigures": [],
     "id": 674,
     "name": "tỉnh Prey Veng",
     "description": [
@@ -8699,8 +8699,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-quang-binh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-quang-binh",
+    "relatedFigures": [
       "le-trung-hung",
       "vo-nguyen-giap",
       "ly-thuong-kiet",
@@ -8717,8 +8717,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-quang-dong",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-quang-dong",
+    "relatedFigures": [
       "nha-minh",
       "nha-tong",
       "nha-nguyen-mong-co",
@@ -8740,8 +8740,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-quang-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-quang-nam",
+    "relatedFigures": [
       "tran-nhan-tong",
       "le-thanh-tong",
       "nguyen-canh-di",
@@ -8765,8 +8765,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-quang-ninh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-quang-ninh",
+    "relatedFigures": [
       "nha-thanh",
       "ho-chi-minh"
     ],
@@ -8777,8 +8777,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-quang-tri",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-quang-tri",
+    "relatedFigures": [
       "nha-tran",
       "nguyen-hoang",
       "trieu-phong",
@@ -8798,8 +8798,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-quang-yen",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-quang-yen",
+    "relatedFigures": [],
     "id": 680,
     "name": "tỉnh Quảng Yên",
     "description": [
@@ -8807,8 +8807,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-quy-chau",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-quy-chau",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "nha-tong",
@@ -8823,8 +8823,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-ratanakiri",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-ratanakiri",
+    "relatedFigures": [],
     "id": 682,
     "name": "tỉnh Ratanakiri",
     "description": [
@@ -8832,8 +8832,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-sa-dec",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-sa-dec",
+    "relatedFigures": [],
     "id": 683,
     "name": "tỉnh Sa Đéc",
     "description": [
@@ -8841,8 +8841,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-savannakhet",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-savannakhet",
+    "relatedFigures": [],
     "id": 684,
     "name": "tỉnh Savannakhet",
     "description": [
@@ -8850,8 +8850,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-sisaket",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-sisaket",
+    "relatedFigures": [],
     "id": 685,
     "name": "tỉnh Sisaket",
     "description": [
@@ -8859,8 +8859,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-son-dong",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-son-dong",
+    "relatedFigures": [
       "nha-duong",
       "hoang-ha",
       "nha-ha",
@@ -8878,8 +8878,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-son-la",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-son-la",
+    "relatedFigures": [
       "le-thanh-tong"
     ],
     "id": 687,
@@ -8889,8 +8889,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-son-tay",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-son-tay",
+    "relatedFigures": [
       "le-quy-don",
       "le-thanh-tong",
       "nha-le",
@@ -8909,8 +8909,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-stung-treng",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-stung-treng",
+    "relatedFigures": [],
     "id": 689,
     "name": "tỉnh Stung Treng",
     "description": [
@@ -8918,8 +8918,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-svay-rieng",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-svay-rieng",
+    "relatedFigures": [],
     "id": 690,
     "name": "tỉnh Svay Rieng",
     "description": [
@@ -8927,8 +8927,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-tay-ninh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-tay-ninh",
+    "relatedFigures": [
       "duong-minh-chau"
     ],
     "id": 691,
@@ -8938,8 +8938,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-thai-binh",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-thai-binh",
+    "relatedFigures": [
       "le-quy-don",
       "le-thanh-tong",
       "hoang-ha",
@@ -8969,8 +8969,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-thai-nguyen",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-thai-nguyen",
+    "relatedFigures": [
       "vo-nhai",
       "nha-minh",
       "le-loi",
@@ -8994,8 +8994,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-thanh-hoa",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-thanh-hoa",
+    "relatedFigures": [
       "ho-han-thuong",
       "nha-minh",
       "nguyen-duy",
@@ -9014,8 +9014,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-tien-giang",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-tien-giang",
+    "relatedFigures": [
       "truong-dinh",
       "ngo-dinh-diem"
     ],
@@ -9026,8 +9026,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-tra-vinh",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-tra-vinh",
+    "relatedFigures": [],
     "id": 696,
     "name": "tỉnh Trà Vinh",
     "description": [
@@ -9035,8 +9035,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-trat",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-trat",
+    "relatedFigures": [],
     "id": 697,
     "name": "tỉnh Trat",
     "description": [
@@ -9044,8 +9044,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-tu-xuyen",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-tu-xuyen",
+    "relatedFigures": [],
     "id": 698,
     "name": "tỉnh Tứ Xuyên",
     "description": [
@@ -9053,8 +9053,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-tuyen-quang",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-tuyen-quang",
+    "relatedFigures": [
       "nha-tran",
       "le-thanh-tong",
       "le-uy-muc",
@@ -9075,8 +9075,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-van-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-van-nam",
+    "relatedFigures": [
       "nha-minh",
       "nha-duong",
       "nha-man-thanh",
@@ -9092,8 +9092,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-vinh-long",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-vinh-long",
+    "relatedFigures": [
       "nguyen-hue",
       "nguyen-anh",
       "nguyen-lu",
@@ -9108,8 +9108,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-vinh-phuc",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-vinh-phuc",
+    "relatedFigures": [
       "ho-chi-minh",
       "nguyen-khoan",
       "tran-nguyen-han"
@@ -9121,8 +9121,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-vinh-yen",
-    "historicalFiguresLinked": [],
+    "placeCode": "tinh-vinh-yen",
+    "relatedFigures": [],
     "id": 703,
     "name": "tỉnh Vĩnh Yên",
     "description": [
@@ -9130,8 +9130,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tinh-yen-bai",
-    "historicalFiguresLinked": [
+    "placeCode": "tinh-yen-bai",
+    "relatedFigures": [
       "nguyen-thai-hoc"
     ],
     "id": 704,
@@ -9141,8 +9141,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-an",
-    "historicalFiguresLinked": [],
+    "placeCode": "tran-an",
+    "relatedFigures": [],
     "id": 705,
     "name": "Trấn An",
     "description": [
@@ -9150,15 +9150,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-bien",
-    "historicalFiguresLinked": [],
+    "placeCode": "tran-bien",
+    "relatedFigures": [],
     "id": 706,
     "name": "Trấn Biên",
     "description": []
   },
   {
-    "historicalDestinationCode": "tran-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "tran-giang",
+    "relatedFigures": [],
     "id": 707,
     "name": "Trấn Giang",
     "description": [
@@ -9166,8 +9166,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-hai-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "tran-hai-thanh",
+    "relatedFigures": [],
     "id": 708,
     "name": "Trấn Hải Thành",
     "description": [
@@ -9175,8 +9175,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-nam-quan",
-    "historicalFiguresLinked": [
+    "placeCode": "tran-nam-quan",
+    "relatedFigures": [
       "pham-van",
       "nguyen-van-sieu"
     ],
@@ -9187,8 +9187,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-nghe-an",
-    "historicalFiguresLinked": [
+    "placeCode": "tran-nghe-an",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-le",
       "nha-ly",
@@ -9202,8 +9202,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-ninh",
-    "historicalFiguresLinked": [],
+    "placeCode": "tran-ninh",
+    "relatedFigures": [],
     "id": 711,
     "name": "Trấn Ninh",
     "description": [
@@ -9211,8 +9211,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-son-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "tran-son-nam",
+    "relatedFigures": [
       "nguyen-binh",
       "le-thanh-tong",
       "dang-xa",
@@ -9230,8 +9230,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-son-tay",
-    "historicalFiguresLinked": [
+    "placeCode": "tran-son-tay",
+    "relatedFigures": [
       "le-quy-don",
       "le-thanh-tong",
       "nha-le",
@@ -9250,8 +9250,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-tay-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "tran-tay-thanh",
+    "relatedFigures": [],
     "id": 714,
     "name": "Trấn Tây Thành",
     "description": [
@@ -9259,8 +9259,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-thuan-thanh",
-    "historicalFiguresLinked": [
+    "placeCode": "tran-thuan-thanh",
+    "relatedFigures": [
       "nguyen-anh",
       "nha-tay-son"
     ],
@@ -9271,8 +9271,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-vien",
-    "historicalFiguresLinked": [],
+    "placeCode": "tran-vien",
+    "relatedFigures": [],
     "id": 716,
     "name": "Trấn Viễn",
     "description": [
@@ -9280,8 +9280,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "tran-yen",
-    "historicalFiguresLinked": [],
+    "placeCode": "tran-yen",
+    "relatedFigures": [],
     "id": 717,
     "name": "Trấn Yên",
     "description": [
@@ -9289,8 +9289,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "trieu-chau",
-    "historicalFiguresLinked": [],
+    "placeCode": "trieu-chau",
+    "relatedFigures": [],
     "id": 718,
     "name": "Triệu Châu",
     "description": [
@@ -9298,8 +9298,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "trieu-hai",
-    "historicalFiguresLinked": [],
+    "placeCode": "trieu-hai",
+    "relatedFigures": [],
     "id": 719,
     "name": "Triệu Hải",
     "description": [
@@ -9307,8 +9307,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "trieu-son",
-    "historicalFiguresLinked": [
+    "placeCode": "trieu-son",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 720,
@@ -9318,8 +9318,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "van-mieu-quoc-tu-giam",
-    "historicalFiguresLinked": [
+    "placeCode": "van-mieu-quoc-tu-giam",
+    "relatedFigures": [
       "tran-nghe-tong",
       "nguyen-hue",
       "le-thanh-tong",
@@ -9342,8 +9342,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vo-giang",
-    "historicalFiguresLinked": [
+    "placeCode": "vo-giang",
+    "relatedFigures": [
       "le-thanh-tong",
       "le-trang-tong",
       "le-duy-ninh"
@@ -9355,8 +9355,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vo-nhai",
-    "historicalFiguresLinked": [
+    "placeCode": "vo-nhai",
+    "relatedFigures": [
       "vo-nhai",
       "nha-duong",
       "nha-le",
@@ -9369,8 +9369,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-an",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-an",
+    "relatedFigures": [],
     "id": 724,
     "name": "Vũ An",
     "description": [
@@ -9378,8 +9378,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-binh",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-binh",
+    "relatedFigures": [],
     "id": 725,
     "name": "Vũ Bình",
     "description": [
@@ -9387,8 +9387,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-chau",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-chau",
+    "relatedFigures": [],
     "id": 726,
     "name": "Vũ Châu",
     "description": [
@@ -9396,8 +9396,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-chinh",
-    "historicalFiguresLinked": [
+    "placeCode": "vu-chinh",
+    "relatedFigures": [
       "ly-bon",
       "tran-lam"
     ],
@@ -9408,8 +9408,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-dinh",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-dinh",
+    "relatedFigures": [],
     "id": 728,
     "name": "Vũ Định",
     "description": [
@@ -9417,8 +9417,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-do",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-do",
+    "relatedFigures": [],
     "id": 729,
     "name": "Vũ Đô",
     "description": [
@@ -9426,8 +9426,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-hau",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-hau",
+    "relatedFigures": [],
     "id": 730,
     "name": "Vũ Hầu",
     "description": [
@@ -9435,8 +9435,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-lam",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-lam",
+    "relatedFigures": [],
     "id": 731,
     "name": "Vũ Lâm",
     "description": [
@@ -9444,15 +9444,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-lang",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-lang",
+    "relatedFigures": [],
     "id": 732,
     "name": "Vũ Lăng",
     "description": []
   },
   {
-    "historicalDestinationCode": "vu-le",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-le",
+    "relatedFigures": [],
     "id": 733,
     "name": "Vũ Lễ",
     "description": [
@@ -9460,15 +9460,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-ninh",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-ninh",
+    "relatedFigures": [],
     "id": 734,
     "name": "Vũ Ninh",
     "description": []
   },
   {
-    "historicalDestinationCode": "vu-thang",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-thang",
+    "relatedFigures": [],
     "id": 735,
     "name": "Vũ Thắng",
     "description": [
@@ -9476,8 +9476,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-thanh",
-    "historicalFiguresLinked": [
+    "placeCode": "vu-thanh",
+    "relatedFigures": [
       "vu-de"
     ],
     "id": 736,
@@ -9487,8 +9487,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-thu",
-    "historicalFiguresLinked": [
+    "placeCode": "vu-thu",
+    "relatedFigures": [
       "vu-nghia",
       "vu-tien",
       "nha-hau-le",
@@ -9502,8 +9502,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-xuong",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-xuong",
+    "relatedFigures": [],
     "id": 738,
     "name": "Vũ Xương",
     "description": [
@@ -9511,8 +9511,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "vu-xuyen",
-    "historicalFiguresLinked": [],
+    "placeCode": "vu-xuyen",
+    "relatedFigures": [],
     "id": 739,
     "name": "Vũ Xuyên",
     "description": [
@@ -9520,15 +9520,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-ai-quoc",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-ai-quoc",
+    "relatedFigures": [],
     "id": 740,
     "name": "xã Ái Quốc",
     "description": []
   },
   {
-    "historicalDestinationCode": "xa-an-duong",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-an-duong",
+    "relatedFigures": [],
     "id": 741,
     "name": "xã An Dương",
     "description": [
@@ -9536,8 +9536,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-an-lac",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-an-lac",
+    "relatedFigures": [],
     "id": 742,
     "name": "xã An Lạc",
     "description": [
@@ -9545,8 +9545,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-an-phu",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-an-phu",
+    "relatedFigures": [],
     "id": 743,
     "name": "xã An Phụ",
     "description": [
@@ -9554,8 +9554,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-an-thai",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-an-thai",
+    "relatedFigures": [],
     "id": 744,
     "name": "xã An Thái",
     "description": [
@@ -9563,8 +9563,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-an-truong",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-an-truong",
+    "relatedFigures": [],
     "id": 745,
     "name": "xã An Trường",
     "description": [
@@ -9572,8 +9572,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-bat-trang",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-bat-trang",
+    "relatedFigures": [],
     "id": 746,
     "name": "xã Bát Tràng",
     "description": [
@@ -9581,8 +9581,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-duong-quan",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-duong-quan",
+    "relatedFigures": [],
     "id": 747,
     "name": "xã Dương Quan",
     "description": [
@@ -9590,15 +9590,15 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-duc-giang",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-duc-giang",
+    "relatedFigures": [],
     "id": 748,
     "name": "xã Đức Giang",
     "description": []
   },
   {
-    "historicalDestinationCode": "xa-ha-mo",
-    "historicalFiguresLinked": [
+    "placeCode": "xa-ha-mo",
+    "relatedFigures": [
       "trieu-quang-phuc",
       "le-thanh-tong",
       "ly-nam-de",
@@ -9612,8 +9612,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-hong-phong",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-hong-phong",
+    "relatedFigures": [],
     "id": 750,
     "name": "xã Hồng Phong",
     "description": [
@@ -9621,8 +9621,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-hung-dao",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-hung-dao",
+    "relatedFigures": [],
     "id": 751,
     "name": "xã Hưng Đạo",
     "description": [
@@ -9630,8 +9630,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-kim-lien",
-    "historicalFiguresLinked": [
+    "placeCode": "xa-kim-lien",
+    "relatedFigures": [
       "ho-chi-minh"
     ],
     "id": 752,
@@ -9641,8 +9641,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-my-hoa",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-my-hoa",
+    "relatedFigures": [],
     "id": 753,
     "name": "xã Mỹ Hoà",
     "description": [
@@ -9650,8 +9650,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-quan-chu",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-quan-chu",
+    "relatedFigures": [],
     "id": 754,
     "name": "xã Quân Chu",
     "description": [
@@ -9659,8 +9659,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-tan-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-tan-thanh",
+    "relatedFigures": [],
     "id": 755,
     "name": "xã Tân Thành",
     "description": [
@@ -9668,22 +9668,22 @@
     ]
   },
   {
-    "historicalDestinationCode": "xa-vinh-long",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-vinh-long",
+    "relatedFigures": [],
     "id": 756,
     "name": "xã Vĩnh Long",
     "description": []
   },
   {
-    "historicalDestinationCode": "xa-vinh-thanh",
-    "historicalFiguresLinked": [],
+    "placeCode": "xa-vinh-thanh",
+    "relatedFigures": [],
     "id": 757,
     "name": "xã Vĩnh Thành",
     "description": []
   },
   {
-    "historicalDestinationCode": "xu-doai",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-doai",
+    "relatedFigures": [
       "le-quy-don",
       "le-thanh-tong",
       "nha-le",
@@ -9702,8 +9702,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xu-kinh-bac",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-kinh-bac",
+    "relatedFigures": [
       "le-thanh-tong",
       "ly-cong-uan",
       "duong-vuong",
@@ -9716,8 +9716,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xu-lang-son",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-lang-son",
+    "relatedFigures": [
       "nha-mac"
     ],
     "id": 760,
@@ -9727,8 +9727,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xu-nghe",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-nghe",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-le",
       "nha-ly",
@@ -9742,8 +9742,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xu-nghe-an",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-nghe-an",
+    "relatedFigures": [
       "le-thanh-tong",
       "nha-le",
       "nha-ly",
@@ -9757,8 +9757,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xu-son-nam",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-son-nam",
+    "relatedFigures": [
       "nguyen-binh",
       "le-thanh-tong",
       "dang-xa",
@@ -9776,8 +9776,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xu-thai",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-thai",
+    "relatedFigures": [
       "nha-tran",
       "hoang-nham",
       "nha-ly"
@@ -9789,8 +9789,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xu-thanh",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-thanh",
+    "relatedFigures": [
       "ho-han-thuong",
       "nha-minh",
       "nguyen-duy",
@@ -9809,8 +9809,8 @@
     ]
   },
   {
-    "historicalDestinationCode": "xu-thanh-hoa",
-    "historicalFiguresLinked": [
+    "placeCode": "xu-thanh-hoa",
+    "relatedFigures": [
       "ho-han-thuong",
       "nha-minh",
       "nguyen-duy",

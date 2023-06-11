@@ -3,24 +3,28 @@ package com.oop2.models;
 import java.util.List;
 import java.util.Set;
 
-public class HistoricalFigureModel extends Model
+public class FigureModel extends Model
 {
     private String code;
     private List<List<String>> infobox;
-    private Set<String> historicalFiguresLinked;
-    private Set<String> historicalDestinationsLinked;
-    private Set<String> erasLinked;
+    private Set<String> relatedFigures;
+    private Set<String> relatedPlaces;
+    private Set<String> relatedPeriod;
 
 
-    public HistoricalFigureModel(String name, List<String> description, String code, List<List<String>> infobox
-            , Set<String> historicalFiguresLinked, Set<String> historicalDestinationsLinked, Set<String> erasLinked)
+    public String getCode() {
+        return code;
+    }
+
+    public FigureModel(String name, List<String> description, String code, List<List<String>> infobox
+            , Set<String> relatedFigures, Set<String> relatedPlaces, Set<String> relatedPeriod)
     {
         super(name, description);
         setCode(code);
         setInfobox(infobox);
-        setHistoricalFiguresLinked(historicalFiguresLinked);
-        setHistoricalDestinationsLinked(historicalDestinationsLinked);
-        setErasLinked(erasLinked);
+        setRelatedFigures(relatedFigures);
+        setRelatedPlaces(relatedPlaces);
+        setRelatedPeriod(relatedPeriod);
     }
 
     public void setCode(String code) {
@@ -31,16 +35,20 @@ public class HistoricalFigureModel extends Model
         this.infobox = infobox;
     }
 
-    public void setHistoricalFiguresLinked(Set<String> historicalFiguresLinked) {
-        this.historicalFiguresLinked = historicalFiguresLinked;
+    public void setRelatedFigures(Set<String> relatedFigures) {
+        this.relatedFigures = relatedFigures;
     }
 
-    public void setHistoricalDestinationsLinked(Set<String> historicalDestinationsLinked) {
-        this.historicalDestinationsLinked = historicalDestinationsLinked;
+    public void setRelatedPlaces(Set<String> relatedPlaces) {
+        this.relatedPlaces = relatedPlaces;
     }
 
-    public void setErasLinked(Set<String> erasLinked) {
-        this.erasLinked = erasLinked;
+    public void setRelatedPeriod(Set<String> relatedPeriod) {
+        this.relatedPeriod = relatedPeriod;
+    }
+
+    public Set<String> getRelatedPeriod() {
+        return relatedPeriod;
     }
 
     @Override
@@ -97,7 +105,7 @@ public class HistoricalFigureModel extends Model
         // Add the related figures
         htmlBuilder.append("<h2>Related Figures</h2>");
         htmlBuilder.append("<ul>");
-        for (String figure : this.historicalFiguresLinked) {
+        for (String figure : this.relatedFigures) {
             htmlBuilder.append("<li>").append(figure).append("</li>");
         }
         htmlBuilder.append("</ul>");
@@ -105,7 +113,7 @@ public class HistoricalFigureModel extends Model
         // Add the related places
         htmlBuilder.append("<h2>Related Places</h2>");
         htmlBuilder.append("<ul>");
-        for (String place : this.historicalDestinationsLinked) {
+        for (String place : this.relatedPlaces) {
             htmlBuilder.append("<li>").append(place).append("</li>");
         }
         htmlBuilder.append("</ul>");
@@ -113,7 +121,7 @@ public class HistoricalFigureModel extends Model
         // Add the related time periods
         htmlBuilder.append("<h2>Related Time Periods</h2>");
         htmlBuilder.append("<ul>");
-        for (String timePeriod : this.erasLinked) {
+        for (String timePeriod : this.relatedPeriod) {
             htmlBuilder.append("<li>").append(timePeriod).append("</li>");
         }
         htmlBuilder.append("</ul>");

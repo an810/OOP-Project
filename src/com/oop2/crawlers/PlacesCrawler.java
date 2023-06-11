@@ -1,11 +1,8 @@
 package com.oop2.crawlers;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.oop2.interfaces.ICrawler;
-import com.oop2.models.EraModel;
-import com.oop2.models.HistoricalDestination;
+import com.oop2.models.PlaceModel;
 import com.oop2.models.Model;
 import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
@@ -13,7 +10,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -21,7 +18,7 @@ import java.util.List;
 import java.util.Set;
 import static com.oop2.util.UrlDecode.getCodeFromUrl;
 
-public class HistoricalDestinationsCrawler extends SCrawler implements ICrawler {
+public class PlacesCrawler extends SCrawler implements ICrawler {
     @Override
     public List<Model> crawlPages(String page) {
         String baseUrl = page;
@@ -109,25 +106,13 @@ public class HistoricalDestinationsCrawler extends SCrawler implements ICrawler 
                 nhanVatLienQuan.add(getCodeFromUrl(name));
             }
 
-            Model destination =  new HistoricalDestination(title, texts, getCodeFromUrl(completeUrl), nhanVatLienQuan);
+            Model destination =  new PlaceModel(title, texts, getCodeFromUrl(completeUrl), nhanVatLienQuan);
             destination.setId(++id);
             destinationList.add(destination);
             nextElements = doc.select("a.btn.btn-sm.btn-secondary.next");
         }
 
         return destinationList;
-    }
-
-    @Override
-    public void writeJson(String fileName, List<Model> models)
-    {
-        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-        String json = gson.toJson(models);
-        try (FileWriter writer = new FileWriter(fileName)) {
-            writer.write(json);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     public void createHistoricalDestinationJson()
@@ -143,8 +128,8 @@ public class HistoricalDestinationsCrawler extends SCrawler implements ICrawler 
 //        test.writeJson(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
 //        test.writeHTML(Config.HISTORICAL_DESTINATION_HTML, locationList);
 
-        HistoricalDestinationsCrawler test = new HistoricalDestinationsCrawler();
-        List<EraModel> myList = test.loader(Config.HISTORICAL_DESTINATION_FILENAME,  new TypeToken<List<EraModel>>() {});
+        PlacesCrawler test = new PlacesCrawler();
+        List<PlaceModel> myList = test.loader(Config.HISTORICAL_DESTINATION_FILENAME,  new TypeToken<List<PlaceModel>>() {});
         List<Model> newList = new ArrayList<>();
         newList.addAll(myList);
         test.writeHTML(Config.HISTORICAL_DESTINATION_HTML, newList);

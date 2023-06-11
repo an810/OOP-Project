@@ -1,33 +1,40 @@
 package com.oop2.models;
 
-import java.util.Set;
-import java.util.List;
+import java.util.*;
 
 public class EraModel extends Model
 {
     private String code;
-    private Set<String> historicalFiguresLinked;
-    private Set<String> historicalDestinationsLinked;
+    private Set<String> relatedFigures;
+    private Set<String> relatedPlaces;
 
-    public EraModel(String ten, List<String> description, String code, Set<String> historicalFiguresLinked
-            , Set<String> historicalDestinationsLinked)
+    public List<String> getRelatedFigures() {
+        return new ArrayList<>(this.relatedFigures);
+    }
+
+    public EraModel(String name, List<String> description, String code, Set<String> relatedFigures
+            , Set<String> relatedPlaces)
     {
-        super(ten, description);
+        super(name, description);
         setCode(code);
-        setHistoricalFiguresLinked(historicalFiguresLinked);
-        setHistoricalDestinationsLinked(historicalDestinationsLinked);
+        setRelatedFigures(relatedFigures);
+        setRelatedPlaces(relatedPlaces);
+    }
+
+    public String getCode() {
+        return code;
     }
 
     public void setCode(String code) {
         this.code = code;
     }
 
-    public void setHistoricalFiguresLinked(Set<String> historicalFiguresLinked) {
-        this.historicalFiguresLinked = historicalFiguresLinked;
+    public void setRelatedFigures(Set<String> relatedFigures) {
+        this.relatedFigures = relatedFigures;
     }
 
-    public void setHistoricalDestinationsLinked(Set<String> historicalDestinationsLinked) {
-        this.historicalDestinationsLinked = historicalDestinationsLinked;
+    public void setRelatedPlaces(Set<String> relatedPlaces) {
+        this.relatedPlaces = relatedPlaces;
     }
 
     @Override
@@ -63,11 +70,11 @@ public class EraModel extends Model
         }
 
         // Add the related figures
-        if (this.historicalFiguresLinked != null)
+        if (this.relatedFigures != null)
         {
             htmlBuilder.append("<h2>Related Figures</h2>");
             htmlBuilder.append("<ul>");
-            for (String figure : this.historicalFiguresLinked) {
+            for (String figure : this.relatedFigures) {
                 htmlBuilder.append("<li>").append(figure).append("</li>");
             }
             htmlBuilder.append("</ul>");
@@ -84,6 +91,6 @@ public class EraModel extends Model
     public String toString() {
         return "\n{ \"Tên thời kỳ\":\"" + this.name + "\", "
                 + "\n\"Miêu tả\":\"" + this.description + "\", "
-                + "\n\"Nhân vật liên quan code\":\"" + this.historicalFiguresLinked + "\" }" + "\n";
+                + "\n\"Nhân vật liên quan code\":\"" + this.relatedFigures + "\" }" + "\n";
     }
 }

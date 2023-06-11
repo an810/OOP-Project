@@ -1,16 +1,13 @@
 package com.oop2.crawlers;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.oop2.models.EraModel;
 import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -18,11 +15,11 @@ import java.util.List;
 import java.util.Set;
 import com.oop2.models.Model;
 import com.oop2.interfaces.ICrawler;
-import com.oop2.models.HistoricalEvent;
+import com.oop2.models.EventModel;
 
 import static com.oop2.util.UrlDecode.getCodeFromUrl;
 
-public class HistoricalEventsCrawler extends SCrawler implements ICrawler {
+public class EventsCrawler extends SCrawler implements ICrawler {
     @Override
     public List<Model> crawlPages(String page) {
         // the URL of the target website's home page
@@ -56,6 +53,7 @@ public class HistoricalEventsCrawler extends SCrawler implements ICrawler {
             // building the complete URL of the next page
             completeUrl =  "https://nguoikesu.com" + relativeUrl;
             System.out.println(completeUrl);
+            String historicalEventCode = getCodeFromUrl(completeUrl);
 
             try {
                 doc = Jsoup
@@ -111,7 +109,7 @@ public class HistoricalEventsCrawler extends SCrawler implements ICrawler {
                 diaDiemLienQuan.add(getCodeFromUrl(name));
             }
 
-            Model skls = new HistoricalEvent(eventName, null, time, location, battleResult, nhanVatLienQuan, diaDiemLienQuan);
+            Model skls = new EventModel(eventName, historicalEventCode,null, time, location, battleResult, nhanVatLienQuan, diaDiemLienQuan);
             skls.setId(++id);
             historicalEvents.add(skls);
             // looking for the "Next →" HTML element in the new page
@@ -144,18 +142,6 @@ public class HistoricalEventsCrawler extends SCrawler implements ICrawler {
         return historicalEvents;
     }
 
-    @Override
-    public void writeJson(String fileName, List<Model> models)
-    {
-        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-        String json = gson.toJson(models);
-        try (FileWriter writer = new FileWriter(fileName)) {
-            writer.write(json);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
     public void createHistoricalEventsJson()
     {
         List<Model> historicalEvents = crawlPages(Config.EVENT_WEBPAGE);
@@ -169,8 +155,8 @@ public class HistoricalEventsCrawler extends SCrawler implements ICrawler {
 //        test.writeJson(Config.EVENT_FILENAME, historicalEvents);
 //        test.writeHTML(Config.EVENT_HTML, historicalEvents);
 
-        HistoricalEventsCrawler test = new HistoricalEventsCrawler();
-        List<EraModel> myList = test.loader(Config.EVENT_FILENAME,  new TypeToken<List<EraModel>>() {});
+        EventsCrawler test = new EventsCrawler();
+        List<EventModel> myList = test.loader(Config.EVENT_FILENAME,  new TypeToken<List<EventModel>>() {});
         List<Model> newList = new ArrayList<>();
         newList.addAll(myList);
         test.writeHTML(Config.EVENT_HTML, newList);

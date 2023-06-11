@@ -7,8 +7,8 @@ public class Main
     public static void main(String[] args)
     {
         Thread thread1 = new Thread(() -> {
-            ErasCrawler erasCrawler = new ErasCrawler();
-            erasCrawler.createErasJson();
+            PeriodsCrawler periodsCrawler = new PeriodsCrawler();
+            periodsCrawler.createErasJson();
         });
 
         Thread thread2 = new Thread(() -> {
@@ -17,18 +17,18 @@ public class Main
         });
 
         Thread thread3 = new Thread(() -> {
-            HistoricalDestinationsCrawler historicalDestinationsCrawler = new HistoricalDestinationsCrawler();
-            historicalDestinationsCrawler.createHistoricalDestinationJson();
+            PlacesCrawler placesCrawler = new PlacesCrawler();
+            placesCrawler.createHistoricalDestinationJson();
         });
 
         Thread thread4 = new Thread(() -> {
-            HistoricalEventsCrawler historicalEventsCrawler = new HistoricalEventsCrawler();
-            historicalEventsCrawler.createHistoricalEventsJson();
+            EventsCrawler eventsCrawler = new EventsCrawler();
+            eventsCrawler.createHistoricalEventsJson();
         });
 
         Thread thread5 = new Thread(() -> {
-            HistoricalFiguresCrawler historicalFiguresCrawler = new HistoricalFiguresCrawler();
-            historicalFiguresCrawler.createHistoricalFiguresJson();
+            FiguresCrawler figuresCrawler = new FiguresCrawler();
+            figuresCrawler.createHistoricalFiguresJson();
         });
 
         // Start all threads

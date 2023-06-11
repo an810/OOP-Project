@@ -4,7 +4,6 @@ import com.oop2.interfaces.ICrawler;
 import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
-import java.io.FileWriter;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -15,11 +14,9 @@ import com.oop2.models.Model;
 import java.util.HashSet;
 import java.util.Set;
 import com.oop2.models.EraModel;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-public class ErasCrawler extends SCrawler implements ICrawler {
+public class PeriodsCrawler extends SCrawler implements ICrawler {
     public List<Model> crawlPages(String page) {
         String baseUrl = page;
         String thoiKyUrl = "/dong-lich-su";
@@ -132,17 +129,6 @@ public class ErasCrawler extends SCrawler implements ICrawler {
         return hrefs;
     }
 
-    public void writeJson(String fileName, List<Model> models)
-    {
-        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-        String json = gson.toJson(models);
-        try (FileWriter writer = new FileWriter(fileName)) {
-            writer.write(json);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
     public void createErasJson()
     {
         List<Model> models = crawlPages(Config.ERA_WEBPAGE);
@@ -159,7 +145,7 @@ public class ErasCrawler extends SCrawler implements ICrawler {
 
     // Testing
     public static void main(String[] args) {
-        ErasCrawler test = new ErasCrawler();
+        PeriodsCrawler test = new PeriodsCrawler();
 //        List<Model> models = test.crawlPages(Config.ERA_WEBPAGE);
 //        test.writeJson(Config.ERA_FILENAME, models);
 
@@ -168,5 +154,4 @@ public class ErasCrawler extends SCrawler implements ICrawler {
         newList.addAll(myList);
         test.writeHTML(Config.ERA_HTML, newList);
     }
-
 }

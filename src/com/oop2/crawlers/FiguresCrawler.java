@@ -1,14 +1,9 @@
 package com.oop2.crawlers;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.oop2.interfaces.ICrawler;
-import com.oop2.models.EraModel;
-import com.oop2.models.HistoricalFigureModel;
+import com.oop2.models.FigureModel;
 import com.oop2.models.Model;
-import java.io.FileWriter;
-
 import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
@@ -19,7 +14,7 @@ import java.io.IOException;
 import java.util.*;
 
 
-public class HistoricalFiguresCrawler extends SCrawler implements ICrawler {
+public class FiguresCrawler extends SCrawler implements ICrawler {
 
     public List<Model> crawlPages(String page) {
         String baseUrl = page;
@@ -123,7 +118,7 @@ public class HistoricalFiguresCrawler extends SCrawler implements ICrawler {
             }
 
             // Add scapred nhanvat to list
-            Model nhanVat = new HistoricalFigureModel(name, description, historicalFigureCode, infobox,
+            Model nhanVat = new FigureModel(name, description, historicalFigureCode, infobox,
                     historicalFiguresLinked, historicalDestinationsLinked, historicalErasLinked);
             historicalFigureList.add(nhanVat);
 
@@ -201,23 +196,18 @@ public class HistoricalFiguresCrawler extends SCrawler implements ICrawler {
 //        }
 //    }
 
-    @Override
-    public void writeJson(String fileName, List<Model> models)
-    {
-        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-        String json = gson.toJson(models);
-        try (FileWriter writer = new FileWriter(fileName)) {
-            writer.write(json);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
     public void createHistoricalFiguresJson()
     {
         List<Model> figures = crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);
         writeJson(Config.HISTORICAL_FIGURE_FILENAME, figures);
     }
+
+    public void linkToEra()
+    {
+
+    }
+
+
 
     public static void main(String[] args) {
 //        HistoricalFiguresCrawler test = new HistoricalFiguresCrawler();
@@ -225,8 +215,8 @@ public class HistoricalFiguresCrawler extends SCrawler implements ICrawler {
 //        test.writeJson(Config.HISTORICAL_FIGURE_FILENAME, figures);
 //        test.writeHTML(Config.HISTORICAL_FIGURE_HTML, figures);
 
-        HistoricalFiguresCrawler test = new HistoricalFiguresCrawler();
-        List<EraModel> myList = test.loader(Config.HISTORICAL_FIGURE_FILENAME,  new TypeToken<List<EraModel>>() {});
+        FiguresCrawler test = new FiguresCrawler();
+        List<FigureModel> myList = test.loader(Config.HISTORICAL_FIGURE_FILENAME,  new TypeToken<List<FigureModel>>() {});
         List<Model> newList = new ArrayList<>();
         newList.addAll(myList);
         test.writeHTML(Config.HISTORICAL_FIGURE_HTML, newList);

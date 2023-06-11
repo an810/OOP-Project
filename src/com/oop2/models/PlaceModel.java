@@ -3,24 +3,24 @@ package com.oop2.models;
 import java.util.List;
 import java.util.Set;
 
-public class HistoricalDestination extends Model{
-    private String historicalDestinationCode;
-    private Set<String> historicalFiguresLinked;
-    public HistoricalDestination(String name, List<String> description, String historicalDestinationCode, Set<String> historicalFiguresLinked)
+public class PlaceModel extends Model{
+    private String placeCode;
+    private Set<String> relatedFigures;
+    public PlaceModel(String name, List<String> description, String placeCode, Set<String> relatedFigures)
     {
         super(name, description);
-        setHistoricalDestinationCode(historicalDestinationCode);
-        setHistoricalFiguresLinked(historicalFiguresLinked);
+        setPlaceCode(placeCode);
+        setRelatedFigures(relatedFigures);
     }
 
-    public void setHistoricalFiguresLinked(Set<String> historicalFiguresLinked)
+    public void setRelatedFigures(Set<String> relatedFigures)
     {
-        this.historicalFiguresLinked = historicalFiguresLinked;
+        this.relatedFigures = relatedFigures;
     }
 
-    public void setHistoricalDestinationCode(String historicalDestinationCode)
+    public void setPlaceCode(String placeCode)
     {
-        this.historicalDestinationCode = historicalDestinationCode;
+        this.placeCode = placeCode;
     }
 
     @Override
@@ -61,7 +61,7 @@ public class HistoricalDestination extends Model{
         // Add the related figures
         htmlBuilder.append("<h2>Related Figures</h2>");
         htmlBuilder.append("<ul>");
-        for (String figure : this.historicalFiguresLinked) {
+        for (String figure : this.relatedFigures) {
             htmlBuilder.append("<li>").append(figure).append("</li>");
         }
         htmlBuilder.append("</ul>");
@@ -77,8 +77,8 @@ public class HistoricalDestination extends Model{
     public String toString() {
         return  "\n{ \"Id\":\"" + this.id + "\", "
                 + "\n\"Địa danh\":\"" + this.name + "\", "
-                + "\n\"Code\":\"" + this.historicalDestinationCode + "\", "
+                + "\n\"Code\":\"" + this.placeCode + "\", "
                 + "\n\"Miêu tả\":\"" + this.description + "\", "
-                + "\n\"Nhân vật liên quan code\":\"" + this.historicalFiguresLinked + "\" }" + "\n";
+                + "\n\"Nhân vật liên quan code\":\"" + this.relatedFigures + "\" }" + "\n";
     }
 }

@@ -3,21 +3,32 @@ package com.oop2.models;
 import java.util.Set;
 import java.util.List;
 
-public class HistoricalEvent extends Model {
+public class EventModel extends Model {
     private String time;
     private String location;
     private String battleResult;
-    private Set<String> historicalFiguresLinked;
-    private Set<String> historicalDestinationsLinked;
+    private String eventCode;
 
-    public HistoricalEvent(String name, List<String> description, String time, String location, String battleResult
-            , Set<String> historicalFiguresLinked, Set<String> historicalDestinationsLinked) {
+    public String getEventCode() {
+        return eventCode;
+    }
+
+    public void setEventCode(String eventCode) {
+        this.eventCode = eventCode;
+    }
+
+    private Set<String> relatedFigures;
+    private Set<String> relatedPlaces;
+
+    public EventModel(String name, String eventCode, List<String> description, String time, String location, String battleResult
+            , Set<String> relatedFigures, Set<String> relatedPlaces) {
         super(name, description);
+        setEventCode(eventCode);
         setTime(time);
         setLocation(location);
         setBattleResult(battleResult);
-        setHistoricalFiguresLinked(historicalFiguresLinked);
-        setHistoricalDestinationsLinked(historicalDestinationsLinked);
+        setRelatedFigures(relatedFigures);
+        setRelatedPlaces(relatedPlaces);
     }
 
     public void setTime(String time) {
@@ -32,12 +43,12 @@ public class HistoricalEvent extends Model {
         this.battleResult = battleResult;
     }
 
-    public void setHistoricalFiguresLinked(Set<String> historicalFiguresLinked) {
-        this.historicalFiguresLinked = historicalFiguresLinked;
+    public void setRelatedFigures(Set<String> relatedFigures) {
+        this.relatedFigures = relatedFigures;
     }
 
-    public void setHistoricalDestinationsLinked(Set<String> historicalDestinationsLinked) {
-        this.historicalDestinationsLinked = historicalDestinationsLinked;
+    public void setRelatedPlaces(Set<String> relatedPlaces) {
+        this.relatedPlaces = relatedPlaces;
     }
 
     @Override
@@ -78,7 +89,7 @@ public class HistoricalEvent extends Model {
         // Add the related figures
         htmlBuilder.append("<h2>Related Figures</h2>");
         htmlBuilder.append("<ul>");
-        for (String figure : this.historicalFiguresLinked) {
+        for (String figure : this.relatedFigures) {
             htmlBuilder.append("<li>").append(figure).append("</li>");
         }
         htmlBuilder.append("</ul>");
@@ -86,7 +97,7 @@ public class HistoricalEvent extends Model {
         // Add the related places
         htmlBuilder.append("<h2>Related Places</h2>");
         htmlBuilder.append("<ul>");
-        for (String place : this.historicalDestinationsLinked) {
+        for (String place : this.relatedPlaces) {
             htmlBuilder.append("<li>").append(place).append("</li>");
         }
         htmlBuilder.append("</ul>");
@@ -105,7 +116,7 @@ public class HistoricalEvent extends Model {
                 + "\n\"Thời gian\":\"" + this.time + "\", "
                 + "\n\"Địa điểm\":\"" + this.location + "\", "
                 + "\n\"kết quả\":\"" + this.battleResult + "\", "
-                + "\n\"Nhân vật liên quan code\":\"" + this.historicalFiguresLinked + "\", "
-                + "\n\"Địa điểm liên quan code\":\"" + this.historicalDestinationsLinked + "\" }" + "\n";
+                + "\n\"Nhân vật liên quan code\":\"" + this.relatedFigures + "\", "
+                + "\n\"Địa điểm liên quan code\":\"" + this.relatedPlaces + "\" }" + "\n";
     }
 }

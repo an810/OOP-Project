@@ -45,4 +45,15 @@ public abstract class SCrawler
             e.printStackTrace();
         }
     }
+
+    public void writeJson(String fileName, List<Model> models)
+    {
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+        String json = gson.toJson(models);
+        try (FileWriter writer = new FileWriter(fileName)) {
+            writer.write(json);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
