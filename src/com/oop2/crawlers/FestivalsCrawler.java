@@ -1,15 +1,12 @@
 package com.oop2.crawlers;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.oop2.models.EraModel;
-import com.oop2.superCrawler.SCrawler;
+import com.oop2.supers.SCrawler;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;

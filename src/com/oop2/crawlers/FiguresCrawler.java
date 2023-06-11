@@ -4,7 +4,7 @@ import com.google.gson.reflect.TypeToken;
 import com.oop2.interfaces.ICrawler;
 import com.oop2.models.FigureModel;
 import com.oop2.models.Model;
-import com.oop2.superCrawler.SCrawler;
+import com.oop2.supers.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

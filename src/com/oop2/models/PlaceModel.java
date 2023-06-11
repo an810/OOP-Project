@@ -6,11 +6,15 @@ import java.util.Set;
 public class PlaceModel extends Model{
     private String placeCode;
     private Set<String> relatedFigures;
-    public PlaceModel(String name, List<String> description, String placeCode, Set<String> relatedFigures)
+    private Set<String> relatedPeriod;
+
+    public PlaceModel(String name, List<String> description
+            , String placeCode, Set<String> relatedFigures, Set<String> relatedPeriod)
     {
         super(name, description);
         setPlaceCode(placeCode);
         setRelatedFigures(relatedFigures);
+        setRelatedPeriod(relatedPeriod);
     }
 
     public void setRelatedFigures(Set<String> relatedFigures)
@@ -21,6 +25,18 @@ public class PlaceModel extends Model{
     public void setPlaceCode(String placeCode)
     {
         this.placeCode = placeCode;
+    }
+
+    public void setRelatedPeriod(Set<String> relatedPeriod) {
+        this.relatedPeriod = relatedPeriod;
+    }
+
+    public String getPlaceCode() {
+        return placeCode;
+    }
+
+    public Set<String> getRelatedPeriod() {
+        return relatedPeriod;
     }
 
     @Override

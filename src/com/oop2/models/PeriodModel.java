@@ -2,7 +2,7 @@ package com.oop2.models;
 
 import java.util.*;
 
-public class EraModel extends Model
+public class PeriodModel extends Model
 {
     private String code;
     private Set<String> relatedFigures;
@@ -12,7 +12,7 @@ public class EraModel extends Model
         return new ArrayList<>(this.relatedFigures);
     }
 
-    public EraModel(String name, List<String> description, String code, Set<String> relatedFigures
+    public PeriodModel(String name, List<String> description, String code, Set<String> relatedFigures
             , Set<String> relatedPlaces)
     {
         super(name, description);
@@ -92,5 +92,9 @@ public class EraModel extends Model
         return "\n{ \"Tên thời kỳ\":\"" + this.name + "\", "
                 + "\n\"Miêu tả\":\"" + this.description + "\", "
                 + "\n\"Nhân vật liên quan code\":\"" + this.relatedFigures + "\" }" + "\n";
+    }
+
+    public Set<String> getRelatedPlaces() {
+        return relatedPlaces;
     }
 }

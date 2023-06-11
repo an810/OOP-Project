@@ -4,13 +4,12 @@ import com.google.gson.reflect.TypeToken;
 import com.oop2.interfaces.ICrawler;
 import com.oop2.models.PlaceModel;
 import com.oop2.models.Model;
-import com.oop2.superCrawler.SCrawler;
+import com.oop2.supers.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -99,14 +98,14 @@ public class PlacesCrawler extends SCrawler implements ICrawler {
             }
 
             // Relative person
-            Set<String> nhanVatLienQuan = new HashSet<>();
+            Set<String> relatedFigures = new HashSet<>();
             Elements refElements = desElements.select("a[href*=/nhan-vat/]");
             for (Element refElement : refElements) {
                 String name = refElement.attr("href");
-                nhanVatLienQuan.add(getCodeFromUrl(name));
+                relatedFigures.add(getCodeFromUrl(name));
             }
 
-            Model destination =  new PlaceModel(title, texts, getCodeFromUrl(completeUrl), nhanVatLienQuan);
+            Model destination =  new PlaceModel(title, texts, getCodeFromUrl(completeUrl), relatedFigures, null);
             destination.setId(++id);
             destinationList.add(destination);
             nextElements = doc.select("a.btn.btn-sm.btn-secondary.next");

@@ -1,4 +1,4 @@
-package com.oop2.superCrawler;
+package com.oop2.supers;
 
 import com.oop2.models.Model;
 import java.io.FileWriter;

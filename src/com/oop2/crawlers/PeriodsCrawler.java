@@ -1,7 +1,7 @@
 package com.oop2.crawlers;
 
 import com.oop2.interfaces.ICrawler;
-import com.oop2.superCrawler.SCrawler;
+import com.oop2.supers.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -13,7 +13,7 @@ import java.util.List;
 import com.oop2.models.Model;
 import java.util.HashSet;
 import java.util.Set;
-import com.oop2.models.EraModel;
+import com.oop2.models.PeriodModel;
 import com.google.gson.reflect.TypeToken;
 
 public class PeriodsCrawler extends SCrawler implements ICrawler {
@@ -92,7 +92,7 @@ public class PeriodsCrawler extends SCrawler implements ICrawler {
                 }
             }
 
-            Model era = new EraModel(eraName, description, eraCode
+            Model era = new PeriodModel(eraName, description, eraCode
                     , historicalFiguresLinked, historicalDestinationsLinked);
             era.setId(++id);
             eraList.add(era);
@@ -137,7 +137,7 @@ public class PeriodsCrawler extends SCrawler implements ICrawler {
 
     public void createErasHTML()
     {
-        List<EraModel> myList = loader(Config.ERA_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<PeriodModel> myList = loader(Config.ERA_FILENAME,  new TypeToken<List<PeriodModel>>() {});
         List<Model> newList = new ArrayList<>();
         newList.addAll(myList);
         writeHTML(Config.ERA_HTML, newList);
@@ -149,7 +149,7 @@ public class PeriodsCrawler extends SCrawler implements ICrawler {
 //        List<Model> models = test.crawlPages(Config.ERA_WEBPAGE);
 //        test.writeJson(Config.ERA_FILENAME, models);
 
-        List<EraModel> myList = test.loader(Config.ERA_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<PeriodModel> myList = test.loader(Config.ERA_FILENAME,  new TypeToken<List<PeriodModel>>() {});
         List<Model> newList = new ArrayList<>();
         newList.addAll(myList);
         test.writeHTML(Config.ERA_HTML, newList);

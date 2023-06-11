@@ -2,6 +2,7 @@
   {
     "placeCode": "bien-ho",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 1,
     "name": "Biển Hồ",
     "description": []
@@ -22,6 +23,7 @@
       "pham-ho-dat",
       "ly-bi"
     ],
+    "relatedPeriod": [],
     "id": 2,
     "name": "bộ Giao Chỉ",
     "description": [
@@ -34,6 +36,10 @@
       "nha-duong",
       "vu-de"
     ],
+    "relatedPeriod": [
+      "nha-ly-va-nha-trieu",
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 3,
     "name": "bộ Lại",
     "description": [
@@ -43,6 +49,7 @@
   {
     "placeCode": "bo-van-lang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 4,
     "name": "bộ Văn Lang",
     "description": [
@@ -52,6 +59,9 @@
   {
     "placeCode": "bo-vu-ninh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "hong-bang-va-van-lang"
+    ],
     "id": 5,
     "name": "bộ Vũ Ninh",
     "description": [
@@ -63,6 +73,9 @@
     "relatedFigures": [
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 6,
     "name": "cầu Bông",
     "description": [
@@ -72,6 +85,10 @@
   {
     "placeCode": "cau-den",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "nam-bac-trieu"
+    ],
     "id": 7,
     "name": "Cầu Dền",
     "description": [
@@ -81,6 +98,9 @@
   {
     "placeCode": "cau-duong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 8,
     "name": "Cầu Đuống",
     "description": [
@@ -90,6 +110,9 @@
   {
     "placeCode": "cau-giay",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 9,
     "name": "Cầu Giấy",
     "description": [
@@ -100,6 +123,9 @@
     "placeCode": "cau-go",
     "relatedFigures": [
       "dinh-liet"
+    ],
+    "relatedPeriod": [
+      "nam-bac-trieu"
     ],
     "id": 10,
     "name": "Cầu Gỗ",
@@ -112,6 +138,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 11,
     "name": "Cầu Kho",
     "description": [
@@ -121,6 +148,7 @@
   {
     "placeCode": "cau-long-bien",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 12,
     "name": "cầu Long Biên",
     "description": [
@@ -134,6 +162,7 @@
       "le-thanh-ton",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 13,
     "name": "cầu Nguyễn Hoàng",
     "description": [
@@ -143,6 +172,9 @@
   {
     "placeCode": "cau-thi-nghe",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 14,
     "name": "cầu Thị Nghè",
     "description": [
@@ -156,6 +188,7 @@
       "le-thanh-ton",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 15,
     "name": "cầu Tràng Tiền",
     "description": [
@@ -167,6 +200,7 @@
     "relatedFigures": [
       "ngo-quyen"
     ],
+    "relatedPeriod": [],
     "id": 16,
     "name": "Cầu Tre",
     "description": [
@@ -187,6 +221,12 @@
       "le-thai-to",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly",
+      "nha-hau-le",
+      "bac-thuoc-lan-thu-ba"
+    ],
     "id": 17,
     "name": "châu Ái",
     "description": [
@@ -196,6 +236,11 @@
   {
     "placeCode": "chau-au",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc",
+      "nha-tay-son"
+    ],
     "id": 18,
     "name": "châu Âu",
     "description": [
@@ -211,6 +256,9 @@
       "nha-hau-le",
       "ly-thai-tong"
     ],
+    "relatedPeriod": [
+      "nha-ly-va-nha-trieu"
+    ],
     "id": 19,
     "name": "châu Cửu Đức",
     "description": [
@@ -221,6 +269,9 @@
     "placeCode": "chau-dien",
     "relatedFigures": [
       "nha-hau-le"
+    ],
+    "relatedPeriod": [
+      "nha-tran"
     ],
     "id": 20,
     "name": "Châu Diễn",
@@ -238,6 +289,9 @@
       "nguyen-cu-trinh",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [
+      "nha-tay-son"
+    ],
     "id": 21,
     "name": "Châu Đốc",
     "description": [
@@ -250,6 +304,10 @@
       "nha-tran",
       "nha-dong-tan",
       "tran-anh-tong"
+    ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-le"
     ],
     "id": 22,
     "name": "châu Hóa",
@@ -266,6 +324,15 @@
       "nha-hau-le",
       "ly-thai-tong"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly",
+      "nha-hau-le",
+      "nam-bac-trieu",
+      "bac-thuoc-lan-thu-ba",
+      "nha-dinh",
+      "nha-tien-le"
+    ],
     "id": 23,
     "name": "châu Hoan",
     "description": [
@@ -275,6 +342,9 @@
   {
     "placeCode": "chau-hong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tien-le"
+    ],
     "id": 24,
     "name": "Châu Hồng",
     "description": [
@@ -284,6 +354,7 @@
   {
     "placeCode": "chau-hong-ha",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 25,
     "name": "châu Hồng Hà",
     "description": [
@@ -293,6 +364,9 @@
   {
     "placeCode": "chau-lam",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 26,
     "name": "Châu Lâm",
     "description": [
@@ -306,6 +380,7 @@
       "nha-dong-tan",
       "tran-anh-tong"
     ],
+    "relatedPeriod": [],
     "id": 27,
     "name": "Châu Lý",
     "description": [
@@ -315,6 +390,7 @@
   {
     "placeCode": "chau-my",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 28,
     "name": "châu Mỹ",
     "description": [
@@ -330,6 +406,10 @@
       "nha-hau-le",
       "ly-thai-tong"
     ],
+    "relatedPeriod": [
+      "nha-hau-tran",
+      "nha-ly"
+    ],
     "id": 29,
     "name": "châu Nghệ An",
     "description": [
@@ -339,6 +419,10 @@
   {
     "placeCode": "chau-phi",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc"
+    ],
     "id": 30,
     "name": "châu Phi",
     "description": [
@@ -348,6 +432,10 @@
   {
     "placeCode": "chau-phong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly",
+      "nha-tien-le"
+    ],
     "id": 31,
     "name": "châu Phong",
     "description": []
@@ -355,6 +443,7 @@
   {
     "placeCode": "chau-son",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 32,
     "name": "Châu Sơn",
     "description": [
@@ -364,6 +453,9 @@
   {
     "placeCode": "chau-thai",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-nhat"
+    ],
     "id": 33,
     "name": "châu Thái",
     "description": [
@@ -373,6 +465,7 @@
   {
     "placeCode": "chau-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 34,
     "name": "Châu Thành",
     "description": [
@@ -382,6 +475,10 @@
   {
     "placeCode": "chau-thuan",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-le"
+    ],
     "id": 35,
     "name": "châu Thuận",
     "description": [
@@ -400,6 +497,10 @@
       "le-trang-tong",
       "le-duy-ninh"
     ],
+    "relatedPeriod": [
+      "nha-ly",
+      "au-lac-va-nam-viet"
+    ],
     "id": 36,
     "name": "châu Vũ Ninh",
     "description": [
@@ -412,6 +513,7 @@
       "vo-nguyen-giap",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 37,
     "name": "Chiến khu Tân Trào",
     "description": [
@@ -428,6 +530,7 @@
       "le-dai-hanh",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 38,
     "name": "chùa Am Tiên",
     "description": [
@@ -437,6 +540,7 @@
   {
     "placeCode": "chua-ba-ngo",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 39,
     "name": "Chùa Bà Ngô",
     "description": []
@@ -455,6 +559,7 @@
       "nha-tien-le",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 40,
     "name": "chùa Bái Đính",
     "description": [
@@ -465,6 +570,9 @@
     "placeCode": "chua-bao-an",
     "relatedFigures": [
       "nha-tran"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 41,
     "name": "chùa Báo Ân",
@@ -481,6 +589,7 @@
       "nguyen-quang-toan",
       "le-hy-tong"
     ],
+    "relatedPeriod": [],
     "id": 42,
     "name": "chùa Bộc",
     "description": [
@@ -490,6 +599,7 @@
   {
     "placeCode": "chua-cao",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 43,
     "name": "chùa Cao",
     "description": [
@@ -504,6 +614,7 @@
       "nguyen-tri-phuong",
       "nguyen-thong"
     ],
+    "relatedPeriod": [],
     "id": 44,
     "name": "chùa Cây Mai",
     "description": [
@@ -513,6 +624,9 @@
   {
     "placeCode": "chua-chan-tien",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 45,
     "name": "Chùa Chân Tiên",
     "description": []
@@ -527,6 +641,7 @@
       "nguyen-thu-tiep",
       "tran-dang-ninh"
     ],
+    "relatedPeriod": [],
     "id": 46,
     "name": "chùa Cổ Pháp",
     "description": [
@@ -546,6 +661,9 @@
       "tran-due-tong",
       "pham-bach-ho"
     ],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 47,
     "name": "chùa Côn Sơn",
     "description": [
@@ -559,6 +677,7 @@
       "nha-ly",
       "ly-nhan-tong"
     ],
+    "relatedPeriod": [],
     "id": 48,
     "name": "chùa Dạm",
     "description": [
@@ -574,6 +693,7 @@
       "tran-anh-tong",
       "nha-han"
     ],
+    "relatedPeriod": [],
     "id": 49,
     "name": "chùa Dâu",
     "description": [
@@ -598,6 +718,11 @@
       "dinh-xuan-lam",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly",
+      "nha-hau-le"
+    ],
     "id": 50,
     "name": "chùa Diên Hựu",
     "description": [
@@ -614,6 +739,7 @@
       "le-dai-hanh",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 51,
     "name": "chùa Duyên Ninh",
     "description": [
@@ -625,6 +751,7 @@
     "relatedFigures": [
       "le-hoan"
     ],
+    "relatedPeriod": [],
     "id": 52,
     "name": "chùa Đẩu Long",
     "description": [
@@ -645,6 +772,7 @@
       "tran-anh-tong",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 53,
     "name": "chùa Đức La",
     "description": [
@@ -657,6 +785,7 @@
       "nha-tran",
       "tran-nhan-tong"
     ],
+    "relatedPeriod": [],
     "id": 54,
     "name": "Chùa Hồ Thiên",
     "description": [
@@ -672,6 +801,7 @@
       "tran-anh-tong",
       "nha-hau-le"
     ],
+    "relatedPeriod": [],
     "id": 55,
     "name": "chùa Hoa Yên",
     "description": [
@@ -687,6 +817,7 @@
       "pham-quynh",
       "trinh-sam"
     ],
+    "relatedPeriod": [],
     "id": 56,
     "name": "Chùa Hương",
     "description": [
@@ -696,6 +827,7 @@
   {
     "placeCode": "chua-keo",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 57,
     "name": "chùa Keo",
     "description": [
@@ -713,6 +845,7 @@
       "ngo-dinh-diem",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 58,
     "name": "chùa Khải Tường",
     "description": [
@@ -728,6 +861,9 @@
       "le-dai-hanh",
       "ly-hue-tong"
     ],
+    "relatedPeriod": [
+      "hong-bang-va-van-lang"
+    ],
     "id": 59,
     "name": "chùa Kiến Sơ",
     "description": [
@@ -739,6 +875,7 @@
     "relatedFigures": [
       "le-dai-hanh"
     ],
+    "relatedPeriod": [],
     "id": 60,
     "name": "chùa Kim Ngân",
     "description": [
@@ -750,6 +887,7 @@
     "relatedFigures": [
       "tran-nhan-tong"
     ],
+    "relatedPeriod": [],
     "id": 61,
     "name": "chùa Lân",
     "description": [
@@ -764,6 +902,7 @@
       "nha-hau-le",
       "ly-nhan-tong"
     ],
+    "relatedPeriod": [],
     "id": 62,
     "name": "chùa Láng",
     "description": [
@@ -773,6 +912,9 @@
   {
     "placeCode": "chua-loi-am",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 63,
     "name": "chùa Lôi Âm",
     "description": [
@@ -784,6 +926,9 @@
     "relatedFigures": [
       "nha-minh",
       "ly-cong-uan",
+      "nha-ly"
+    ],
+    "relatedPeriod": [
       "nha-ly"
     ],
     "id": 64,
@@ -810,6 +955,7 @@
       "dinh-xuan-lam",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 65,
     "name": "chùa Một Cột",
     "description": [
@@ -827,6 +973,7 @@
       "le-dai-hanh",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 66,
     "name": "chùa Nhất Trụ",
     "description": [
@@ -836,6 +983,7 @@
   {
     "placeCode": "chua-pha-lai",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 67,
     "name": "chùa Phả Lại",
     "description": [
@@ -845,6 +993,10 @@
   {
     "placeCode": "chua-phap-van",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly",
+      "nha-hau-le"
+    ],
     "id": 68,
     "name": "chùa Pháp Vân",
     "description": []
@@ -861,6 +1013,9 @@
       "nguyen-trai",
       "le-hy-tong"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 69,
     "name": "chùa Phật Tích",
     "description": [
@@ -870,6 +1025,9 @@
   {
     "placeCode": "chua-phi-lai",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 70,
     "name": "chùa Phi Lai",
     "description": [
@@ -883,6 +1041,9 @@
       "tran-nhan-tong",
       "nha-ly"
     ],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 71,
     "name": "chùa Phổ Minh",
     "description": [
@@ -892,6 +1053,9 @@
   {
     "placeCode": "chua-quynh-lam",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 72,
     "name": "chùa Quỳnh Lâm",
     "description": []
@@ -903,6 +1067,7 @@
       "nha-tay-son",
       "le-than-tong"
     ],
+    "relatedPeriod": [],
     "id": 73,
     "name": "chùa Tây Phương",
     "description": [
@@ -914,6 +1079,7 @@
     "relatedFigures": [
       "tran-nhan-tong"
     ],
+    "relatedPeriod": [],
     "id": 74,
     "name": "Chùa Thanh Mai",
     "description": [
@@ -923,6 +1089,7 @@
   {
     "placeCode": "chua-thap",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 75,
     "name": "chùa Tháp",
     "description": []
@@ -941,6 +1108,7 @@
       "nha-dinh",
       "ly-nhan-tong"
     ],
+    "relatedPeriod": [],
     "id": 76,
     "name": "chùa Thầy",
     "description": [
@@ -955,6 +1123,9 @@
       "ngo-dinh-diem",
       "thanh-thai"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 77,
     "name": "chùa Thiên Mụ",
     "description": [
@@ -964,6 +1135,7 @@
   {
     "placeCode": "chua-tram",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 78,
     "name": "chùa Trầm",
     "description": [
@@ -982,6 +1154,9 @@
       "nguyen-trai",
       "le-hy-tong"
     ],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 79,
     "name": "chùa Vạn Phúc",
     "description": [
@@ -991,6 +1166,7 @@
   {
     "placeCode": "chua-vinh-nghiem",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 80,
     "name": "chùa Vĩnh Nghiêm",
     "description": []
@@ -1004,6 +1180,7 @@
       "tran-anh-tong",
       "nha-hau-le"
     ],
+    "relatedPeriod": [],
     "id": 81,
     "name": "chùa Yên Tử",
     "description": [
@@ -1047,6 +1224,7 @@
       "nha-tien-le",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 82,
     "name": "Cố đô Hoa Lư",
     "description": [
@@ -1065,6 +1243,7 @@
       "ngo-viet-thu",
       "vu-dang-toan"
     ],
+    "relatedPeriod": [],
     "id": 83,
     "name": "Dinh Độc Lập",
     "description": [
@@ -1074,6 +1253,9 @@
   {
     "placeCode": "duong-ha",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 84,
     "name": "Dương Hà",
     "description": [
@@ -1085,6 +1267,10 @@
     "relatedFigures": [
       "pham-van-dong"
     ],
+    "relatedPeriod": [
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 85,
     "name": "Dương Kinh",
     "description": [
@@ -1094,6 +1280,7 @@
   {
     "placeCode": "duong-lang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 86,
     "name": "Dương Lăng",
     "description": [
@@ -1103,6 +1290,9 @@
   {
     "placeCode": "duong-minh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 87,
     "name": "Dương Minh",
     "description": [
@@ -1115,6 +1305,9 @@
       "nha-thanh",
       "nha-han"
     ],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 88,
     "name": "Dương Nguyên",
     "description": [
@@ -1124,6 +1317,9 @@
   {
     "placeCode": "duong-quan",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 89,
     "name": "Dương Quan",
     "description": [
@@ -1133,6 +1329,10 @@
   {
     "placeCode": "duong-son",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly",
+      "au-lac-va-nam-viet"
+    ],
     "id": 90,
     "name": "Dương Sơn",
     "description": []
@@ -1140,6 +1340,9 @@
   {
     "placeCode": "duong-tuyen",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "hong-bang-va-van-lang"
+    ],
     "id": 91,
     "name": "Dương Tuyền",
     "description": [
@@ -1149,6 +1352,9 @@
   {
     "placeCode": "duong-xuyen",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 92,
     "name": "Dương Xuyên",
     "description": [
@@ -1158,6 +1364,7 @@
   {
     "placeCode": "dao-ba-binh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 93,
     "name": "đảo Ba Bình",
     "description": [
@@ -1167,6 +1374,7 @@
   {
     "placeCode": "dao-co-lin",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 94,
     "name": "đảo Cô Lin",
     "description": [
@@ -1176,6 +1384,7 @@
   {
     "placeCode": "dao-con-lon",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 95,
     "name": "đảo Côn Lôn",
     "description": [
@@ -1185,6 +1394,7 @@
   {
     "placeCode": "dao-gac-ma",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 96,
     "name": "đảo Gạc Ma",
     "description": [
@@ -1194,6 +1404,7 @@
   {
     "placeCode": "dao-guam",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 97,
     "name": "đảo Guam",
     "description": [
@@ -1203,6 +1414,7 @@
   {
     "placeCode": "dao-hai-nam",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 98,
     "name": "đảo Hải Nam",
     "description": [
@@ -1212,6 +1424,7 @@
   {
     "placeCode": "dao-hong-kong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 99,
     "name": "đảo Hồng Kông",
     "description": [
@@ -1221,6 +1434,7 @@
   {
     "placeCode": "dao-loai-ta",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 100,
     "name": "đảo Loại Ta",
     "description": [
@@ -1230,6 +1444,7 @@
   {
     "placeCode": "dao-midway",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 101,
     "name": "đảo Midway",
     "description": [
@@ -1239,6 +1454,7 @@
   {
     "placeCode": "dao-nam-yet",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 102,
     "name": "đảo Nam Yết",
     "description": [
@@ -1248,6 +1464,7 @@
   {
     "placeCode": "dao-phu-lam",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 103,
     "name": "đảo Phú Lâm",
     "description": [
@@ -1257,6 +1474,7 @@
   {
     "placeCode": "dao-phu-quoc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 104,
     "name": "đảo Phú Quốc",
     "description": [
@@ -1269,6 +1487,7 @@
       "ho-chi-minh",
       "tran-dang-khoa"
     ],
+    "relatedPeriod": [],
     "id": 105,
     "name": "đảo Sinh Tồn",
     "description": [
@@ -1280,6 +1499,7 @@
     "relatedFigures": [
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 106,
     "name": "đảo Song Tử Tây",
     "description": [
@@ -1289,6 +1509,7 @@
   {
     "placeCode": "dao-thi-tu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 107,
     "name": "đảo Thị Tứ",
     "description": [
@@ -1303,6 +1524,7 @@
       "nguyen-lu",
       "nguyen-phuc-chu"
     ],
+    "relatedPeriod": [],
     "id": 108,
     "name": "đảo Thổ Chu",
     "description": [
@@ -1322,6 +1544,7 @@
       "tran-anh-tong",
       "tran-hien-tong"
     ],
+    "relatedPeriod": [],
     "id": 109,
     "name": "Đền An Sinh",
     "description": [
@@ -1339,6 +1562,9 @@
       "dinh-lien",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 110,
     "name": "đền Đinh Tiên Hoàng",
     "description": [
@@ -1348,6 +1574,7 @@
   {
     "placeCode": "den-dong-co",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 111,
     "name": "đền Đồng Cổ",
     "description": [
@@ -1357,6 +1584,9 @@
   {
     "placeCode": "den-hai-ba",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 112,
     "name": "đền Hai Bà",
     "description": [
@@ -1366,6 +1596,7 @@
   {
     "placeCode": "den-hai-ba-trung",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 113,
     "name": "Đền Hai Bà Trưng",
     "description": [
@@ -1383,6 +1614,7 @@
       "nha-dinh",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 114,
     "name": "Đền Hùng",
     "description": [
@@ -1397,6 +1629,7 @@
       "nguyen-trai",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 115,
     "name": "đền Kiếp Bạc",
     "description": [
@@ -1415,6 +1648,7 @@
       "le-trung-tong",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 116,
     "name": "đền Lăng",
     "description": [
@@ -1426,6 +1660,7 @@
     "relatedFigures": [
       "le-thanh-tong"
     ],
+    "relatedPeriod": [],
     "id": 117,
     "name": "Đền Mẫu Âu Cơ",
     "description": [
@@ -1442,6 +1677,7 @@
       "nguyen-van-sieu",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 118,
     "name": "Đền Ngọc Sơn",
     "description": [
@@ -1453,6 +1689,7 @@
     "relatedFigures": [
       "ly-thai-to"
     ],
+    "relatedPeriod": [],
     "id": 119,
     "name": "Đền Phù Đổng",
     "description": [
@@ -1467,6 +1704,7 @@
       "tran-thua",
       "tran-thai-tong"
     ],
+    "relatedPeriod": [],
     "id": 120,
     "name": "Đền Thái",
     "description": [
@@ -1487,6 +1725,7 @@
       "tran-hung-dao",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 121,
     "name": "Đền Thái Vi",
     "description": [
@@ -1496,6 +1735,7 @@
   {
     "placeCode": "den-thuong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 122,
     "name": "đền Thượng",
     "description": []
@@ -1506,6 +1746,7 @@
       "nha-tran",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 123,
     "name": "đền Trần",
     "description": [
@@ -1523,6 +1764,7 @@
       "pham-ngo",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 124,
     "name": "Đền Trần (Nam Định)",
     "description": [
@@ -1544,6 +1786,7 @@
       "tran-nhat-duat",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 125,
     "name": "Đền Trần (Thái Bình)",
     "description": [
@@ -1553,6 +1796,7 @@
   {
     "placeCode": "den-van-kiep",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 126,
     "name": "đền Vạn Kiếp",
     "description": [
@@ -1570,6 +1814,7 @@
       "dinh-lien",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 127,
     "name": "Đền Vua Đinh Tiên Hoàng",
     "description": [
@@ -1590,6 +1835,7 @@
       "pham-cu-luong",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 128,
     "name": "đền Vua Lê Đại Hành",
     "description": [
@@ -1607,6 +1853,9 @@
       "nha-han",
       "le-chieu-tong"
     ],
+    "relatedPeriod": [
+      "nha-tay-son"
+    ],
     "id": 129,
     "name": "Điện Bàn",
     "description": [
@@ -1617,6 +1866,9 @@
     "placeCode": "dien-bien",
     "relatedFigures": [
       "le-thanh-tong"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 130,
     "name": "Điện Biên",
@@ -1630,6 +1882,9 @@
       "nha-le",
       "vo-nguyen-giap"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 131,
     "name": "Điện Biên Phủ",
     "description": [
@@ -1639,6 +1894,7 @@
   {
     "placeCode": "dien-can-chanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 132,
     "name": "Điện Cần Chánh",
     "description": []
@@ -1655,6 +1911,7 @@
       "quan-huy",
       "trinh-sam"
     ],
+    "relatedPeriod": [],
     "id": 133,
     "name": "Điện Đô Vương",
     "description": [
@@ -1664,6 +1921,7 @@
   {
     "placeCode": "dien-elysee",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 134,
     "name": "điện Élysée",
     "description": [
@@ -1673,6 +1931,7 @@
   {
     "placeCode": "dien-hon-chen",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 135,
     "name": "Điện Hòn Chén",
     "description": [
@@ -1682,6 +1941,7 @@
   {
     "placeCode": "dien-kien-trung",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 136,
     "name": "Điện Kiến Trung",
     "description": [
@@ -1693,6 +1953,11 @@
     "relatedFigures": [
       "nha-hau-le",
       "le-thai-to"
+    ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
     ],
     "id": 137,
     "name": "điện Kính Thiên",
@@ -1706,6 +1971,9 @@
       "ton-that-thuyet",
       "le-truc"
     ],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 138,
     "name": "điện Long An",
     "description": [
@@ -1715,6 +1983,9 @@
   {
     "placeCode": "dien-phung-tien",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 139,
     "name": "điện Phụng Tiên",
     "description": [
@@ -1724,6 +1995,7 @@
   {
     "placeCode": "dien-thai-hoa",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 140,
     "name": "Điện Thái Hoà",
     "description": []
@@ -1731,6 +2003,7 @@
   {
     "placeCode": "dien-voi-re",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 141,
     "name": "điện Voi Ré",
     "description": [
@@ -1740,6 +2013,11 @@
   {
     "placeCode": "do-dong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ngo",
+      "nha-ly",
+      "nha-dinh"
+    ],
     "id": 142,
     "name": "Đỗ Động",
     "description": [
@@ -1761,6 +2039,7 @@
       "nha-han",
       "do-phu"
     ],
+    "relatedPeriod": [],
     "id": 143,
     "name": "Hồ Bắc",
     "description": [
@@ -1772,6 +2051,9 @@
     "relatedFigures": [
       "nha-tong",
       "nha-han"
+    ],
+    "relatedPeriod": [
+      "hong-bang-va-van-lang"
     ],
     "id": 144,
     "name": "hồ Động Đình",
@@ -1794,6 +2076,7 @@
       "dinh-tien-hoang",
       "le-than"
     ],
+    "relatedPeriod": [],
     "id": 145,
     "name": "Hồ Hoàn Kiếm",
     "description": [
@@ -1803,6 +2086,7 @@
   {
     "placeCode": "ho-huu-tiep",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 146,
     "name": "hồ Hữu Tiệp",
     "description": [
@@ -1821,6 +2105,7 @@
       "vu-de",
       "dang-tieu-binh"
     ],
+    "relatedPeriod": [],
     "id": 147,
     "name": "Hồ Nam",
     "description": [
@@ -1830,6 +2115,7 @@
   {
     "placeCode": "ho-nui-coc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 148,
     "name": "Hồ Núi Cốc",
     "description": [
@@ -1858,6 +2144,10 @@
       "vu-quynh",
       "nha-han"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly"
+    ],
     "id": 149,
     "name": "Hồ Tây",
     "description": [
@@ -1867,6 +2157,7 @@
   {
     "placeCode": "ho-tinh-tam",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 150,
     "name": "hồ Tịnh Tâm",
     "description": [
@@ -1876,6 +2167,14 @@
   {
     "placeCode": "hoang-giang",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-tran",
+      "nha-ho",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 151,
     "name": "Hoàng Giang",
     "description": []
@@ -1883,6 +2182,9 @@
   {
     "placeCode": "hoang-luong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 152,
     "name": "Hoàng Lương",
     "description": [
@@ -1892,6 +2194,10 @@
   {
     "placeCode": "hoang-mai",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le"
+    ],
     "id": 153,
     "name": "Hoàng Mai",
     "description": []
@@ -1902,6 +2208,11 @@
       "ly-bach",
       "nha-tan"
     ],
+    "relatedPeriod": [
+      "nha-ly",
+      "trinh-nguyen-phan-tranh",
+      "nam-bac-trieu"
+    ],
     "id": 154,
     "name": "Hoàng Sơn",
     "description": [
@@ -1911,6 +2222,7 @@
   {
     "placeCode": "hoang-su-phi",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 155,
     "name": "Hoàng Su Phì",
     "description": [
@@ -1920,6 +2232,9 @@
   {
     "placeCode": "hoang-xa",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 156,
     "name": "Hoàng Xá",
     "description": [
@@ -1937,6 +2252,10 @@
       "nha-han",
       "trieu-da"
     ],
+    "relatedPeriod": [
+      "nha-nguyen",
+      "phap-thuoc"
+    ],
     "id": 157,
     "name": "Hương Cảng",
     "description": [
@@ -1946,6 +2265,7 @@
   {
     "placeCode": "huong-canh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 158,
     "name": "Hương Canh",
     "description": [
@@ -1955,6 +2275,7 @@
   {
     "placeCode": "huong-dien",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 159,
     "name": "Hương Điền",
     "description": [
@@ -1964,6 +2285,9 @@
   {
     "placeCode": "huong-giang",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 160,
     "name": "Hương Giang",
     "description": []
@@ -1971,6 +2295,7 @@
   {
     "placeCode": "huong-hoa",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 161,
     "name": "Hương Hóa",
     "description": [
@@ -1983,6 +2308,9 @@
       "le-anh-tuan",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 162,
     "name": "Hương Khê",
     "description": [
@@ -1992,6 +2320,9 @@
   {
     "placeCode": "huong-my",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 163,
     "name": "hương Mỹ",
     "description": [
@@ -2001,6 +2332,7 @@
   {
     "placeCode": "huong-nguyen",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 164,
     "name": "hương Nguyên",
     "description": [
@@ -2010,6 +2342,9 @@
   {
     "placeCode": "huong-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 165,
     "name": "hương Thành",
     "description": []
@@ -2018,6 +2353,9 @@
     "placeCode": "huyen-an-duong",
     "relatedFigures": [
       "le-loi"
+    ],
+    "relatedPeriod": [
+      "nam-bac-trieu"
     ],
     "id": 166,
     "name": "huyện An Dương",
@@ -2043,6 +2381,7 @@
       "nha-mac",
       "nha-trinh"
     ],
+    "relatedPeriod": [],
     "id": 167,
     "name": "huyện Ân Thi",
     "description": [
@@ -2052,6 +2391,9 @@
   {
     "placeCode": "huyen-ba-thuoc",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 168,
     "name": "huyện Bá Thước",
     "description": [
@@ -2061,6 +2403,7 @@
   {
     "placeCode": "huyen-ba-vi",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 169,
     "name": "huyện Ba Vì",
     "description": [
@@ -2072,6 +2415,7 @@
     "relatedFigures": [
       "vo-nhai"
     ],
+    "relatedPeriod": [],
     "id": 170,
     "name": "huyện Bắc Sơn",
     "description": [
@@ -2083,6 +2427,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 171,
     "name": "huyện Bến Cát",
     "description": [
@@ -2094,6 +2439,7 @@
     "relatedFigures": [
       "vu-khieu"
     ],
+    "relatedPeriod": [],
     "id": 172,
     "name": "huyện Bình Giang",
     "description": [
@@ -2105,6 +2451,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 173,
     "name": "huyện Bố Trạch",
     "description": [
@@ -2114,6 +2461,9 @@
   {
     "placeCode": "huyen-cai-be",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 174,
     "name": "huyện Cái Bè",
     "description": [
@@ -2123,6 +2473,12 @@
   {
     "placeCode": "huyen-cam-giang",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 175,
     "name": "huyện Cẩm Giàng",
     "description": [
@@ -2136,6 +2492,7 @@
       "nha-le",
       "hoang-lien-son"
     ],
+    "relatedPeriod": [],
     "id": 176,
     "name": "huyện Cẩm Khê",
     "description": [
@@ -2146,6 +2503,9 @@
     "placeCode": "huyen-cam-lo",
     "relatedFigures": [
       "ho-chi-minh"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 177,
     "name": "huyện Cam Lộ",
@@ -2161,6 +2521,7 @@
       "phan-dinh-giot",
       "pham-hung"
     ],
+    "relatedPeriod": [],
     "id": 178,
     "name": "huyện Cẩm Xuyên",
     "description": [
@@ -2180,6 +2541,9 @@
       "phan-van-lan",
       "nha-tay-son"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 179,
     "name": "huyện Can Lộc",
     "description": [
@@ -2189,6 +2553,7 @@
   {
     "placeCode": "huyen-chau-giang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 180,
     "name": "huyện Châu Giang",
     "description": [
@@ -2198,6 +2563,9 @@
   {
     "placeCode": "huyen-chau-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 181,
     "name": "huyện Châu Thành",
     "description": [
@@ -2217,6 +2585,11 @@
       "le-dai-hanh",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 182,
     "name": "huyện Chí Linh",
     "description": [
@@ -2230,6 +2603,7 @@
       "hoang-van-thu",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 183,
     "name": "huyện Chương Mỹ",
     "description": [
@@ -2239,6 +2613,7 @@
   {
     "placeCode": "huyen-cu-chi",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 184,
     "name": "huyện Củ Chi",
     "description": [
@@ -2252,6 +2627,9 @@
       "ly-nhan",
       "trieu-da"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 185,
     "name": "huyện Diễn Châu",
     "description": [
@@ -2263,6 +2641,7 @@
     "relatedFigures": [
       "phan-boi-chau"
     ],
+    "relatedPeriod": [],
     "id": 186,
     "name": "huyện Duy Xuyên",
     "description": [
@@ -2276,6 +2655,10 @@
       "nguyen-hue",
       "nha-le"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "nam-bac-trieu"
+    ],
     "id": 187,
     "name": "huyện Đại Từ",
     "description": [
@@ -2285,6 +2668,7 @@
   {
     "placeCode": "huyen-dien-bien",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 188,
     "name": "huyện Điện Biên",
     "description": [
@@ -2296,6 +2680,9 @@
     "relatedFigures": [
       "le-xuan",
       "ho-chi-minh"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 189,
     "name": "huyện Đỗ Gia",
@@ -2322,6 +2709,9 @@
       "vu-dai",
       "nha-han"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 190,
     "name": "huyện Đô Lương",
     "description": [
@@ -2331,6 +2721,7 @@
   {
     "placeCode": "huyen-doan-hung",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 191,
     "name": "huyện Đoan Hùng",
     "description": [
@@ -2360,6 +2751,7 @@
       "le-tuan-mau",
       "nguyen-nghi"
     ],
+    "relatedPeriod": [],
     "id": 192,
     "name": "huyện Đông Anh",
     "description": [
@@ -2373,6 +2765,10 @@
       "duong-xa",
       "ho-chi-minh",
       "thanh-thai"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le",
+      "nam-bac-trieu"
     ],
     "id": 193,
     "name": "huyện Đông Sơn",
@@ -2396,6 +2792,7 @@
       "bui-duong-lich",
       "phan-my"
     ],
+    "relatedPeriod": [],
     "id": 194,
     "name": "huyện Đức Thọ",
     "description": [
@@ -2405,6 +2802,7 @@
   {
     "placeCode": "huyen-gia-binh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 195,
     "name": "huyện Gia Bình",
     "description": [
@@ -2417,6 +2815,9 @@
       "dang-xa",
       "duong-xa",
       "tran-quoc-tuan"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 196,
     "name": "huyện Gia Lâm",
@@ -2432,6 +2833,9 @@
       "le-loi",
       "le-nhan-tong"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 197,
     "name": "huyện Gia Lộc",
     "description": [
@@ -2441,6 +2845,7 @@
   {
     "placeCode": "huyen-giang-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 198,
     "name": "huyện Giang Thành",
     "description": [
@@ -2450,6 +2855,7 @@
   {
     "placeCode": "huyen-giao-thuy",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 199,
     "name": "huyện Giao Thủy",
     "description": [
@@ -2459,6 +2865,7 @@
   {
     "placeCode": "huyen-gio-linh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 200,
     "name": "huyện Gio Linh",
     "description": [
@@ -2468,6 +2875,7 @@
   {
     "placeCode": "huyen-ha-quang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 201,
     "name": "huyện Hà Quảng",
     "description": [
@@ -2477,6 +2885,9 @@
   {
     "placeCode": "huyen-ha-trung",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 202,
     "name": "huyện Hà Trung",
     "description": [
@@ -2488,6 +2899,7 @@
     "relatedFigures": [
       "tran-quoc-tuan"
     ],
+    "relatedPeriod": [],
     "id": 203,
     "name": "huyện Hải Hậu",
     "description": [
@@ -2502,6 +2914,9 @@
       "le-manh-that",
       "trieu-trung"
     ],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 204,
     "name": "huyện Hải Lăng",
     "description": [
@@ -2511,6 +2926,7 @@
   {
     "placeCode": "huyen-ham-yen",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 205,
     "name": "huyện Hàm Yên",
     "description": [
@@ -2529,6 +2945,7 @@
       "le-trung-tong",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 206,
     "name": "huyện Hoa Lư",
     "description": [
@@ -2540,6 +2957,7 @@
     "relatedFigures": [
       "pham-phu-thu"
     ],
+    "relatedPeriod": [],
     "id": 207,
     "name": "huyện Hòa Vang",
     "description": [
@@ -2552,6 +2970,7 @@
       "duong-xa",
       "ho-tay"
     ],
+    "relatedPeriod": [],
     "id": 208,
     "name": "huyện Hoài Đức",
     "description": [
@@ -2561,6 +2980,7 @@
   {
     "placeCode": "huyen-hoanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 209,
     "name": "huyện Hoành",
     "description": [
@@ -2570,6 +2990,7 @@
   {
     "placeCode": "huyen-hoc-mon",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 210,
     "name": "huyện Hóc Môn",
     "description": [
@@ -2584,6 +3005,7 @@
       "pham-don-le",
       "nguyen-thi-lo"
     ],
+    "relatedPeriod": [],
     "id": 211,
     "name": "huyện Hưng Hà",
     "description": [
@@ -2596,6 +3018,10 @@
       "le-xuan",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [
+      "phap-thuoc",
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 212,
     "name": "huyện Hương Sơn",
     "description": [
@@ -2605,6 +3031,9 @@
   {
     "placeCode": "huyen-huong-tra",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-nguyen"
+    ],
     "id": 213,
     "name": "huyện Hương Trà",
     "description": [
@@ -2628,6 +3057,7 @@
       "nha-mac",
       "nha-han"
     ],
+    "relatedPeriod": [],
     "id": 214,
     "name": "huyện Khoái Châu",
     "description": [
@@ -2641,6 +3071,7 @@
       "le-loi",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 215,
     "name": "huyện Kiến Xương",
     "description": [
@@ -2651,6 +3082,9 @@
     "placeCode": "huyen-kim-bang",
     "relatedFigures": [
       "le-thanh-tong"
+    ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
     ],
     "id": 216,
     "name": "huyện Kim Bảng",
@@ -2663,6 +3097,10 @@
     "relatedFigures": [
       "pham-ngu-lao",
       "pham-bach-ho"
+    ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nam-bac-trieu"
     ],
     "id": 217,
     "name": "huyện Kim Động",
@@ -2677,6 +3115,7 @@
       "ngo-chau",
       "vu-de"
     ],
+    "relatedPeriod": [],
     "id": 218,
     "name": "huyện Kim Môn",
     "description": [
@@ -2686,6 +3125,10 @@
   {
     "placeCode": "huyen-kim-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nam-bac-trieu"
+    ],
     "id": 219,
     "name": "huyện Kim Thành",
     "description": [
@@ -2709,6 +3152,9 @@
       "tran-canh",
       "nha-mac"
     ],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 220,
     "name": "huyện Kinh Môn",
     "description": [
@@ -2718,6 +3164,7 @@
   {
     "placeCode": "huyen-ky-anh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 221,
     "name": "huyện Kỳ Anh",
     "description": []
@@ -2725,6 +3172,7 @@
   {
     "placeCode": "huyen-lam-thao",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 222,
     "name": "huyện Lâm Thao",
     "description": [
@@ -2739,6 +3187,7 @@
       "ngo-dinh-diem",
       "nha-mac"
     ],
+    "relatedPeriod": [],
     "id": 223,
     "name": "huyện Lệ Thủy",
     "description": [
@@ -2750,6 +3199,11 @@
     "relatedFigures": [
       "le-thanh-tong"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 224,
     "name": "huyện Lôi Dương",
     "description": [
@@ -2759,6 +3213,7 @@
   {
     "placeCode": "huyen-my-duc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 225,
     "name": "huyện Mỹ Đức",
     "description": [
@@ -2770,6 +3225,7 @@
     "relatedFigures": [
       "phan-dinh-phung"
     ],
+    "relatedPeriod": [],
     "id": 226,
     "name": "huyện Mỹ Hào",
     "description": [
@@ -2779,6 +3235,7 @@
   {
     "placeCode": "huyen-my-loc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 227,
     "name": "huyện Mỹ Lộc",
     "description": [
@@ -2797,6 +3254,9 @@
       "phan-boi-chau",
       "ho-chi-minh",
       "bui-duong-lich"
+    ],
+    "relatedPeriod": [
+      "phap-thuoc"
     ],
     "id": 228,
     "name": "huyện Nam Đàn",
@@ -2819,6 +3279,7 @@
       "tran-dang-khoa",
       "le-nhan-tong"
     ],
+    "relatedPeriod": [],
     "id": 229,
     "name": "huyện Nam Sách",
     "description": [
@@ -2833,6 +3294,7 @@
       "vu-tuan-chieu",
       "nguyen-hien"
     ],
+    "relatedPeriod": [],
     "id": 230,
     "name": "huyện Nam Trực",
     "description": [
@@ -2842,6 +3304,7 @@
   {
     "placeCode": "huyen-nghi-loc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 231,
     "name": "huyện Nghi Lộc",
     "description": [
@@ -2859,6 +3322,9 @@
       "ho-chi-minh",
       "nguyen-xi",
       "le-huu-duc"
+    ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
     ],
     "id": 232,
     "name": "huyện Nghi Xuân",
@@ -2887,6 +3353,7 @@
       "hoang-ngu-phuc",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 233,
     "name": "huyện Ninh Giang",
     "description": [
@@ -2897,6 +3364,9 @@
     "placeCode": "huyen-pho-yen",
     "relatedFigures": [
       "pham-van-dong"
+    ],
+    "relatedPeriod": [
+      "nam-bac-trieu"
     ],
     "id": 234,
     "name": "huyện Phổ Yên",
@@ -2910,6 +3380,9 @@
       "nguyen-dinh-chieu",
       "nguyen-tri-phuong"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 235,
     "name": "huyện Phong Điền",
     "description": [
@@ -2921,6 +3394,7 @@
     "relatedFigures": [
       "nguyen-huu-quang"
     ],
+    "relatedPeriod": [],
     "id": 236,
     "name": "huyện Phù Cát",
     "description": [
@@ -2932,6 +3406,7 @@
     "relatedFigures": [
       "phan-sao-nam"
     ],
+    "relatedPeriod": [],
     "id": 237,
     "name": "huyện Phù Cừ",
     "description": [
@@ -2941,6 +3416,9 @@
   {
     "placeCode": "huyen-phu-ninh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 238,
     "name": "huyện Phù Ninh",
     "description": [
@@ -2954,6 +3432,7 @@
       "nguyen-sinh-cung",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 239,
     "name": "huyện Phú Vang",
     "description": [
@@ -2967,6 +3446,7 @@
       "hoang-long",
       "nha-mac"
     ],
+    "relatedPeriod": [],
     "id": 240,
     "name": "huyện Phú Xuyên",
     "description": [
@@ -2978,6 +3458,7 @@
     "relatedFigures": [
       "nha-han"
     ],
+    "relatedPeriod": [],
     "id": 241,
     "name": "huyện Phúc Thọ",
     "description": [
@@ -2987,6 +3468,7 @@
   {
     "placeCode": "huyen-phuoc-long",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 242,
     "name": "huyện Phước Long",
     "description": []
@@ -2994,6 +3476,7 @@
   {
     "placeCode": "huyen-quang-ninh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 243,
     "name": "huyện Quảng Ninh",
     "description": [
@@ -3007,6 +3490,9 @@
       "vu-de",
       "nha-tay-han"
     ],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-hai"
+    ],
     "id": 244,
     "name": "huyện Quảng Tín",
     "description": [
@@ -3016,6 +3502,7 @@
   {
     "placeCode": "huyen-quang-trach",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 245,
     "name": "huyện Quảng Trạch",
     "description": [
@@ -3027,6 +3514,9 @@
     "relatedFigures": [
       "ngo-chau"
     ],
+    "relatedPeriod": [
+      "au-lac-va-nam-viet"
+    ],
     "id": 246,
     "name": "huyện Quý",
     "description": [
@@ -3036,6 +3526,7 @@
   {
     "placeCode": "huyen-quynh-phu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 247,
     "name": "huyện Quỳnh Phụ",
     "description": [
@@ -3049,6 +3540,7 @@
       "ngo-chan-luu",
       "ngo-quyen"
     ],
+    "relatedPeriod": [],
     "id": 248,
     "name": "huyện Sóc Sơn",
     "description": [
@@ -3058,6 +3550,9 @@
   {
     "placeCode": "huyen-son-duong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 249,
     "name": "huyện Sơn Dương",
     "description": [
@@ -3071,6 +3566,7 @@
       "nha-ho",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 250,
     "name": "huyện Sơn Tịnh",
     "description": [
@@ -3080,6 +3576,7 @@
   {
     "placeCode": "huyen-song-thao",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 251,
     "name": "huyện Sông Thao",
     "description": [
@@ -3091,6 +3588,7 @@
     "relatedFigures": [
       "hoang-hoa"
     ],
+    "relatedPeriod": [],
     "id": 252,
     "name": "huyện Tam Đảo",
     "description": [
@@ -3100,6 +3598,10 @@
   {
     "placeCode": "huyen-tam-nong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 253,
     "name": "huyện Tam Nông",
     "description": []
@@ -3107,6 +3609,11 @@
   {
     "placeCode": "huyen-thach-ha",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "phap-thuoc",
+      "nha-ly",
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 254,
     "name": "huyện Thạch Hà",
     "description": [
@@ -3118,6 +3625,9 @@
     "relatedFigures": [
       "nguyen-loc"
     ],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 255,
     "name": "huyện Thạch Thất",
     "description": [
@@ -3127,6 +3637,9 @@
   {
     "placeCode": "huyen-thanh-ba",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 256,
     "name": "huyện Thanh Ba",
     "description": [
@@ -3139,6 +3652,11 @@
       "tran-hoan",
       "vo-liet",
       "bui-duong-lich"
+    ],
+    "relatedPeriod": [
+      "phap-thuoc",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le"
     ],
     "id": 257,
     "name": "huyện Thanh Chương",
@@ -3155,6 +3673,10 @@
       "nha-mac",
       "nha-han"
     ],
+    "relatedPeriod": [
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 258,
     "name": "huyện Thanh Hà",
     "description": [
@@ -3164,6 +3686,10 @@
   {
     "placeCode": "huyen-thanh-mien",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nam-bac-trieu"
+    ],
     "id": 259,
     "name": "huyện Thanh Miện",
     "description": [
@@ -3195,6 +3721,11 @@
       "do-canh-thac",
       "thanh-thai"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 260,
     "name": "huyện Thanh Oai",
     "description": [
@@ -3208,6 +3739,7 @@
       "mac-phuc-nguyen",
       "le-trung"
     ],
+    "relatedPeriod": [],
     "id": 261,
     "name": "huyện Thanh Sơn",
     "description": [
@@ -3217,6 +3749,7 @@
   {
     "placeCode": "huyen-thanh-thuy",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 262,
     "name": "huyện Thanh Thủy",
     "description": [
@@ -3229,6 +3762,12 @@
       "le-the-tong",
       "hoang-van-thu",
       "nguyen-sieu"
+    ],
+    "relatedPeriod": [
+      "phap-thuoc",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
     ],
     "id": 263,
     "name": "huyện Thanh Trì",
@@ -3249,6 +3788,9 @@
       "phan-van-lan",
       "nha-tay-son"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 264,
     "name": "huyện Thiên Lộc",
     "description": [
@@ -3266,6 +3808,7 @@
       "tran-nguyen-han",
       "trinh-khac-phuc"
     ],
+    "relatedPeriod": [],
     "id": 265,
     "name": "huyện Thọ Xuân",
     "description": [
@@ -3275,6 +3818,7 @@
   {
     "placeCode": "huyen-tho-xuong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 266,
     "name": "huyện Thọ Xương",
     "description": [
@@ -3284,6 +3828,7 @@
   {
     "placeCode": "huyen-thuan-chau",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 267,
     "name": "huyện Thuận Châu",
     "description": [
@@ -3301,6 +3846,7 @@
       "nha-nguyen-mong-co",
       "nguyen-trai"
     ],
+    "relatedPeriod": [],
     "id": 268,
     "name": "huyện Thường Tín",
     "description": [
@@ -3315,6 +3861,9 @@
       "nguyen-dang-dao",
       "le-trung",
       "ngo-si-lien"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 269,
     "name": "huyện Tiên Du",
@@ -3332,6 +3881,7 @@
       "ngo-quyen",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 270,
     "name": "huyện Tiên Lữ",
     "description": [
@@ -3341,6 +3891,7 @@
   {
     "placeCode": "huyen-tra-linh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 271,
     "name": "huyện Trà Lĩnh",
     "description": [
@@ -3361,6 +3912,7 @@
       "ngo-dinh-diem",
       "le-thanh-ton"
     ],
+    "relatedPeriod": [],
     "id": 272,
     "name": "huyện Triệu Phong",
     "description": [
@@ -3370,6 +3922,7 @@
   {
     "placeCode": "huyen-trung-khanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 273,
     "name": "huyện Trùng Khánh",
     "description": [
@@ -3381,6 +3934,7 @@
     "relatedFigures": [
       "nha-tan"
     ],
+    "relatedPeriod": [],
     "id": 274,
     "name": "huyện Trung Quốc",
     "description": [
@@ -3390,6 +3944,7 @@
   {
     "placeCode": "huyen-truong-sa",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 275,
     "name": "huyện Trường Sa",
     "description": [
@@ -3400,6 +3955,10 @@
     "placeCode": "huyen-tu-ky",
     "relatedFigures": [
       "nha-le"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le",
+      "nam-bac-trieu"
     ],
     "id": 276,
     "name": "huyện Tứ Kỳ",
@@ -3412,6 +3971,15 @@
     "relatedFigures": [
       "nha-duong"
     ],
+    "relatedPeriod": [
+      "nha-hau-tran",
+      "nha-ly-va-nha-trieu",
+      "nha-ly",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu",
+      "au-lac-va-nam-viet"
+    ],
     "id": 277,
     "name": "huyện Từ Liêm",
     "description": [
@@ -3421,6 +3989,7 @@
   {
     "placeCode": "huyen-tu-nghia",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 278,
     "name": "huyện Tư Nghĩa",
     "description": [
@@ -3430,6 +3999,7 @@
   {
     "placeCode": "huyen-tu-son",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 279,
     "name": "huyện Từ Sơn",
     "description": [
@@ -3439,6 +4009,7 @@
   {
     "placeCode": "huyen-tuy-vien",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 280,
     "name": "huyện Tuy Viễn",
     "description": []
@@ -3454,6 +4025,10 @@
       "nguyen-bac",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le"
+    ],
     "id": 281,
     "name": "huyện Văn Giang",
     "description": [
@@ -3466,6 +4041,9 @@
       "trung-trac",
       "nha-tay-son",
       "thanh-thai"
+    ],
+    "relatedPeriod": [
+      "phap-thuoc"
     ],
     "id": 282,
     "name": "huyện Văn Lâm",
@@ -3481,6 +4059,7 @@
       "nha-thanh",
       "nha-mac"
     ],
+    "relatedPeriod": [],
     "id": 283,
     "name": "huyện Vị Xuyên",
     "description": [
@@ -3490,6 +4069,7 @@
   {
     "placeCode": "huyen-vinh-cuu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 284,
     "name": "huyện Vĩnh Cửu",
     "description": [
@@ -3499,6 +4079,9 @@
   {
     "placeCode": "huyen-vinh-linh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ho"
+    ],
     "id": 285,
     "name": "huyện Vĩnh Linh",
     "description": [
@@ -3508,6 +4091,7 @@
   {
     "placeCode": "huyen-vinh-thuan",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 286,
     "name": "huyện Vĩnh Thuận",
     "description": []
@@ -3522,6 +4106,7 @@
       "nguyen-duc-thuan",
       "nguyen-co-thach"
     ],
+    "relatedPeriod": [],
     "id": 287,
     "name": "huyện Vụ Bản",
     "description": [
@@ -3537,6 +4122,7 @@
       "thanh-thai",
       "tran-lam"
     ],
+    "relatedPeriod": [],
     "id": 288,
     "name": "huyện Vũ Thư",
     "description": [
@@ -3546,6 +4132,7 @@
   {
     "placeCode": "huyen-xuan-truong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 289,
     "name": "huyện Xuân Trường",
     "description": [
@@ -3555,6 +4142,7 @@
   {
     "placeCode": "huyen-yen-binh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 290,
     "name": "huyện Yên Bình",
     "description": [
@@ -3566,6 +4154,10 @@
     "relatedFigures": [
       "tran-nhan-tong"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nam-bac-trieu"
+    ],
     "id": 291,
     "name": "huyện Yên Dũng",
     "description": [
@@ -3575,6 +4167,7 @@
   {
     "placeCode": "huyen-yen-hung",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 292,
     "name": "huyện Yên Hưng",
     "description": [
@@ -3585,6 +4178,9 @@
     "placeCode": "huyen-yen-son",
     "relatedFigures": [
       "trung-trac"
+    ],
+    "relatedPeriod": [
+      "nam-bac-trieu"
     ],
     "id": 293,
     "name": "huyện Yên Sơn",
@@ -3598,6 +4194,7 @@
       "vo-nguyen-giap",
       "hoang-van-thai"
     ],
+    "relatedPeriod": [],
     "id": 294,
     "name": "Khu di tích chiến thắng Điện Biên Phủ",
     "description": [
@@ -3609,6 +4206,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 295,
     "name": "Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch",
     "description": [
@@ -3620,6 +4218,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 296,
     "name": "Khu di tích Pác Bó",
     "description": [
@@ -3647,6 +4246,7 @@
       "ly-dao-thanh",
       "ly-hue-tong"
     ],
+    "relatedPeriod": [],
     "id": 297,
     "name": "Khu lăng mộ và đền thờ các vị vua triều Lý",
     "description": [
@@ -3658,6 +4258,7 @@
     "relatedFigures": [
       "ton-duc-thang"
     ],
+    "relatedPeriod": [],
     "id": 298,
     "name": "Khu lưu niệm Chủ tịch Tôn Đức Thắng",
     "description": [
@@ -3670,6 +4271,7 @@
       "nha-tong",
       "nha-thanh"
     ],
+    "relatedPeriod": [],
     "id": 299,
     "name": "Khúc Phụ",
     "description": [
@@ -3683,6 +4285,14 @@
       "ly-cong-uan",
       "duong-vuong",
       "le-van-thinh"
+    ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-tran",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu",
+      "nha-tay-son"
     ],
     "id": 300,
     "name": "Kinh Bắc",
@@ -3707,6 +4317,10 @@
       "tran-canh",
       "nha-mac"
     ],
+    "relatedPeriod": [
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 301,
     "name": "Kinh Môn",
     "description": [
@@ -3718,6 +4332,7 @@
     "relatedFigures": [
       "tran-dang-khoa"
     ],
+    "relatedPeriod": [],
     "id": 302,
     "name": "Kinh Thầy",
     "description": [
@@ -3733,6 +4348,9 @@
       "vu-de",
       "nha-hau-luong"
     ],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-hai"
+    ],
     "id": 303,
     "name": "Lạc Dương",
     "description": [
@@ -3742,6 +4360,7 @@
   {
     "placeCode": "lac-lam",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 304,
     "name": "Lạc Lâm",
     "description": [
@@ -3751,6 +4370,9 @@
   {
     "placeCode": "lac-son",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 305,
     "name": "Lạc Sơn",
     "description": [
@@ -3760,6 +4382,10 @@
   {
     "placeCode": "lac-thuy",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-hai",
+      "nha-hau-le"
+    ],
     "id": 306,
     "name": "Lạc Thủy",
     "description": [
@@ -3769,6 +4395,9 @@
   {
     "placeCode": "lac-xuyen",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 307,
     "name": "Lạc Xuyên",
     "description": [
@@ -3783,6 +4412,7 @@
       "ho-chi-minh",
       "nguyen-luong-bang"
     ],
+    "relatedPeriod": [],
     "id": 308,
     "name": "lăng Bác Hồ",
     "description": [
@@ -3792,6 +4422,7 @@
   {
     "placeCode": "lang-khai-dinh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 309,
     "name": "lăng Khải Định",
     "description": [
@@ -3801,6 +4432,7 @@
   {
     "placeCode": "lang-thieu-tri",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 310,
     "name": "lăng Thiệu Trị",
     "description": [
@@ -3810,6 +4442,7 @@
   {
     "placeCode": "lang-tu-duc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 311,
     "name": "Lăng Tự Đức",
     "description": [
@@ -3819,6 +4452,9 @@
   {
     "placeCode": "le-chung",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 312,
     "name": "Lê Chung",
     "description": [
@@ -3829,6 +4465,9 @@
     "placeCode": "lo-bac-duc",
     "relatedFigures": [
       "duong-boc"
+    ],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-nhat"
     ],
     "id": 313,
     "name": "Lộ Bác Đức",
@@ -3844,6 +4483,10 @@
       "nha-le",
       "tran-thanh-tong"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-le"
+    ],
     "id": 314,
     "name": "lộ Thiên Trường",
     "description": [
@@ -3853,6 +4496,9 @@
   {
     "placeCode": "ly-quoc",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 315,
     "name": "Lý Quốc",
     "description": [
@@ -3862,6 +4508,9 @@
   {
     "placeCode": "ly-son",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 316,
     "name": "Lý Sơn",
     "description": [
@@ -3871,6 +4520,7 @@
   {
     "placeCode": "ngo-xa",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 317,
     "name": "Ngô Xá",
     "description": [
@@ -3880,6 +4530,7 @@
   {
     "placeCode": "nui-altay",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 318,
     "name": "núi Altay",
     "description": [
@@ -3892,6 +4543,7 @@
       "nguyen-van-thieu",
       "nguyen-thanh-trung"
     ],
+    "relatedPeriod": [],
     "id": 319,
     "name": "núi Bà Rá",
     "description": [
@@ -3905,6 +4557,7 @@
       "tran-trong-kim",
       "phan-tran-chuc"
     ],
+    "relatedPeriod": [],
     "id": 320,
     "name": "Núi Bân",
     "description": [
@@ -3916,6 +4569,7 @@
     "relatedFigures": [
       "huynh-phu-so"
     ],
+    "relatedPeriod": [],
     "id": 321,
     "name": "núi Bokor",
     "description": [
@@ -3925,6 +4579,7 @@
   {
     "placeCode": "nui-cao-ba-lanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 322,
     "name": "núi Cao Ba Lanh",
     "description": [
@@ -3937,6 +4592,10 @@
       "le-lai",
       "le-loi"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-le"
+    ],
     "id": 323,
     "name": "núi Chí Linh",
     "description": [
@@ -3946,6 +4605,7 @@
   {
     "placeCode": "nui-con-lon",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 324,
     "name": "núi Côn Lôn",
     "description": [
@@ -3955,6 +4615,9 @@
   {
     "placeCode": "nui-dung-quyet",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 325,
     "name": "núi Dũng Quyết",
     "description": [
@@ -3964,6 +4627,7 @@
   {
     "placeCode": "nui-ham-rong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 326,
     "name": "núi Hàm Rồng",
     "description": []
@@ -3971,6 +4635,9 @@
   {
     "placeCode": "nui-hong-linh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tay-son"
+    ],
     "id": 327,
     "name": "núi Hồng Lĩnh",
     "description": [
@@ -3982,6 +4649,9 @@
     "relatedFigures": [
       "nha-dinh",
       "dinh-tien-hoang"
+    ],
+    "relatedPeriod": [
+      "nha-tay-son"
     ],
     "id": 328,
     "name": "núi Kỳ Lân",
@@ -4021,6 +4691,7 @@
       "bui-duong-lich",
       "le-than-tong"
     ],
+    "relatedPeriod": [],
     "id": 329,
     "name": "núi Lam Thành",
     "description": [
@@ -4030,6 +4701,7 @@
   {
     "placeCode": "nui-le",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 330,
     "name": "Núi Le",
     "description": [
@@ -4041,6 +4713,7 @@
     "relatedFigures": [
       "nguyen-phuc-khoat"
     ],
+    "relatedPeriod": [],
     "id": 331,
     "name": "núi Ngự Bình",
     "description": [
@@ -4052,6 +4725,7 @@
     "relatedFigures": [
       "nha-duong"
     ],
+    "relatedPeriod": [],
     "id": 332,
     "name": "núi Ngũ Lĩnh",
     "description": [
@@ -4061,6 +4735,9 @@
   {
     "placeCode": "nui-quyet",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tay-son"
+    ],
     "id": 333,
     "name": "núi Quyết",
     "description": [
@@ -4071,6 +4748,10 @@
     "placeCode": "nui-tam-dao",
     "relatedFigures": [
       "le-quy-don"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le",
+      "nam-bac-trieu"
     ],
     "id": 334,
     "name": "núi Tam Đảo",
@@ -4091,6 +4772,9 @@
       "ngo-quyen",
       "ngo-thi-si"
     ],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 335,
     "name": "núi Tam Điệp",
     "description": [
@@ -4104,6 +4788,14 @@
       "ho-chi-minh",
       "nguyen-trai"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "hong-bang-va-van-lang",
+      "nha-ly",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nha-tien-le"
+    ],
     "id": 336,
     "name": "núi Tản Viên",
     "description": [
@@ -4115,6 +4807,7 @@
     "relatedFigures": [
       "do-phu"
     ],
+    "relatedPeriod": [],
     "id": 337,
     "name": "núi Thái Sơn",
     "description": [
@@ -4126,6 +4819,7 @@
     "relatedFigures": [
       "nguyen-hue"
     ],
+    "relatedPeriod": [],
     "id": 338,
     "name": "núi Thành",
     "description": [
@@ -4135,6 +4829,7 @@
   {
     "placeCode": "nui-thi",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 339,
     "name": "Núi Thị",
     "description": [
@@ -4144,6 +4839,9 @@
   {
     "placeCode": "nui-truong-son",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 340,
     "name": "núi Trường Sơn",
     "description": [
@@ -4153,6 +4851,7 @@
   {
     "placeCode": "nui-voi",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 341,
     "name": "núi Voi",
     "description": []
@@ -4160,6 +4859,7 @@
   {
     "placeCode": "nui-yen",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 342,
     "name": "núi Yên",
     "description": [
@@ -4175,6 +4875,10 @@
       "tran-anh-tong",
       "nha-hau-le"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nam-bac-trieu"
+    ],
     "id": 343,
     "name": "núi Yên Tử",
     "description": [
@@ -4184,6 +4888,9 @@
   {
     "placeCode": "nuoc-anh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 344,
     "name": "nước Anh",
     "description": [
@@ -4201,6 +4908,9 @@
       "tran-ba-tien",
       "ly-bi"
     ],
+    "relatedPeriod": [
+      "nha-ly-va-nha-trieu"
+    ],
     "id": 345,
     "name": "nước Dã Năng",
     "description": [
@@ -4216,6 +4926,7 @@
       "vu-vuong",
       "nha-thanh"
     ],
+    "relatedPeriod": [],
     "id": 346,
     "name": "nước Kỷ",
     "description": [
@@ -4227,6 +4938,11 @@
     "relatedFigures": [
       "nha-chu"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-tran",
+      "bac-thuoc-lan-thu-hai"
+    ],
     "id": 347,
     "name": "nước Lỗ",
     "description": [
@@ -4236,6 +4952,7 @@
   {
     "placeCode": "nuoc-luong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 348,
     "name": "nước Lương",
     "description": []
@@ -4243,6 +4960,9 @@
   {
     "placeCode": "nuoc-mi",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 349,
     "name": "nước Mĩ",
     "description": [
@@ -4252,6 +4972,7 @@
   {
     "placeCode": "nuoc-my",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 350,
     "name": "nước Mỹ",
     "description": [
@@ -4286,6 +5007,14 @@
       "nha-tien-le",
       "nha-tay-son"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "phap-thuoc",
+      "nha-ly",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 351,
     "name": "nước Nam",
     "description": [
@@ -4300,6 +5029,12 @@
       "vu-vuong",
       "ngo-phu-sai"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "bac-thuoc-lan-thu-nhat",
+      "bac-thuoc-lan-thu-hai",
+      "nha-tien-le"
+    ],
     "id": 352,
     "name": "nước Ngô",
     "description": [
@@ -4309,6 +5044,7 @@
   {
     "placeCode": "nuoc-nguy",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 353,
     "name": "nước Nguỵ",
     "description": [
@@ -4318,6 +5054,11 @@
   {
     "placeCode": "nuoc-phap",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc",
+      "nha-tay-son"
+    ],
     "id": 354,
     "name": "nước Pháp",
     "description": [
@@ -4327,6 +5068,10 @@
   {
     "placeCode": "nuoc-quac",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-nhat",
+      "au-lac-va-nam-viet"
+    ],
     "id": 355,
     "name": "nước Quắc",
     "description": [
@@ -4347,6 +5092,11 @@
       "thanh-vuong",
       "nha-han"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ho",
+      "nha-hau-le"
+    ],
     "id": 356,
     "name": "nước Sở",
     "description": [
@@ -4359,6 +5109,9 @@
       "nha-ha",
       "nha-thuong",
       "nha-chu"
+    ],
+    "relatedPeriod": [
+      "au-lac-va-nam-viet"
     ],
     "id": 357,
     "name": "Nước Tần",
@@ -4375,6 +5128,9 @@
       "nha-thanh",
       "dang-tieu-binh"
     ],
+    "relatedPeriod": [
+      "thoi-ky-xay-nen-tu-chu"
+    ],
     "id": 358,
     "name": "nước Tàu",
     "description": [
@@ -4387,6 +5143,11 @@
       "nha-chu",
       "vu-vuong"
     ],
+    "relatedPeriod": [
+      "nha-hau-tran",
+      "bac-thuoc-lan-thu-hai",
+      "nha-hau-le"
+    ],
     "id": 359,
     "name": "nước Tề",
     "description": [
@@ -4396,6 +5157,9 @@
   {
     "placeCode": "nuoc-thuc",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "au-lac-va-nam-viet"
+    ],
     "id": 360,
     "name": "nước Thục",
     "description": [
@@ -4412,6 +5176,13 @@
       "nha-an",
       "ngo-phu-sai"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "bac-thuoc-lan-thu-hai",
+      "nha-ly",
+      "nha-dinh",
+      "nha-tien-le"
+    ],
     "id": 361,
     "name": "nước Tống",
     "description": [
@@ -4426,6 +5197,11 @@
       "vu-vuong",
       "nha-an"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-tran",
+      "bac-thuoc-lan-thu-hai"
+    ],
     "id": 362,
     "name": "nước Trần",
     "description": [
@@ -4435,6 +5211,7 @@
   {
     "placeCode": "nuoc-trau",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 363,
     "name": "nước Trâu",
     "description": []
@@ -4450,6 +5227,7 @@
       "trieu-thuan",
       "nha-tan"
     ],
+    "relatedPeriod": [],
     "id": 364,
     "name": "nước Triệu",
     "description": [
@@ -4460,6 +5238,11 @@
     "placeCode": "nuoc-trinh",
     "relatedFigures": [
       "nha-chu"
+    ],
+    "relatedPeriod": [
+      "nha-tran",
+      "bac-thuoc-lan-thu-nhat",
+      "au-lac-va-nam-viet"
     ],
     "id": 365,
     "name": "nước Trịnh",
@@ -4479,6 +5262,7 @@
       "nha-luong",
       "ly-bi"
     ],
+    "relatedPeriod": [],
     "id": 366,
     "name": "nước Vạn Xuân",
     "description": [
@@ -4492,6 +5276,7 @@
       "nha-chu",
       "nha-an"
     ],
+    "relatedPeriod": [],
     "id": 367,
     "name": "nước Vệ",
     "description": [
@@ -4501,6 +5286,18 @@
   {
     "placeCode": "nuoc-viet",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ngo",
+      "bac-thuoc-lan-thu-nhat",
+      "bac-thuoc-lan-thu-hai",
+      "hong-bang-va-van-lang",
+      "nha-ly",
+      "nha-hau-le",
+      "nha-dinh",
+      "nha-tien-le",
+      "thoi-ky-xay-nen-tu-chu"
+    ],
     "id": 368,
     "name": "nước Việt",
     "description": [
@@ -4510,6 +5307,9 @@
   {
     "placeCode": "nuoc-xiem",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tay-son"
+    ],
     "id": 369,
     "name": "nước Xiêm",
     "description": [
@@ -4525,6 +5325,9 @@
       "vu-vuong",
       "vu-duong"
     ],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 370,
     "name": "nước Yên",
     "description": [
@@ -4534,6 +5337,9 @@
   {
     "placeCode": "phan-dien",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 371,
     "name": "Phan Điền",
     "description": [
@@ -4543,6 +5349,7 @@
   {
     "placeCode": "phan-rang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 372,
     "name": "Phan Rang",
     "description": []
@@ -4551,6 +5358,9 @@
     "placeCode": "phan-thiet",
     "relatedFigures": [
       "nguyen-dinh-chieu"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 373,
     "name": "Phan Thiết",
@@ -4562,6 +5372,9 @@
     "placeCode": "phu-dien-chau",
     "relatedFigures": [
       "nha-hau-le"
+    ],
+    "relatedPeriod": [
+      "nha-tran"
     ],
     "id": 374,
     "name": "phủ Diễn Châu",
@@ -4576,6 +5389,10 @@
       "nha-le",
       "thanh-thai"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nam-bac-trieu"
+    ],
     "id": 375,
     "name": "phủ Hà Trung",
     "description": [
@@ -4589,6 +5406,7 @@
       "le-thanh-tong",
       "nha-mac"
     ],
+    "relatedPeriod": [],
     "id": 376,
     "name": "phủ Hoài Đức",
     "description": [
@@ -4599,6 +5417,10 @@
     "placeCode": "phu-lang-thuong",
     "relatedFigures": [
       "le-trung-hung"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc"
     ],
     "id": 377,
     "name": "Phủ Lạng Thương",
@@ -4623,6 +5445,7 @@
       "tran-binh-trong",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 378,
     "name": "Phủ Lý",
     "description": [
@@ -4637,6 +5460,10 @@
       "tran-anh-tong",
       "nha-hau-le",
       "ly-nhan-tong"
+    ],
+    "relatedPeriod": [
+      "nha-ly",
+      "nha-hau-le"
     ],
     "id": 379,
     "name": "phủ Nghĩa Hưng",
@@ -4654,6 +5481,9 @@
       "nha-hau-le",
       "nguyen-van-sieu"
     ],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 380,
     "name": "phủ Ngọc Ma",
     "description": [
@@ -4667,6 +5497,10 @@
       "le-thanh-tong",
       "nha-le",
       "tran-thanh-tong"
+    ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-le"
     ],
     "id": 381,
     "name": "phủ Thiên Trường",
@@ -4686,6 +5520,7 @@
       "dinh-tien-hoang",
       "ly-long-bo"
     ],
+    "relatedPeriod": [],
     "id": 382,
     "name": "Phủ Vườn Thiên",
     "description": [
@@ -4695,6 +5530,7 @@
   {
     "placeCode": "phuong-an-cuu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 383,
     "name": "phường An Cựu",
     "description": [
@@ -4711,6 +5547,9 @@
       "trinh-sam",
       "ngo-si-lien",
       "ton-duc-thang"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 384,
     "name": "phường Bích Câu",
@@ -4729,6 +5568,7 @@
       "nguyen-trung-truc",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 385,
     "name": "quận Ba Đình",
     "description": [
@@ -4740,6 +5580,7 @@
     "relatedFigures": [
       "tran-thien-khiem"
     ],
+    "relatedPeriod": [],
     "id": 386,
     "name": "quận Cái Răng",
     "description": [
@@ -4749,6 +5590,7 @@
   {
     "placeCode": "quan-cau-giay",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 387,
     "name": "quận Cầu Giấy",
     "description": [
@@ -4768,6 +5610,7 @@
       "hoang-viet",
       "nha-han"
     ],
+    "relatedPeriod": [],
     "id": 388,
     "name": "quần đảo Hoàng Sa",
     "description": [
@@ -4777,6 +5620,7 @@
   {
     "placeCode": "quan-dao-tay-sa",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 389,
     "name": "quần đảo Tây Sa",
     "description": [
@@ -4800,6 +5644,7 @@
       "tran-van-lam",
       "nha-han"
     ],
+    "relatedPeriod": [],
     "id": 390,
     "name": "quần đảo Trường Sa",
     "description": [
@@ -4812,6 +5657,7 @@
       "le-duan",
       "ho-tay"
     ],
+    "relatedPeriod": [],
     "id": 391,
     "name": "quận Đống Đa",
     "description": [
@@ -4821,6 +5667,7 @@
   {
     "placeCode": "quan-hai-ba-trung",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 392,
     "name": "quận Hai Bà Trưng",
     "description": [
@@ -4836,6 +5683,7 @@
       "phan-chu-trinh",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 393,
     "name": "quận Hoàn Kiếm",
     "description": [
@@ -4850,6 +5698,7 @@
       "duong-xa",
       "tran-khat-chan"
     ],
+    "relatedPeriod": [],
     "id": 394,
     "name": "quận Hoàng Mai",
     "description": [
@@ -4862,6 +5711,7 @@
       "nguyen-gia-thieu",
       "ly-thuong-kiet"
     ],
+    "relatedPeriod": [],
     "id": 395,
     "name": "quận Long Biên",
     "description": [
@@ -4872,6 +5722,10 @@
     "placeCode": "quan-nam-hai",
     "relatedFigures": [
       "nha-tan"
+    ],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-hai",
+      "trung-nu-vuong"
     ],
     "id": 396,
     "name": "quận Nam Hải",
@@ -4885,6 +5739,7 @@
       "duong-xa",
       "ho-tay"
     ],
+    "relatedPeriod": [],
     "id": 397,
     "name": "quận Nam Từ Liêm",
     "description": [
@@ -4894,6 +5749,7 @@
   {
     "placeCode": "quan-tan-phu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 398,
     "name": "Quận Tân Phú",
     "description": [
@@ -4907,6 +5763,7 @@
       "nha-dinh",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 399,
     "name": "quận Thanh Xuân",
     "description": [
@@ -4928,6 +5785,7 @@
       "nha-tay-son",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 400,
     "name": "Quần thể di tích Cố đô Huế",
     "description": [
@@ -4965,6 +5823,7 @@
       "hoang-hoa-tham",
       "tran-due-tong"
     ],
+    "relatedPeriod": [],
     "id": 401,
     "name": "Quần thể di tích danh thắng Yên Tử",
     "description": [
@@ -4979,6 +5838,7 @@
       "le-thanh-tong",
       "tran-dang-khoa"
     ],
+    "relatedPeriod": [],
     "id": 402,
     "name": "sông Ba",
     "description": [
@@ -4988,6 +5848,7 @@
   {
     "placeCode": "song-ba-che",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 403,
     "name": "sông Ba Chẽ",
     "description": [
@@ -4997,6 +5858,7 @@
   {
     "placeCode": "song-bac-giang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 404,
     "name": "Sông Bắc Giang",
     "description": [
@@ -5006,6 +5868,7 @@
   {
     "placeCode": "song-bac-luan",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 405,
     "name": "sông Bắc Luân",
     "description": [
@@ -5017,6 +5880,12 @@
     "relatedFigures": [
       "ngo-quyen",
       "le-dai-hanh"
+    ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-le",
+      "bac-thuoc-lan-thu-ba",
+      "nha-tien-le"
     ],
     "id": 406,
     "name": "sông Bạch Đằng",
@@ -5032,6 +5901,7 @@
       "nguyen-phuc-tan",
       "nguyen-phuc-chu"
     ],
+    "relatedPeriod": [],
     "id": 407,
     "name": "sông Bảo Định",
     "description": [
@@ -5041,6 +5911,7 @@
   {
     "placeCode": "song-bassac",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 408,
     "name": "sông Bassac",
     "description": [
@@ -5050,6 +5921,9 @@
   {
     "placeCode": "song-be",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 409,
     "name": "sông Bé",
     "description": [
@@ -5059,6 +5933,9 @@
   {
     "placeCode": "song-ben-hai",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 410,
     "name": "sông Bến Hải",
     "description": [
@@ -5068,6 +5945,7 @@
   {
     "placeCode": "song-ben-nghe",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 411,
     "name": "sông Bến Nghé",
     "description": [
@@ -5077,6 +5955,7 @@
   {
     "placeCode": "song-bo",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 412,
     "name": "sông Bồ",
     "description": [
@@ -5086,6 +5965,7 @@
   {
     "placeCode": "song-boi",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 413,
     "name": "sông Bôi",
     "description": [
@@ -5095,6 +5975,7 @@
   {
     "placeCode": "song-buoi",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 414,
     "name": "sông Bưởi",
     "description": [
@@ -5104,6 +5985,9 @@
   {
     "placeCode": "song-ca",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 415,
     "name": "sông Cả",
     "description": []
@@ -5111,6 +5995,7 @@
   {
     "placeCode": "song-ca-lo",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 416,
     "name": "sông Cà Lồ",
     "description": [
@@ -5120,6 +6005,14 @@
   {
     "placeCode": "song-cai",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-tran",
+      "nha-ho",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 417,
     "name": "sông Cái",
     "description": []
@@ -5127,6 +6020,7 @@
   {
     "placeCode": "song-cam",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 418,
     "name": "Sông Cấm",
     "description": []
@@ -5143,6 +6037,7 @@
       "truong-hat",
       "le-hoan"
     ],
+    "relatedPeriod": [],
     "id": 419,
     "name": "sông Cầu",
     "description": [
@@ -5152,6 +6047,7 @@
   {
     "placeCode": "song-chanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 420,
     "name": "sông Chanh",
     "description": [
@@ -5163,6 +6059,7 @@
     "relatedFigures": [
       "le-quy-don"
     ],
+    "relatedPeriod": [],
     "id": 421,
     "name": "sông Chảy",
     "description": [
@@ -5172,6 +6069,7 @@
   {
     "placeCode": "song-chu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 422,
     "name": "sông Chu",
     "description": [
@@ -5181,6 +6079,7 @@
   {
     "placeCode": "song-con",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 423,
     "name": "sông Con",
     "description": []
@@ -5192,6 +6091,7 @@
       "do-can",
       "ly-bi"
     ],
+    "relatedPeriod": [],
     "id": 424,
     "name": "Sông Công",
     "description": [
@@ -5201,6 +6101,9 @@
   {
     "placeCode": "song-cuu-an",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-nguyen"
+    ],
     "id": 425,
     "name": "sông Cửu An",
     "description": [
@@ -5210,6 +6113,10 @@
   {
     "placeCode": "song-cuu-long",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "viet-nam-xhcn"
+    ],
     "id": 426,
     "name": "sông Cửu Long",
     "description": [
@@ -5219,6 +6126,7 @@
   {
     "placeCode": "song-diem-ho",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 427,
     "name": "sông Diêm Hộ",
     "description": [
@@ -5230,6 +6138,7 @@
     "relatedFigures": [
       "hoang-ha"
     ],
+    "relatedPeriod": [],
     "id": 428,
     "name": "sông Dương Tử",
     "description": [
@@ -5241,6 +6150,12 @@
     "relatedFigures": [
       "le-quy-don",
       "hoang-nham"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "nha-ho",
+      "phap-thuoc",
+      "hong-bang-va-van-lang"
     ],
     "id": 429,
     "name": "sông Đà",
@@ -5257,6 +6172,10 @@
       "nguyen-bac",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-tien-le"
+    ],
     "id": 430,
     "name": "sông Đại Hoàng",
     "description": [
@@ -5266,6 +6185,12 @@
   {
     "placeCode": "song-day",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "nha-hau-tran",
+      "nha-ho",
+      "nha-hau-le"
+    ],
     "id": 431,
     "name": "sông Đáy",
     "description": [
@@ -5275,6 +6200,7 @@
   {
     "placeCode": "song-dong-nai",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 432,
     "name": "sông Đồng Nai",
     "description": [
@@ -5286,6 +6212,7 @@
     "relatedFigures": [
       "hoang-cam"
     ],
+    "relatedPeriod": [],
     "id": 433,
     "name": "sông Đuống",
     "description": [
@@ -5297,6 +6224,9 @@
     "relatedFigures": [
       "ly-bon"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 434,
     "name": "sông Gâm",
     "description": [
@@ -5306,6 +6236,7 @@
   {
     "placeCode": "song-gia",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 435,
     "name": "sông Giá",
     "description": [
@@ -5320,6 +6251,10 @@
       "nguyen-binh-khiem",
       "nguyen-kim"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 436,
     "name": "sông Gianh",
     "description": [
@@ -5329,6 +6264,9 @@
   {
     "placeCode": "song-hai-trieu",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 437,
     "name": "sông Hải Triều",
     "description": [
@@ -5338,6 +6276,7 @@
   {
     "placeCode": "song-han",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 438,
     "name": "sông Hán",
     "description": [
@@ -5347,6 +6286,7 @@
   {
     "placeCode": "song-hang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 439,
     "name": "Sông Hằng",
     "description": [
@@ -5356,6 +6296,12 @@
   {
     "placeCode": "song-hat",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "hong-bang-va-van-lang",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 440,
     "name": "sông Hát",
     "description": [
@@ -5365,6 +6311,7 @@
   {
     "placeCode": "song-hau",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 441,
     "name": "sông Hậu",
     "description": [
@@ -5374,6 +6321,7 @@
   {
     "placeCode": "song-hieu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 442,
     "name": "sông Hiếu",
     "description": []
@@ -5381,6 +6329,7 @@
   {
     "placeCode": "song-hoa",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 443,
     "name": "sông Hóa",
     "description": [
@@ -5392,6 +6341,7 @@
     "relatedFigures": [
       "hoang-ha"
     ],
+    "relatedPeriod": [],
     "id": 444,
     "name": "sông Hoài",
     "description": [
@@ -5401,6 +6351,7 @@
   {
     "placeCode": "song-hoang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 445,
     "name": "sông Hoàng",
     "description": [
@@ -5413,6 +6364,7 @@
       "hoang-ha",
       "nha-tay-han"
     ],
+    "relatedPeriod": [],
     "id": 446,
     "name": "sông Hoàng Hà",
     "description": [
@@ -5428,6 +6380,7 @@
       "nguyen-bac",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 447,
     "name": "sông Hoàng Long",
     "description": [
@@ -5437,6 +6390,10 @@
   {
     "placeCode": "song-hong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc"
+    ],
     "id": 448,
     "name": "sông Hồng",
     "description": [
@@ -5451,6 +6408,7 @@
       "le-thanh-tong",
       "nguyen-trai"
     ],
+    "relatedPeriod": [],
     "id": 449,
     "name": "sông Hương",
     "description": [
@@ -5460,6 +6418,7 @@
   {
     "placeCode": "song-kim-sa",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 450,
     "name": "sông Kim Sa",
     "description": [
@@ -5471,6 +6430,7 @@
     "relatedFigures": [
       "tran-dang-khoa"
     ],
+    "relatedPeriod": [],
     "id": 451,
     "name": "sông Kinh Thầy",
     "description": [
@@ -5480,6 +6440,7 @@
   {
     "placeCode": "song-ky-cung",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 452,
     "name": "sông Kỳ Cùng",
     "description": [
@@ -5489,6 +6450,11 @@
   {
     "placeCode": "song-lam",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nam-bac-trieu",
+      "nha-tay-son"
+    ],
     "id": 453,
     "name": "sông Lam",
     "description": [
@@ -5500,6 +6466,7 @@
     "relatedFigures": [
       "le-hoan"
     ],
+    "relatedPeriod": [],
     "id": 454,
     "name": "sông Lèn",
     "description": [
@@ -5509,6 +6476,7 @@
   {
     "placeCode": "song-lieu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 455,
     "name": "sông Liêu",
     "description": [
@@ -5520,6 +6488,15 @@
     "relatedFigures": [
       "le-quy-don"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "viet-nam-dan-chu-cong-hoa",
+      "nha-hau-tran",
+      "nha-ho",
+      "nha-ly",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 456,
     "name": "sông Lô",
     "description": [
@@ -5529,6 +6506,7 @@
   {
     "placeCode": "song-long-tau",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 457,
     "name": "sông Lòng Tàu",
     "description": [
@@ -5542,6 +6520,7 @@
       "tran-thu-do",
       "truong-van-ho"
     ],
+    "relatedPeriod": [],
     "id": 458,
     "name": "sông Lục Đầu",
     "description": [
@@ -5551,6 +6530,7 @@
   {
     "placeCode": "song-luc-nam",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 459,
     "name": "sông Lục Nam",
     "description": [
@@ -5560,6 +6540,9 @@
   {
     "placeCode": "song-luoc",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 460,
     "name": "sông Luộc",
     "description": [
@@ -5571,6 +6554,12 @@
     "relatedFigures": [
       "le-dai-hanh"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 461,
     "name": "sông Mã",
     "description": [
@@ -5580,6 +6569,7 @@
   {
     "placeCode": "song-man-thit",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 462,
     "name": "sông Mân Thít",
     "description": [
@@ -5589,6 +6579,9 @@
   {
     "placeCode": "song-me-cong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 463,
     "name": "sông Mê Công",
     "description": [
@@ -5598,6 +6591,7 @@
   {
     "placeCode": "song-me-kong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 464,
     "name": "sông Mê Kông",
     "description": [
@@ -5607,6 +6601,7 @@
   {
     "placeCode": "song-me-nam",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 465,
     "name": "sông Mê Nam",
     "description": [
@@ -5616,6 +6611,7 @@
   {
     "placeCode": "song-mekong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 466,
     "name": "sông Mekong",
     "description": [
@@ -5628,6 +6624,7 @@
       "nguyen-hue",
       "nguyen-anh"
     ],
+    "relatedPeriod": [],
     "id": 467,
     "name": "sông Mỹ Tho",
     "description": [
@@ -5637,6 +6634,7 @@
   {
     "placeCode": "song-nam-dinh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 468,
     "name": "sông Nam Định",
     "description": [
@@ -5646,6 +6644,7 @@
   {
     "placeCode": "song-ngan-sau",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 469,
     "name": "sông Ngàn Sâu",
     "description": [
@@ -5655,6 +6654,7 @@
   {
     "placeCode": "song-ngu-ha",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 470,
     "name": "sông Ngự Hà",
     "description": [
@@ -5673,6 +6673,7 @@
       "truong-hat",
       "le-hoan"
     ],
+    "relatedPeriod": [],
     "id": 471,
     "name": "sông Nguyệt Đức",
     "description": [
@@ -5691,6 +6692,7 @@
       "ly-nhan-tong",
       "tran-xa"
     ],
+    "relatedPeriod": [],
     "id": 472,
     "name": "sông Nhật Lệ",
     "description": [
@@ -5700,6 +6702,11 @@
   {
     "placeCode": "song-nhi",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 473,
     "name": "sông Nhị",
     "description": [
@@ -5709,6 +6716,9 @@
   {
     "placeCode": "song-nhi-ha",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 474,
     "name": "sông Nhị Hà",
     "description": [
@@ -5727,6 +6737,9 @@
       "truong-hat",
       "le-hoan"
     ],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 475,
     "name": "sông Như Nguyệt",
     "description": [
@@ -5736,6 +6749,7 @@
   {
     "placeCode": "song-nhue",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 476,
     "name": "sông Nhuệ",
     "description": [
@@ -5745,6 +6759,9 @@
   {
     "placeCode": "song-phan",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-hai"
+    ],
     "id": 477,
     "name": "sông Phần",
     "description": [
@@ -5756,6 +6773,7 @@
     "relatedFigures": [
       "nguyen-dinh-chieu"
     ],
+    "relatedPeriod": [],
     "id": 478,
     "name": "sông Rạch Cát",
     "description": [
@@ -5765,6 +6783,9 @@
   {
     "placeCode": "song-rach-gam",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tay-son"
+    ],
     "id": 479,
     "name": "sông Rạch Gầm",
     "description": [
@@ -5774,6 +6795,7 @@
   {
     "placeCode": "song-sai-gon",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 480,
     "name": "sông Sài Gòn",
     "description": [
@@ -5783,6 +6805,7 @@
   {
     "placeCode": "song-sao-khe",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 481,
     "name": "sông Sào Khê",
     "description": [
@@ -5792,6 +6815,7 @@
   {
     "placeCode": "song-serepok",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 482,
     "name": "sông Sêrêpôk",
     "description": [
@@ -5801,6 +6825,7 @@
   {
     "placeCode": "song-soai-rap",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 483,
     "name": "sông Soài Rạp",
     "description": [
@@ -5810,6 +6835,7 @@
   {
     "placeCode": "song-srepok",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 484,
     "name": "sông Srepok",
     "description": [
@@ -5821,6 +6847,7 @@
     "relatedFigures": [
       "trieu-phong"
     ],
+    "relatedPeriod": [],
     "id": 485,
     "name": "sông Thạch Hãn",
     "description": [
@@ -5830,6 +6857,9 @@
   {
     "placeCode": "song-thai-binh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 486,
     "name": "sông Thái Bình",
     "description": [
@@ -5841,6 +6871,9 @@
     "relatedFigures": [
       "nguyen-duy",
       "do-nhuan"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 487,
     "name": "Sông Thao",
@@ -5860,6 +6893,7 @@
       "truong-hat",
       "le-hoan"
     ],
+    "relatedPeriod": [],
     "id": 488,
     "name": "sông Thị Cầu",
     "description": [
@@ -5870,6 +6904,13 @@
     "placeCode": "song-thien-duc",
     "relatedFigures": [
       "hoang-cam"
+    ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "au-lac-va-nam-viet"
     ],
     "id": 489,
     "name": "sông Thiên Đức",
@@ -5885,6 +6926,7 @@
       "tran-quoc-tuan",
       "ly-nhan"
     ],
+    "relatedPeriod": [],
     "id": 490,
     "name": "Sông Thiên Mạc",
     "description": [
@@ -5894,6 +6936,7 @@
   {
     "placeCode": "song-thu-bon",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 491,
     "name": "sông Thu Bồn",
     "description": [
@@ -5903,6 +6946,7 @@
   {
     "placeCode": "song-thuong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 492,
     "name": "sông Thương",
     "description": [
@@ -5916,6 +6960,7 @@
       "ly-trien",
       "do-bi"
     ],
+    "relatedPeriod": [],
     "id": 493,
     "name": "sông Tích",
     "description": [
@@ -5925,6 +6970,9 @@
   {
     "placeCode": "song-tien",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tay-son"
+    ],
     "id": 494,
     "name": "sông Tiền",
     "description": [
@@ -5938,6 +6986,9 @@
       "hoang-quoc-viet",
       "phan-dinh-phung",
       "hoang-hoa-tham"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 495,
     "name": "sông Tô",
@@ -5953,6 +7004,14 @@
       "phan-dinh-phung",
       "hoang-hoa-tham"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly-va-nha-trieu",
+      "nha-ly",
+      "nha-hau-le",
+      "nam-bac-trieu",
+      "bac-thuoc-lan-thu-ba"
+    ],
     "id": 496,
     "name": "sông Tô Lịch",
     "description": [
@@ -5964,6 +7023,7 @@
     "relatedFigures": [
       "hoang-ha"
     ],
+    "relatedPeriod": [],
     "id": 497,
     "name": "sông Trường Giang",
     "description": [
@@ -5973,6 +7033,7 @@
   {
     "placeCode": "song-vam-co",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 498,
     "name": "sông Vàm Cỏ",
     "description": [
@@ -5985,6 +7046,9 @@
       "hoang-viet",
       "nguyen-trung-truc"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 499,
     "name": "sông Vàm Cỏ Đông",
     "description": [
@@ -5994,6 +7058,7 @@
   {
     "placeCode": "song-vam-co-tay",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 500,
     "name": "sông Vàm Cỏ Tây",
     "description": [
@@ -6003,6 +7068,7 @@
   {
     "placeCode": "song-vang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 501,
     "name": "sông Vang",
     "description": [
@@ -6012,6 +7078,7 @@
   {
     "placeCode": "song-ve",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 502,
     "name": "sông Vệ",
     "description": [
@@ -6022,6 +7089,9 @@
     "placeCode": "song-vi",
     "relatedFigures": [
       "hoang-ha"
+    ],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-nhat"
     ],
     "id": 503,
     "name": "sông Vị",
@@ -6034,6 +7104,7 @@
     "relatedFigures": [
       "nha-tran"
     ],
+    "relatedPeriod": [],
     "id": 504,
     "name": "sông Vị Hoàng",
     "description": [
@@ -6043,6 +7114,7 @@
   {
     "placeCode": "thanh-an",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 505,
     "name": "Thành An",
     "description": []
@@ -6070,6 +7142,9 @@
       "le-trung-tong",
       "pham-cu-luong"
     ],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 506,
     "name": "thành Bình Lỗ",
     "description": [
@@ -6079,6 +7154,7 @@
   {
     "placeCode": "thanh-co",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 507,
     "name": "thành Cố",
     "description": [
@@ -6091,6 +7167,9 @@
       "duong-vuong",
       "ngo-quyen"
     ],
+    "relatedPeriod": [
+      "au-lac-va-nam-viet"
+    ],
     "id": 508,
     "name": "thành Cổ Loa",
     "description": [
@@ -6102,6 +7181,7 @@
     "relatedFigures": [
       "trieu-phong"
     ],
+    "relatedPeriod": [],
     "id": 509,
     "name": "Thành cổ Quảng Trị",
     "description": [
@@ -6111,6 +7191,10 @@
   {
     "placeCode": "thanh-cong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nam-bac-trieu"
+    ],
     "id": 510,
     "name": "Thành Công",
     "description": []
@@ -6126,6 +7210,10 @@
       "hoang-hoi-khanh",
       "tran-tuan",
       "ho-quy-ly"
+    ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ho"
     ],
     "id": 511,
     "name": "thành Đa Bang",
@@ -6148,6 +7236,14 @@
       "ho-chi-minh",
       "tran-quoc-vuong"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly",
+      "nha-hau-le",
+      "nam-bac-trieu",
+      "bac-thuoc-lan-thu-ba",
+      "thoi-ky-xay-nen-tu-chu"
+    ],
     "id": 512,
     "name": "thành Đại La",
     "description": [
@@ -6157,6 +7253,7 @@
   {
     "placeCode": "thanh-do",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 513,
     "name": "Thành Đô",
     "description": [
@@ -6181,6 +7278,9 @@
       "tran-due-tong",
       "nha-tay-son"
     ],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 514,
     "name": "thành Đồ Bàn",
     "description": [
@@ -6197,6 +7297,10 @@
       "nguyen-lu",
       "nguyen-trai",
       "dinh-tien-hoang"
+    ],
+    "relatedPeriod": [
+      "nha-nguyen",
+      "nha-tay-son"
     ],
     "id": 515,
     "name": "thành Gia Định",
@@ -6219,6 +7323,10 @@
       "ho-chi-minh",
       "tran-quoc-vuong"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc"
+    ],
     "id": 516,
     "name": "thành Hà Nội",
     "description": [
@@ -6230,6 +7338,9 @@
     "relatedFigures": [
       "nha-mac"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 517,
     "name": "thành Hải Dương",
     "description": [
@@ -6239,6 +7350,9 @@
   {
     "placeCode": "thanh-hoa",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-dinh"
+    ],
     "id": 518,
     "name": "thành Hoa",
     "description": [
@@ -6281,6 +7395,9 @@
       "do-thich",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 519,
     "name": "thành Hoa Lư",
     "description": [
@@ -6290,6 +7407,7 @@
   {
     "placeCode": "thanh-hoang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 520,
     "name": "Thành Hoàng",
     "description": [
@@ -6311,6 +7429,9 @@
       "nha-tay-son",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 521,
     "name": "thành Huế",
     "description": [
@@ -6320,6 +7441,9 @@
   {
     "placeCode": "thanh-hung",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 522,
     "name": "Thành Hưng",
     "description": [
@@ -6335,6 +7459,9 @@
       "nguyen-quang-bich",
       "hoang-ke-viem"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 523,
     "name": "thành Hưng Hóa",
     "description": [
@@ -6349,6 +7476,9 @@
       "ly-thanh-tong",
       "pham-ho-dat"
     ],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-hai"
+    ],
     "id": 524,
     "name": "thành Khu Túc",
     "description": [
@@ -6360,6 +7490,7 @@
     "relatedFigures": [
       "pham-van"
     ],
+    "relatedPeriod": [],
     "id": 525,
     "name": "thành Lồi",
     "description": [
@@ -6369,6 +7500,9 @@
   {
     "placeCode": "thanh-minh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 526,
     "name": "thành Minh",
     "description": [
@@ -6400,6 +7534,7 @@
       "nguyen-cong-tru",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 527,
     "name": "thành Nam",
     "description": [
@@ -6431,6 +7566,7 @@
       "nguyen-cong-tru",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 528,
     "name": "thành Nam Định",
     "description": [
@@ -6450,6 +7586,7 @@
       "thanh-thai",
       "ho-quy-ly"
     ],
+    "relatedPeriod": [],
     "id": 529,
     "name": "Thành nhà Hồ",
     "description": [
@@ -6464,6 +7601,7 @@
       "phan-ke-toai",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 530,
     "name": "thành phố Bắc Ninh",
     "description": [
@@ -6479,6 +7617,7 @@
       "tran-nhat-duat",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 531,
     "name": "thành phố Buôn Ma Thuột",
     "description": [
@@ -6520,6 +7659,7 @@
       "nguyen-trung-truc",
       "mac-tu-sanh"
     ],
+    "relatedPeriod": [],
     "id": 532,
     "name": "thành phố Cần Thơ",
     "description": [
@@ -6529,6 +7669,7 @@
   {
     "placeCode": "thanh-pho-cao-bang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 533,
     "name": "thành phố Cao Bằng",
     "description": [
@@ -6542,6 +7683,7 @@
       "ho-chi-minh",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 534,
     "name": "thành phố Chợ Lớn",
     "description": [
@@ -6570,6 +7712,9 @@
       "nha-tien-le",
       "thanh-thai"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 535,
     "name": "thành phố Đà Nẵng",
     "description": [
@@ -6582,6 +7727,7 @@
       "nha-le",
       "vo-nguyen-giap"
     ],
+    "relatedPeriod": [],
     "id": 536,
     "name": "thành phố Điện Biên Phủ",
     "description": [
@@ -6591,6 +7737,7 @@
   {
     "placeCode": "thanh-pho-dong-ha",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 537,
     "name": "thành phố Đông Hà",
     "description": [
@@ -6648,6 +7795,9 @@
       "nha-tay-son",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 538,
     "name": "thành phố Hà Nội",
     "description": [
@@ -6657,6 +7807,9 @@
   {
     "placeCode": "thanh-pho-ha-tinh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 539,
     "name": "thành phố Hà Tĩnh",
     "description": [
@@ -6694,6 +7847,9 @@
       "nha-mac",
       "nha-tay-son"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 540,
     "name": "thành phố Hải Phòng",
     "description": [
@@ -6718,6 +7874,7 @@
       "ngo-dinh-diem",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 541,
     "name": "Thành phố Hồ Chí Minh",
     "description": [
@@ -6761,6 +7918,9 @@
       "thanh-thai",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 542,
     "name": "thành phố Huế",
     "description": [
@@ -6788,6 +7948,7 @@
       "pham-bach-ho",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 543,
     "name": "thành phố Hưng Yên",
     "description": [
@@ -6808,6 +7969,7 @@
       "nha-han",
       "nha-dinh"
     ],
+    "relatedPeriod": [],
     "id": 544,
     "name": "thành phố Lạng Sơn",
     "description": [
@@ -6817,6 +7979,7 @@
   {
     "placeCode": "thanh-pho-lao-cai",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 545,
     "name": "thành phố Lào Cai",
     "description": [
@@ -6842,6 +8005,7 @@
       "chau-van-liem",
       "nguyen-truong-to"
     ],
+    "relatedPeriod": [],
     "id": 546,
     "name": "thành phố Long Xuyên",
     "description": [
@@ -6873,6 +8037,9 @@
       "nguyen-cong-tru",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 547,
     "name": "thành phố Nam Định",
     "description": [
@@ -6882,6 +8049,7 @@
   {
     "placeCode": "thanh-pho-new-york",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 548,
     "name": "Thành phố New York",
     "description": [
@@ -6933,6 +8101,7 @@
       "ngo-dinh-diem",
       "nguyen-chanh"
     ],
+    "relatedPeriod": [],
     "id": 549,
     "name": "thành phố Nha Trang",
     "description": [
@@ -6955,6 +8124,7 @@
       "dinh-tien-hoang",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 550,
     "name": "thành phố Ninh Bình",
     "description": [
@@ -6978,6 +8148,7 @@
       "tran-binh-trong",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 551,
     "name": "thành phố Phủ Lý",
     "description": [
@@ -7000,6 +8171,7 @@
       "thanh-thai",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 552,
     "name": "thành phố Quy Nhơn",
     "description": [
@@ -7009,6 +8181,7 @@
   {
     "placeCode": "thanh-pho-song-cong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 553,
     "name": "thành phố Sông Công",
     "description": [
@@ -7028,6 +8201,7 @@
       "le-trang-tong",
       "nha-tay-son"
     ],
+    "relatedPeriod": [],
     "id": 554,
     "name": "thành phố Tam Điệp",
     "description": [
@@ -7052,6 +8226,7 @@
       "bui-quang-than",
       "dinh-bo-linh"
     ],
+    "relatedPeriod": [],
     "id": 555,
     "name": "thành phố Thái Bình",
     "description": [
@@ -7066,6 +8241,7 @@
       "phan-dinh-phung",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 556,
     "name": "Thành phố Thái Nguyên",
     "description": [
@@ -7089,6 +8265,9 @@
       "dinh-cong-trang",
       "thanh-thai"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 557,
     "name": "thành phố Thanh Hoá",
     "description": [
@@ -7101,6 +8280,7 @@
       "vo-nguyen-giap",
       "nha-mac"
     ],
+    "relatedPeriod": [],
     "id": 558,
     "name": "Thành phố Tuyên Quang",
     "description": [
@@ -7112,6 +8292,7 @@
     "relatedFigures": [
       "trung-vuong"
     ],
+    "relatedPeriod": [],
     "id": 559,
     "name": "thành phố Uông Bí",
     "description": [
@@ -7138,6 +8319,9 @@
       "hoang-hoa-tham",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "trung-nu-vuong"
+    ],
     "id": 560,
     "name": "thành phố Việt Trì",
     "description": [
@@ -7163,6 +8347,10 @@
       "nha-tay-son",
       "thanh-thai"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc"
+    ],
     "id": 561,
     "name": "thành phố Vinh",
     "description": [
@@ -7178,6 +8366,7 @@
       "hoang-hoa-tham",
       "le-hong-phong"
     ],
+    "relatedPeriod": [],
     "id": 562,
     "name": "thành phố Vũng Tàu",
     "description": [
@@ -7187,6 +8376,7 @@
   {
     "placeCode": "thanh-pho-westminster",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 563,
     "name": "thành phố Westminster",
     "description": [
@@ -7204,6 +8394,9 @@
       "nguyen-trai",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "nha-tay-son"
+    ],
     "id": 564,
     "name": "thành Sài Gòn",
     "description": [
@@ -7213,6 +8406,9 @@
   {
     "placeCode": "thanh-son",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 565,
     "name": "Thành Sơn",
     "description": [
@@ -7228,6 +8424,7 @@
       "hoang-ke-viem",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 566,
     "name": "thành Sơn Tây",
     "description": [
@@ -7246,6 +8443,11 @@
       "trinh-sam",
       "thanh-thai",
       "ho-quy-ly"
+    ],
+    "relatedPeriod": [
+      "nha-ho",
+      "nha-hau-le",
+      "nam-bac-trieu"
     ],
     "id": 567,
     "name": "thành Tây Đô",
@@ -7266,6 +8468,7 @@
       "thanh-thai",
       "ho-quy-ly"
     ],
+    "relatedPeriod": [],
     "id": 568,
     "name": "thành Tây Giai",
     "description": [
@@ -7281,6 +8484,7 @@
       "phan-boi-chau",
       "thanh-thai"
     ],
+    "relatedPeriod": [],
     "id": 569,
     "name": "Thành Thái",
     "description": [
@@ -7294,6 +8498,7 @@
       "nha-thuong",
       "nha-chu"
     ],
+    "relatedPeriod": [],
     "id": 570,
     "name": "Thành Thang",
     "description": [
@@ -7315,6 +8520,14 @@
       "ho-chi-minh",
       "tran-quoc-vuong"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu",
+      "nha-tay-son"
+    ],
     "id": 571,
     "name": "thành Thăng Long",
     "description": [
@@ -7324,6 +8537,10 @@
   {
     "placeCode": "thanh-to",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le"
+    ],
     "id": 572,
     "name": "Thành Tổ",
     "description": [
@@ -7333,6 +8550,9 @@
   {
     "placeCode": "thanh-tong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 573,
     "name": "Thành Tông",
     "description": [
@@ -7342,6 +8562,9 @@
   {
     "placeCode": "thanh-trung",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran"
+    ],
     "id": 574,
     "name": "thành Trung",
     "description": []
@@ -7352,6 +8575,7 @@
       "vo-nguyen-giap",
       "nha-mac"
     ],
+    "relatedPeriod": [],
     "id": 575,
     "name": "thành Tuyên Quang",
     "description": [
@@ -7364,6 +8588,7 @@
       "phan-thanh-gian",
       "phan-van-tri"
     ],
+    "relatedPeriod": [],
     "id": 576,
     "name": "thành Vĩnh Long",
     "description": [
@@ -7375,6 +8600,7 @@
     "relatedFigures": [
       "thanh-vuong"
     ],
+    "relatedPeriod": [],
     "id": 577,
     "name": "Thành Vương",
     "description": [
@@ -7384,6 +8610,7 @@
   {
     "placeCode": "thi-tran-cau-dien",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 578,
     "name": "thị trấn Cầu Diễn",
     "description": [
@@ -7397,6 +8624,7 @@
       "le-loi",
       "le-hong-phong"
     ],
+    "relatedPeriod": [],
     "id": 579,
     "name": "thị trấn Chũ",
     "description": [
@@ -7409,6 +8637,7 @@
       "nha-minh",
       "le-loi"
     ],
+    "relatedPeriod": [],
     "id": 580,
     "name": "thị trấn Chúc Sơn",
     "description": [
@@ -7418,6 +8647,7 @@
   {
     "placeCode": "thi-tran-dong-khe",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 581,
     "name": "Thị trấn Đông Khê",
     "description": [
@@ -7427,6 +8657,9 @@
   {
     "placeCode": "thi-tran-sa-pa",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 582,
     "name": "thị trấn Sa Pa",
     "description": [
@@ -7440,6 +8673,7 @@
       "mac-phuc-nguyen",
       "le-trung"
     ],
+    "relatedPeriod": [],
     "id": 583,
     "name": "thị trấn Thanh Sơn",
     "description": [
@@ -7449,6 +8683,7 @@
   {
     "placeCode": "thi-tran-vinh-loc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 584,
     "name": "thị trấn Vĩnh Lộc",
     "description": []
@@ -7456,6 +8691,7 @@
   {
     "placeCode": "thi-tran-yen-ninh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 585,
     "name": "thị trấn Yên Ninh",
     "description": [
@@ -7469,6 +8705,7 @@
       "vo-nguyen-giap",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 586,
     "name": "thị xã Bắc Cạn",
     "description": [
@@ -7481,6 +8718,9 @@
       "nguyen-thi-minh-khai",
       "vo-nguyen-giap",
       "tran-hung-dao"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 587,
     "name": "thị xã Bắc Kạn",
@@ -7496,6 +8736,9 @@
       "phan-ke-toai",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 588,
     "name": "thị xã Bắc Ninh",
     "description": [
@@ -7505,6 +8748,7 @@
   {
     "placeCode": "thi-xa-cam-duong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 589,
     "name": "thị xã Cam Đường",
     "description": [
@@ -7514,6 +8758,7 @@
   {
     "placeCode": "thi-xa-cao-bang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 590,
     "name": "thị xã Cao Bằng",
     "description": [
@@ -7533,6 +8778,7 @@
       "le-dai-hanh",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 591,
     "name": "thị xã Chí Linh",
     "description": [
@@ -7551,6 +8797,9 @@
       "le-trong-tan",
       "mac-thai-tong"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 592,
     "name": "thị xã Hà Đông",
     "description": [
@@ -7568,6 +8817,9 @@
       "le-thanh-nghi",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 593,
     "name": "thị xã Hải Dương",
     "description": [
@@ -7577,6 +8829,7 @@
   {
     "placeCode": "thi-xa-huong-thuy",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 594,
     "name": "thị xã Hương Thủy",
     "description": [
@@ -7594,6 +8847,9 @@
       "le-hong-phong",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 595,
     "name": "thị xã Kon Tum",
     "description": [
@@ -7606,6 +8862,7 @@
       "ngo-dinh-diem",
       "nguyen-thong"
     ],
+    "relatedPeriod": [],
     "id": 596,
     "name": "thị xã La Gi",
     "description": [
@@ -7616,6 +8873,9 @@
     "placeCode": "thi-xa-lai-chau",
     "relatedFigures": [
       "hoang-lien-son"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 597,
     "name": "thị xã Lai Châu",
@@ -7637,6 +8897,9 @@
       "nha-han",
       "nha-dinh"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 598,
     "name": "thị xã Lạng Sơn",
     "description": [
@@ -7646,6 +8909,9 @@
   {
     "placeCode": "thi-xa-lao-cai",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 599,
     "name": "thị xã Lào Cai",
     "description": [
@@ -7668,6 +8934,7 @@
       "dinh-tien-hoang",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 600,
     "name": "thị xã Ninh Bình",
     "description": [
@@ -7680,6 +8947,7 @@
       "dinh-bo-linh",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 601,
     "name": "thị xã Phú Thọ",
     "description": [
@@ -7692,6 +8960,7 @@
       "nguyen-van-thieu",
       "nguyen-thanh-trung"
     ],
+    "relatedPeriod": [],
     "id": 602,
     "name": "thị xã Phước Long",
     "description": [
@@ -7711,6 +8980,9 @@
       "ly-thai-tong",
       "nha-han"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 603,
     "name": "thị xã Quảng Trị",
     "description": [
@@ -7720,6 +8992,7 @@
   {
     "placeCode": "thi-xa-quang-yen",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 604,
     "name": "thị xã Quảng Yên",
     "description": [
@@ -7731,6 +9004,7 @@
     "relatedFigures": [
       "le-thai-tong"
     ],
+    "relatedPeriod": [],
     "id": 605,
     "name": "thị xã Sơn La",
     "description": [
@@ -7747,6 +9021,7 @@
       "ngo-quyen",
       "nguyen-van-sieu"
     ],
+    "relatedPeriod": [],
     "id": 606,
     "name": "thị xã Sơn Tây",
     "description": [
@@ -7769,6 +9044,10 @@
       "truong-quyen",
       "ngo-gia-tu"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "viet-nam-xhcn"
+    ],
     "id": 607,
     "name": "thị xã Tây Ninh",
     "description": [
@@ -7782,6 +9061,9 @@
       "hoang-van-thu",
       "phan-dinh-phung"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 608,
     "name": "thị xã Thái Nguyên",
     "description": [
@@ -7791,6 +9073,7 @@
   {
     "placeCode": "thi-xa-tu-son",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 609,
     "name": "thị xã Từ Sơn",
     "description": [
@@ -7803,6 +9086,7 @@
       "vo-nguyen-giap",
       "nha-mac"
     ],
+    "relatedPeriod": [],
     "id": 610,
     "name": "thị xã Tuyên Quang",
     "description": [
@@ -7821,6 +9105,7 @@
       "ngo-quyen",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 611,
     "name": "thị xã Vĩnh Yên",
     "description": [
@@ -7835,6 +9120,9 @@
       "nha-ly",
       "nha-hau-le",
       "ly-thai-tong"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 612,
     "name": "thừa tuyên Nghệ An",
@@ -7855,6 +9143,7 @@
       "dinh-tien-hoang",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [],
     "id": 613,
     "name": "thừa tuyên Sơn Nam",
     "description": [
@@ -7869,6 +9158,9 @@
       "nha-le",
       "tran-thanh-tong"
     ],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 614,
     "name": "thừa tuyên Thiên Trường",
     "description": [
@@ -7880,6 +9172,7 @@
     "relatedFigures": [
       "ngo-dinh-diem"
     ],
+    "relatedPeriod": [],
     "id": 615,
     "name": "tỉnh An Giang",
     "description": [
@@ -7891,6 +9184,7 @@
     "relatedFigures": [
       "nguyen-phuc-nguyen"
     ],
+    "relatedPeriod": [],
     "id": 616,
     "name": "tỉnh Bà Rịa",
     "description": [
@@ -7900,6 +9194,7 @@
   {
     "placeCode": "tinh-bac-giang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 617,
     "name": "tỉnh Bắc Giang",
     "description": [
@@ -7909,6 +9204,9 @@
   {
     "placeCode": "tinh-bac-kan",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 618,
     "name": "tỉnh Bắc Kạn",
     "description": [
@@ -7929,6 +9227,9 @@
       "le-van-thinh",
       "ly-nhan-tong"
     ],
+    "relatedPeriod": [
+      "phap-thuoc"
+    ],
     "id": 619,
     "name": "tỉnh Bắc Ninh",
     "description": [
@@ -7938,6 +9239,7 @@
   {
     "placeCode": "tinh-battambang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 620,
     "name": "tỉnh Battambang",
     "description": [
@@ -7952,6 +9254,9 @@
       "phan-thanh-gian",
       "ngo-dinh-diem"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 621,
     "name": "Tỉnh Bến Tre",
     "description": [
@@ -7963,6 +9268,7 @@
     "relatedFigures": [
       "nguyen-phuc-chu"
     ],
+    "relatedPeriod": [],
     "id": 622,
     "name": "tỉnh Biên Hòa",
     "description": [
@@ -7975,6 +9281,7 @@
       "ngo-dinh-diem",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 623,
     "name": "tỉnh Bình Dương",
     "description": [
@@ -8001,6 +9308,9 @@
       "nha-han",
       "nha-tay-son"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 624,
     "name": "tỉnh Bình Định",
     "description": [
@@ -8010,6 +9320,7 @@
   {
     "placeCode": "tinh-binh-phuoc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 625,
     "name": "tỉnh Bình Phước",
     "description": [
@@ -8024,6 +9335,9 @@
       "ho-chi-minh",
       "thanh-thai"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 626,
     "name": "tỉnh Bình Thuận",
     "description": [
@@ -8036,6 +9350,7 @@
       "dang-van-quang",
       "ngo-dinh-diem"
     ],
+    "relatedPeriod": [],
     "id": 627,
     "name": "tỉnh Cần Thơ",
     "description": [
@@ -8050,6 +9365,10 @@
       "nha-mac",
       "ly-thai-tong"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc"
+    ],
     "id": 628,
     "name": "tỉnh Cao Bằng",
     "description": [
@@ -8061,6 +9380,7 @@
     "relatedFigures": [
       "le-thanh-tong"
     ],
+    "relatedPeriod": [],
     "id": 629,
     "name": "tỉnh Điện Biên",
     "description": [
@@ -8077,6 +9397,7 @@
       "ngo-dinh-diem",
       "nha-tay-son"
     ],
+    "relatedPeriod": [],
     "id": 630,
     "name": "tỉnh Định Tường",
     "description": [
@@ -8091,6 +9412,7 @@
       "nguyen-phuc-tan",
       "nha-thanh"
     ],
+    "relatedPeriod": [],
     "id": 631,
     "name": "tỉnh Đồng Nai",
     "description": [
@@ -8100,6 +9422,7 @@
   {
     "placeCode": "tinh-dong-thap",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 632,
     "name": "tỉnh Đồng Tháp",
     "description": [
@@ -8109,6 +9432,7 @@
   {
     "placeCode": "tinh-gia-dinh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 633,
     "name": "tỉnh Gia Định",
     "description": [
@@ -8120,6 +9444,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 634,
     "name": "tỉnh Gia Lai",
     "description": [
@@ -8129,6 +9454,9 @@
   {
     "placeCode": "tinh-ha-dong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 635,
     "name": "tỉnh Hà Đông",
     "description": [
@@ -8138,6 +9466,7 @@
   {
     "placeCode": "tinh-ha-giang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 636,
     "name": "tỉnh Hà Giang",
     "description": [
@@ -8163,6 +9492,9 @@
       "thanh-thai",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 637,
     "name": "tỉnh Hà Nam",
     "description": [
@@ -8180,6 +9512,7 @@
       "le-thai-to",
       "ly-nhan"
     ],
+    "relatedPeriod": [],
     "id": 638,
     "name": "tỉnh Hà Nội",
     "description": [
@@ -8191,6 +9524,7 @@
     "relatedFigures": [
       "ngo-quyen"
     ],
+    "relatedPeriod": [],
     "id": 639,
     "name": "tỉnh Hà Tây",
     "description": [
@@ -8206,6 +9540,7 @@
       "ngo-dinh-diem",
       "truong-dang-que"
     ],
+    "relatedPeriod": [],
     "id": 640,
     "name": "tỉnh Hà Tiên",
     "description": [
@@ -8219,6 +9554,7 @@
       "nha-hau-le",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 641,
     "name": "tỉnh Hà Tĩnh",
     "description": [
@@ -8240,6 +9576,10 @@
       "pham-su-manh",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "nam-bac-trieu"
+    ],
     "id": 642,
     "name": "tỉnh Hải Dương",
     "description": [
@@ -8249,6 +9589,7 @@
   {
     "placeCode": "tinh-hai-hung",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 643,
     "name": "tỉnh Hải Hưng",
     "description": [
@@ -8265,6 +9606,7 @@
       "vu-de",
       "nha-han"
     ],
+    "relatedPeriod": [],
     "id": 644,
     "name": "tỉnh Hải Nam",
     "description": [
@@ -8286,6 +9628,7 @@
       "nha-han",
       "do-phu"
     ],
+    "relatedPeriod": [],
     "id": 645,
     "name": "tỉnh Hồ Bắc",
     "description": [
@@ -8304,6 +9647,7 @@
       "vu-de",
       "dang-tieu-binh"
     ],
+    "relatedPeriod": [],
     "id": 646,
     "name": "tỉnh Hồ Nam",
     "description": [
@@ -8313,6 +9657,7 @@
   {
     "placeCode": "tinh-hoa-binh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 647,
     "name": "tỉnh Hòa Bình",
     "description": [
@@ -8324,6 +9669,7 @@
     "relatedFigures": [
       "hoang-lien-son"
     ],
+    "relatedPeriod": [],
     "id": 648,
     "name": "tỉnh Hoàng Liên Sơn",
     "description": [
@@ -8343,6 +9689,7 @@
       "nha-thanh",
       "nha-tay-son"
     ],
+    "relatedPeriod": [],
     "id": 649,
     "name": "tỉnh Hưng Hóa",
     "description": [
@@ -8357,6 +9704,10 @@
       "tran-quoc-tuan",
       "nguyen-van-linh"
     ],
+    "relatedPeriod": [
+      "phap-thuoc",
+      "nha-ly"
+    ],
     "id": 650,
     "name": "tỉnh Hưng Yên",
     "description": [
@@ -8366,6 +9717,7 @@
   {
     "placeCode": "tinh-kampong-cham",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 651,
     "name": "tỉnh Kampong Cham",
     "description": [
@@ -8375,6 +9727,7 @@
   {
     "placeCode": "tinh-kampot",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 652,
     "name": "tỉnh Kampot",
     "description": [
@@ -8384,6 +9737,7 @@
   {
     "placeCode": "tinh-kien-an",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 653,
     "name": "tỉnh Kiến An",
     "description": [
@@ -8397,6 +9751,7 @@
       "ngo-dinh-diem",
       "nguyen-trung-truc"
     ],
+    "relatedPeriod": [],
     "id": 654,
     "name": "tỉnh Kiên Giang",
     "description": [
@@ -8413,6 +9768,9 @@
       "bui-ta-han",
       "nguyen-nhac"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 655,
     "name": "tỉnh Kon Tum",
     "description": [
@@ -8423,6 +9781,9 @@
     "placeCode": "tinh-lai-chau",
     "relatedFigures": [
       "le-loi"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 656,
     "name": "tỉnh Lai Châu",
@@ -8435,6 +9796,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 657,
     "name": "tỉnh Lâm Đồng",
     "description": [
@@ -8446,6 +9808,7 @@
     "relatedFigures": [
       "nha-mac"
     ],
+    "relatedPeriod": [],
     "id": 658,
     "name": "tỉnh Lạng Sơn",
     "description": [
@@ -8459,6 +9822,9 @@
       "le-tuong-duc",
       "ho-quy-ly"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 659,
     "name": "tỉnh Lào Cai",
     "description": [
@@ -8468,6 +9834,9 @@
   {
     "placeCode": "tinh-long-khanh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 660,
     "name": "tỉnh Long Khánh",
     "description": [
@@ -8477,6 +9846,7 @@
   {
     "placeCode": "tinh-mondolkiri",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 661,
     "name": "tỉnh Mondolkiri",
     "description": [
@@ -8486,6 +9856,7 @@
   {
     "placeCode": "tinh-my-tho",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 662,
     "name": "tỉnh Mỹ Tho",
     "description": [
@@ -8522,6 +9893,10 @@
       "nguyen-thanh-trung",
       "nguyen-khoan"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc"
+    ],
     "id": 663,
     "name": "tỉnh Nam Định",
     "description": [
@@ -8533,6 +9908,7 @@
     "relatedFigures": [
       "ly-nhan"
     ],
+    "relatedPeriod": [],
     "id": 664,
     "name": "tỉnh Nam Hà",
     "description": [
@@ -8557,6 +9933,10 @@
       "nha-hau-le",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "phap-thuoc"
+    ],
     "id": 665,
     "name": "tỉnh Nghệ An",
     "description": [
@@ -8567,6 +9947,9 @@
     "placeCode": "tinh-nghia-lo",
     "relatedFigures": [
       "hoang-lien-son"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 666,
     "name": "tỉnh Nghĩa Lộ",
@@ -8610,6 +9993,7 @@
       "thanh-thai",
       "dinh-tien-hoang"
     ],
+    "relatedPeriod": [],
     "id": 667,
     "name": "tỉnh Ninh Bình",
     "description": [
@@ -8619,6 +10003,9 @@
   {
     "placeCode": "tinh-ninh-thuan",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 668,
     "name": "tỉnh Ninh Thuận",
     "description": [
@@ -8628,6 +10015,7 @@
   {
     "placeCode": "tinh-phu-khanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 669,
     "name": "tỉnh Phú Khánh",
     "description": [
@@ -8640,6 +10028,9 @@
       "nha-le",
       "duong-vuong",
       "ho-chi-minh"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 670,
     "name": "tỉnh Phú Thọ",
@@ -8657,6 +10048,7 @@
       "nguyen-phuc-nguyen",
       "nha-tay-son"
     ],
+    "relatedPeriod": [],
     "id": 671,
     "name": "tỉnh Phú Yên",
     "description": [
@@ -8672,6 +10064,7 @@
       "nha-tan",
       "nha-thanh"
     ],
+    "relatedPeriod": [],
     "id": 672,
     "name": "tỉnh Phúc Kiến",
     "description": [
@@ -8683,6 +10076,9 @@
     "relatedFigures": [
       "phan-ke-toai"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 673,
     "name": "tỉnh Phúc Yên",
     "description": [
@@ -8692,6 +10088,7 @@
   {
     "placeCode": "tinh-prey-veng",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 674,
     "name": "tỉnh Prey Veng",
     "description": [
@@ -8710,6 +10107,7 @@
       "ho-chi-minh",
       "hoang-ke-viem"
     ],
+    "relatedPeriod": [],
     "id": 675,
     "name": "tỉnh Quảng Bình",
     "description": [
@@ -8732,6 +10130,10 @@
       "vu-de",
       "nha-han",
       "dang-tieu-binh"
+    ],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-nhat",
+      "au-lac-va-nam-viet"
     ],
     "id": 676,
     "name": "tỉnh Quảng Đông",
@@ -8758,6 +10160,9 @@
       "nguyen-canh-chan",
       "thanh-thai"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 677,
     "name": "tỉnh Quảng Nam",
     "description": [
@@ -8770,6 +10175,7 @@
       "nha-thanh",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 678,
     "name": "tỉnh Quảng Ninh",
     "description": [
@@ -8791,6 +10197,9 @@
       "nha-han",
       "le-anh-tong"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 679,
     "name": "tỉnh Quảng Trị",
     "description": [
@@ -8800,6 +10209,7 @@
   {
     "placeCode": "tinh-quang-yen",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 680,
     "name": "tỉnh Quảng Yên",
     "description": [
@@ -8816,6 +10226,7 @@
       "nha-thanh",
       "nha-han"
     ],
+    "relatedPeriod": [],
     "id": 681,
     "name": "tỉnh Quý Châu",
     "description": [
@@ -8825,6 +10236,7 @@
   {
     "placeCode": "tinh-ratanakiri",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 682,
     "name": "tỉnh Ratanakiri",
     "description": [
@@ -8834,6 +10246,7 @@
   {
     "placeCode": "tinh-sa-dec",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 683,
     "name": "tỉnh Sa Đéc",
     "description": [
@@ -8843,6 +10256,7 @@
   {
     "placeCode": "tinh-savannakhet",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 684,
     "name": "tỉnh Savannakhet",
     "description": [
@@ -8852,6 +10266,7 @@
   {
     "placeCode": "tinh-sisaket",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 685,
     "name": "tỉnh Sisaket",
     "description": [
@@ -8871,6 +10286,9 @@
       "tran-thang",
       "nha-kim"
     ],
+    "relatedPeriod": [
+      "nha-hau-tran"
+    ],
     "id": 686,
     "name": "tỉnh Sơn Đông",
     "description": [
@@ -8881,6 +10299,9 @@
     "placeCode": "tinh-son-la",
     "relatedFigures": [
       "le-thanh-tong"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
     ],
     "id": 687,
     "name": "tỉnh Sơn La",
@@ -8902,6 +10323,7 @@
       "ngo-si-lien",
       "ho-quy-ly"
     ],
+    "relatedPeriod": [],
     "id": 688,
     "name": "tỉnh Sơn Tây",
     "description": [
@@ -8911,6 +10333,7 @@
   {
     "placeCode": "tinh-stung-treng",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 689,
     "name": "tỉnh Stung Treng",
     "description": [
@@ -8920,6 +10343,7 @@
   {
     "placeCode": "tinh-svay-rieng",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 690,
     "name": "tỉnh Svay Rieng",
     "description": [
@@ -8930,6 +10354,10 @@
     "placeCode": "tinh-tay-ninh",
     "relatedFigures": [
       "duong-minh-chau"
+    ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa",
+      "viet-nam-xhcn"
     ],
     "id": 691,
     "name": "tỉnh Tây Ninh",
@@ -8962,6 +10390,9 @@
       "nguyen-thi-lo",
       "nha-dinh"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 692,
     "name": "tỉnh Thái Bình",
     "description": [
@@ -8987,6 +10418,9 @@
       "ho-chi-minh",
       "nha-han"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 693,
     "name": "tỉnh Thái Nguyên",
     "description": [
@@ -9007,6 +10441,10 @@
       "le-thai-to",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "phap-thuoc"
+    ],
     "id": 694,
     "name": "tỉnh Thanh Hóa",
     "description": [
@@ -9019,6 +10457,7 @@
       "truong-dinh",
       "ngo-dinh-diem"
     ],
+    "relatedPeriod": [],
     "id": 695,
     "name": "tỉnh Tiền Giang",
     "description": [
@@ -9028,6 +10467,7 @@
   {
     "placeCode": "tinh-tra-vinh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 696,
     "name": "tỉnh Trà Vinh",
     "description": [
@@ -9037,6 +10477,7 @@
   {
     "placeCode": "tinh-trat",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 697,
     "name": "tỉnh Trat",
     "description": [
@@ -9046,6 +10487,7 @@
   {
     "placeCode": "tinh-tu-xuyen",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 698,
     "name": "tỉnh Tứ Xuyên",
     "description": [
@@ -9068,6 +10510,9 @@
       "le-trang-tong",
       "le-chieu-tong"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 699,
     "name": "tỉnh Tuyên Quang",
     "description": [
@@ -9085,6 +10530,9 @@
       "vu-de",
       "nha-han"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 700,
     "name": "tỉnh Vân Nam",
     "description": [
@@ -9101,6 +10549,7 @@
       "pham-hung",
       "nha-tay-son"
     ],
+    "relatedPeriod": [],
     "id": 701,
     "name": "tỉnh Vĩnh Long",
     "description": [
@@ -9114,6 +10563,7 @@
       "nguyen-khoan",
       "tran-nguyen-han"
     ],
+    "relatedPeriod": [],
     "id": 702,
     "name": "tỉnh Vĩnh Phúc",
     "description": [
@@ -9123,6 +10573,7 @@
   {
     "placeCode": "tinh-vinh-yen",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 703,
     "name": "tỉnh Vĩnh Yên",
     "description": [
@@ -9134,6 +10585,9 @@
     "relatedFigures": [
       "nguyen-thai-hoc"
     ],
+    "relatedPeriod": [
+      "viet-nam-dan-chu-cong-hoa"
+    ],
     "id": 704,
     "name": "tỉnh Yên Bái",
     "description": [
@@ -9143,6 +10597,9 @@
   {
     "placeCode": "tran-an",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 705,
     "name": "Trấn An",
     "description": [
@@ -9152,6 +10609,10 @@
   {
     "placeCode": "tran-bien",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-tay-son"
+    ],
     "id": 706,
     "name": "Trấn Biên",
     "description": []
@@ -9159,6 +10620,7 @@
   {
     "placeCode": "tran-giang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 707,
     "name": "Trấn Giang",
     "description": [
@@ -9168,6 +10630,7 @@
   {
     "placeCode": "tran-hai-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 708,
     "name": "Trấn Hải Thành",
     "description": [
@@ -9179,6 +10642,9 @@
     "relatedFigures": [
       "pham-van",
       "nguyen-van-sieu"
+    ],
+    "relatedPeriod": [
+      "nam-bac-trieu"
     ],
     "id": 709,
     "name": "Trấn Nam Quan",
@@ -9195,6 +10661,10 @@
       "nha-hau-le",
       "ly-thai-tong"
     ],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-hau-le"
+    ],
     "id": 710,
     "name": "trấn Nghệ An",
     "description": [
@@ -9204,6 +10674,10 @@
   {
     "placeCode": "tran-ninh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-tay-son"
+    ],
     "id": 711,
     "name": "Trấn Ninh",
     "description": [
@@ -9222,6 +10696,11 @@
       "thanh-thai",
       "dinh-tien-hoang",
       "tran-hung-dao"
+    ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
     ],
     "id": 712,
     "name": "trấn Sơn Nam",
@@ -9243,6 +10722,7 @@
       "ngo-si-lien",
       "ho-quy-ly"
     ],
+    "relatedPeriod": [],
     "id": 713,
     "name": "trấn Sơn Tây",
     "description": [
@@ -9252,6 +10732,7 @@
   {
     "placeCode": "tran-tay-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 714,
     "name": "Trấn Tây Thành",
     "description": [
@@ -9264,6 +10745,7 @@
       "nguyen-anh",
       "nha-tay-son"
     ],
+    "relatedPeriod": [],
     "id": 715,
     "name": "trấn Thuận Thành",
     "description": [
@@ -9273,6 +10755,9 @@
   {
     "placeCode": "tran-vien",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 716,
     "name": "Trấn Viễn",
     "description": [
@@ -9282,6 +10767,9 @@
   {
     "placeCode": "tran-yen",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 717,
     "name": "Trấn Yên",
     "description": [
@@ -9291,6 +10779,7 @@
   {
     "placeCode": "trieu-chau",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 718,
     "name": "Triệu Châu",
     "description": [
@@ -9300,6 +10789,7 @@
   {
     "placeCode": "trieu-hai",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 719,
     "name": "Triệu Hải",
     "description": [
@@ -9311,6 +10801,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 720,
     "name": "Triệu Sơn",
     "description": [
@@ -9335,6 +10826,7 @@
       "nguyen-van-thanh",
       "nha-hau-le"
     ],
+    "relatedPeriod": [],
     "id": 721,
     "name": "Văn Miếu - Quốc Tử Giám",
     "description": [
@@ -9348,6 +10840,7 @@
       "le-trang-tong",
       "le-duy-ninh"
     ],
+    "relatedPeriod": [],
     "id": 722,
     "name": "Võ Giàng",
     "description": [
@@ -9362,6 +10855,9 @@
       "nha-le",
       "vu-yen"
     ],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 723,
     "name": "Võ Nhai",
     "description": [
@@ -9371,6 +10867,9 @@
   {
     "placeCode": "vu-an",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nam-bac-trieu"
+    ],
     "id": 724,
     "name": "Vũ An",
     "description": [
@@ -9380,6 +10879,9 @@
   {
     "placeCode": "vu-binh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-hai"
+    ],
     "id": 725,
     "name": "Vũ Bình",
     "description": [
@@ -9389,6 +10891,10 @@
   {
     "placeCode": "vu-chau",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le",
+      "bac-thuoc-lan-thu-ba"
+    ],
     "id": 726,
     "name": "Vũ Châu",
     "description": [
@@ -9401,6 +10907,7 @@
       "ly-bon",
       "tran-lam"
     ],
+    "relatedPeriod": [],
     "id": 727,
     "name": "Vũ Chính",
     "description": [
@@ -9410,6 +10917,9 @@
   {
     "placeCode": "vu-dinh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "hong-bang-va-van-lang"
+    ],
     "id": 728,
     "name": "Vũ Định",
     "description": [
@@ -9419,6 +10929,9 @@
   {
     "placeCode": "vu-do",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 729,
     "name": "Vũ Đô",
     "description": [
@@ -9428,6 +10941,7 @@
   {
     "placeCode": "vu-hau",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 730,
     "name": "Vũ Hầu",
     "description": [
@@ -9437,6 +10951,12 @@
   {
     "placeCode": "vu-lam",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ly-va-nha-trieu",
+      "nha-ly",
+      "nha-hau-le"
+    ],
     "id": 731,
     "name": "Vũ Lâm",
     "description": [
@@ -9446,6 +10966,10 @@
   {
     "placeCode": "vu-lang",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "bac-thuoc-lan-thu-hai",
+      "nam-bac-trieu"
+    ],
     "id": 732,
     "name": "Vũ Lăng",
     "description": []
@@ -9453,6 +10977,9 @@
   {
     "placeCode": "vu-le",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-tran"
+    ],
     "id": 733,
     "name": "Vũ Lễ",
     "description": [
@@ -9462,6 +10989,15 @@
   {
     "placeCode": "vu-ninh",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran",
+      "nha-ho",
+      "hong-bang-va-van-lang",
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu",
+      "au-lac-va-nam-viet"
+    ],
     "id": 734,
     "name": "Vũ Ninh",
     "description": []
@@ -9469,6 +11005,9 @@
   {
     "placeCode": "vu-thang",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-ly"
+    ],
     "id": 735,
     "name": "Vũ Thắng",
     "description": [
@@ -9479,6 +11018,9 @@
     "placeCode": "vu-thanh",
     "relatedFigures": [
       "vu-de"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 736,
     "name": "Vũ Thanh",
@@ -9495,6 +11037,7 @@
       "thanh-thai",
       "tran-lam"
     ],
+    "relatedPeriod": [],
     "id": 737,
     "name": "Vũ Thư",
     "description": [
@@ -9504,6 +11047,10 @@
   {
     "placeCode": "vu-xuong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-tran",
+      "bac-thuoc-lan-thu-hai"
+    ],
     "id": 738,
     "name": "Vũ Xương",
     "description": [
@@ -9513,6 +11060,9 @@
   {
     "placeCode": "vu-xuyen",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "nha-hau-le"
+    ],
     "id": 739,
     "name": "Vũ Xuyên",
     "description": [
@@ -9522,6 +11072,7 @@
   {
     "placeCode": "xa-ai-quoc",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 740,
     "name": "xã Ái Quốc",
     "description": []
@@ -9529,6 +11080,7 @@
   {
     "placeCode": "xa-an-duong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 741,
     "name": "xã An Dương",
     "description": [
@@ -9538,6 +11090,7 @@
   {
     "placeCode": "xa-an-lac",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 742,
     "name": "xã An Lạc",
     "description": [
@@ -9547,6 +11100,7 @@
   {
     "placeCode": "xa-an-phu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 743,
     "name": "xã An Phụ",
     "description": [
@@ -9556,6 +11110,7 @@
   {
     "placeCode": "xa-an-thai",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 744,
     "name": "xã An Thái",
     "description": [
@@ -9565,6 +11120,9 @@
   {
     "placeCode": "xa-an-truong",
     "relatedFigures": [],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh"
+    ],
     "id": 745,
     "name": "xã An Trường",
     "description": [
@@ -9574,6 +11132,7 @@
   {
     "placeCode": "xa-bat-trang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 746,
     "name": "xã Bát Tràng",
     "description": [
@@ -9583,6 +11142,7 @@
   {
     "placeCode": "xa-duong-quan",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 747,
     "name": "xã Dương Quan",
     "description": [
@@ -9592,6 +11152,7 @@
   {
     "placeCode": "xa-duc-giang",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 748,
     "name": "xã Đức Giang",
     "description": []
@@ -9605,6 +11166,9 @@
       "nha-luong",
       "le-du-tong"
     ],
+    "relatedPeriod": [
+      "nha-ly-va-nha-trieu"
+    ],
     "id": 749,
     "name": "xã Hạ Mỗ",
     "description": [
@@ -9614,6 +11178,7 @@
   {
     "placeCode": "xa-hong-phong",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 750,
     "name": "xã Hồng Phong",
     "description": [
@@ -9623,6 +11188,7 @@
   {
     "placeCode": "xa-hung-dao",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 751,
     "name": "xã Hưng Đạo",
     "description": [
@@ -9634,6 +11200,7 @@
     "relatedFigures": [
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 752,
     "name": "xã Kim Liên",
     "description": [
@@ -9643,6 +11210,7 @@
   {
     "placeCode": "xa-my-hoa",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 753,
     "name": "xã Mỹ Hoà",
     "description": [
@@ -9652,6 +11220,7 @@
   {
     "placeCode": "xa-quan-chu",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 754,
     "name": "xã Quân Chu",
     "description": [
@@ -9661,6 +11230,7 @@
   {
     "placeCode": "xa-tan-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 755,
     "name": "xã Tân Thành",
     "description": [
@@ -9670,6 +11240,7 @@
   {
     "placeCode": "xa-vinh-long",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 756,
     "name": "xã Vĩnh Long",
     "description": []
@@ -9677,6 +11248,7 @@
   {
     "placeCode": "xa-vinh-thanh",
     "relatedFigures": [],
+    "relatedPeriod": [],
     "id": 757,
     "name": "xã Vĩnh Thành",
     "description": []
@@ -9695,6 +11267,7 @@
       "ngo-si-lien",
       "ho-quy-ly"
     ],
+    "relatedPeriod": [],
     "id": 758,
     "name": "xứ Đoài",
     "description": [
@@ -9709,6 +11282,7 @@
       "duong-vuong",
       "le-van-thinh"
     ],
+    "relatedPeriod": [],
     "id": 759,
     "name": "xứ Kinh Bắc",
     "description": [
@@ -9719,6 +11293,10 @@
     "placeCode": "xu-lang-son",
     "relatedFigures": [
       "nha-mac"
+    ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le"
     ],
     "id": 760,
     "name": "xứ Lạng Sơn",
@@ -9735,6 +11313,7 @@
       "nha-hau-le",
       "ly-thai-tong"
     ],
+    "relatedPeriod": [],
     "id": 761,
     "name": "Xứ Nghệ",
     "description": [
@@ -9749,6 +11328,12 @@
       "nha-ly",
       "nha-hau-le",
       "ly-thai-tong"
+    ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu",
+      "nha-tay-son"
     ],
     "id": 762,
     "name": "xứ Nghệ An",
@@ -9769,6 +11354,11 @@
       "dinh-tien-hoang",
       "tran-hung-dao"
     ],
+    "relatedPeriod": [
+      "trinh-nguyen-phan-tranh",
+      "nha-hau-le",
+      "nam-bac-trieu"
+    ],
     "id": 763,
     "name": "xứ Sơn Nam",
     "description": [
@@ -9782,6 +11372,7 @@
       "hoang-nham",
       "nha-ly"
     ],
+    "relatedPeriod": [],
     "id": 764,
     "name": "Xứ Thái",
     "description": [
@@ -9802,6 +11393,7 @@
       "le-thai-to",
       "ho-chi-minh"
     ],
+    "relatedPeriod": [],
     "id": 765,
     "name": "xứ Thanh",
     "description": [
@@ -9821,6 +11413,9 @@
       "tran-thuan-tong",
       "le-thai-to",
       "ho-chi-minh"
+    ],
+    "relatedPeriod": [
+      "nha-hau-le"
     ],
     "id": 766,
     "name": "xứ Thanh Hóa",
