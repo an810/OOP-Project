@@ -1,5 +1,9 @@
 package com.oop2.crawlers;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
+import com.oop2.models.EraModel;
 import com.oop2.superCrawler.SCrawler;
 import com.oop2.util.Config;
 import org.jsoup.Jsoup;
@@ -143,14 +147,16 @@ public class HistoricalEventsCrawler extends SCrawler implements ICrawler {
     @Override
     public void writeJson(String fileName, List<Model> models)
     {
-        try (FileWriter fileWriter = new FileWriter(Config.EVENT_FILENAME)) {
-            fileWriter.write(models.toString());
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+        String json = gson.toJson(models);
+        try (FileWriter writer = new FileWriter(fileName)) {
+            writer.write(json);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void createHistoricalEvents()
+    public void createHistoricalEventsJson()
     {
         List<Model> historicalEvents = crawlPages(Config.EVENT_WEBPAGE);
         writeJson(Config.EVENT_FILENAME, historicalEvents);
@@ -158,9 +164,15 @@ public class HistoricalEventsCrawler extends SCrawler implements ICrawler {
 
     // testing
     public static void main(String[] args) {
+//        HistoricalEventsCrawler test = new HistoricalEventsCrawler();
+//        List<Model> historicalEvents = test.crawlPages(Config.EVENT_WEBPAGE);
+//        test.writeJson(Config.EVENT_FILENAME, historicalEvents);
+//        test.writeHTML(Config.EVENT_HTML, historicalEvents);
+
         HistoricalEventsCrawler test = new HistoricalEventsCrawler();
-        List<Model> historicalEvents = test.crawlPages(Config.EVENT_WEBPAGE);
-        test.writeJson(Config.EVENT_FILENAME, historicalEvents);
-        test.writeHTML(Config.EVENT_HTML, historicalEvents);
+        List<EraModel> myList = test.loader(Config.EVENT_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<Model> newList = new ArrayList<>();
+        newList.addAll(myList);
+        test.writeHTML(Config.EVENT_HTML, newList);
     }
 }

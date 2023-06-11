@@ -30,12 +30,6 @@ public class EraModel extends Model
         this.historicalDestinationsLinked = historicalDestinationsLinked;
     }
 
-    public String toJson()
-    {
-        StringBuilder jsonBuilder = new StringBuilder();
-        return jsonBuilder.toString();
-    }
-
     @Override
     public String toHTML()
     {
@@ -69,20 +63,15 @@ public class EraModel extends Model
         }
 
         // Add the related figures
-        htmlBuilder.append("<h2>Related Figures</h2>");
-        htmlBuilder.append("<ul>");
-        for (String figure : this.historicalFiguresLinked) {
-            htmlBuilder.append("<li>").append(figure).append("</li>");
+        if (this.historicalFiguresLinked != null)
+        {
+            htmlBuilder.append("<h2>Related Figures</h2>");
+            htmlBuilder.append("<ul>");
+            for (String figure : this.historicalFiguresLinked) {
+                htmlBuilder.append("<li>").append(figure).append("</li>");
+            }
+            htmlBuilder.append("</ul>");
         }
-        htmlBuilder.append("</ul>");
-
-        // Add the related places
-        htmlBuilder.append("<h2>Related Places</h2>");
-        htmlBuilder.append("<ul>");
-        for (String place : this.historicalDestinationsLinked) {
-            htmlBuilder.append("<li>").append(place).append("</li>");
-        }
-        htmlBuilder.append("</ul>");
 
         // Close the HTML structure
         htmlBuilder.append("</body>");

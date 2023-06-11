@@ -8,27 +8,27 @@ public class Main
     {
         Thread thread1 = new Thread(() -> {
             ErasCrawler erasCrawler = new ErasCrawler();
-            erasCrawler.createEras();
+            erasCrawler.createErasJson();
         });
 
         Thread thread2 = new Thread(() -> {
             FestivalsCrawler festivalsScraper = new FestivalsCrawler();
-            festivalsScraper.createFestivals();
+            festivalsScraper.createFestivalsJson();
         });
 
         Thread thread3 = new Thread(() -> {
             HistoricalDestinationsCrawler historicalDestinationsCrawler = new HistoricalDestinationsCrawler();
-            historicalDestinationsCrawler.createHistoricalDestination();
+            historicalDestinationsCrawler.createHistoricalDestinationJson();
         });
 
         Thread thread4 = new Thread(() -> {
             HistoricalEventsCrawler historicalEventsCrawler = new HistoricalEventsCrawler();
-            historicalEventsCrawler.createHistoricalEvents();
+            historicalEventsCrawler.createHistoricalEventsJson();
         });
 
         Thread thread5 = new Thread(() -> {
             HistoricalFiguresCrawler historicalFiguresCrawler = new HistoricalFiguresCrawler();
-            historicalFiguresCrawler.createHistoricalFigures();
+            historicalFiguresCrawler.createHistoricalFiguresJson();
         });
 
         // Start all threads

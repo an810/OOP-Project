@@ -17,6 +17,7 @@ import java.util.Set;
 import com.oop2.models.EraModel;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 
 public class ErasCrawler extends SCrawler implements ICrawler {
     public List<Model> crawlPages(String page) {
@@ -142,18 +143,30 @@ public class ErasCrawler extends SCrawler implements ICrawler {
         }
     }
 
-    public void createEras()
+    public void createErasJson()
     {
         List<Model> models = crawlPages(Config.ERA_WEBPAGE);
         writeJson(Config.ERA_FILENAME, models);
     }
 
+    public void createErasHTML()
+    {
+        List<EraModel> myList = loader(Config.ERA_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<Model> newList = new ArrayList<>();
+        newList.addAll(myList);
+        writeHTML(Config.ERA_HTML, newList);
+    }
+
     // Testing
     public static void main(String[] args) {
         ErasCrawler test = new ErasCrawler();
-        List<Model> models = test.crawlPages(Config.ERA_WEBPAGE);
-        test.writeJson(Config.ERA_FILENAME, models);
-        test.writeHTML(Config.ERA_HTML, models);
+//        List<Model> models = test.crawlPages(Config.ERA_WEBPAGE);
+//        test.writeJson(Config.ERA_FILENAME, models);
+
+        List<EraModel> myList = test.loader(Config.ERA_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<Model> newList = new ArrayList<>();
+        newList.addAll(myList);
+        test.writeHTML(Config.ERA_HTML, newList);
     }
 
 }

@@ -2,7 +2,9 @@ package com.oop2.crawlers;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import com.oop2.interfaces.ICrawler;
+import com.oop2.models.EraModel;
 import com.oop2.models.HistoricalFigureModel;
 import com.oop2.models.Model;
 import java.io.FileWriter;
@@ -199,6 +201,7 @@ public class HistoricalFiguresCrawler extends SCrawler implements ICrawler {
 //        }
 //    }
 
+    @Override
     public void writeJson(String fileName, List<Model> models)
     {
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
@@ -210,16 +213,22 @@ public class HistoricalFiguresCrawler extends SCrawler implements ICrawler {
         }
     }
 
-    public void createHistoricalFigures()
+    public void createHistoricalFiguresJson()
     {
         List<Model> figures = crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);
         writeJson(Config.HISTORICAL_FIGURE_FILENAME, figures);
     }
 
     public static void main(String[] args) {
+//        HistoricalFiguresCrawler test = new HistoricalFiguresCrawler();
+//        List<Model> figures = test.crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);
+//        test.writeJson(Config.HISTORICAL_FIGURE_FILENAME, figures);
+//        test.writeHTML(Config.HISTORICAL_FIGURE_HTML, figures);
+
         HistoricalFiguresCrawler test = new HistoricalFiguresCrawler();
-        List<Model> figures = test.crawlPages(Config.HISTORICAL_FIGURE_WEBPAGE);
-        test.writeJson(Config.HISTORICAL_FIGURE_FILENAME, figures);
-        test.writeHTML(Config.HISTORICAL_FIGURE_HTML, figures);
+        List<EraModel> myList = test.loader(Config.HISTORICAL_FIGURE_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<Model> newList = new ArrayList<>();
+        newList.addAll(myList);
+        test.writeHTML(Config.HISTORICAL_FIGURE_HTML, newList);
     }
 }

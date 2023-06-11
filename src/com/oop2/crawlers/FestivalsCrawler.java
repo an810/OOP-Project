@@ -1,5 +1,9 @@
 package com.oop2.crawlers;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
+import com.oop2.models.EraModel;
 import com.oop2.superCrawler.SCrawler;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -230,31 +234,16 @@ public class FestivalsCrawler extends SCrawler implements ICrawler
 
     public void writeJson(String fileName, List<Model> models)
     {
-        for (Model model : models)
-        {
-            model.setId(models.indexOf(model) + 1);
-        }
-
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+        String json = gson.toJson(models);
         try (FileWriter writer = new FileWriter(fileName)) {
-            writer.write("[");
-            for (Model model : models)
-            {
-                if (models.indexOf(model) == models.size() - 1)
-                {
-                    writer.write(model.toString());
-                }
-                else
-                {
-                    writer.write(model.toString() + ",\n");
-                }
-            }
-            writer.write("]");
+            writer.write(json);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void createFestivals()
+    public void createFestivalsJson()
     {
         String page = Config.FESTIVAL_WEBPAGE;
         String festivalFilename = Config.FESTIVAL_FILENAME;
@@ -266,13 +255,19 @@ public class FestivalsCrawler extends SCrawler implements ICrawler
 
     public static void main(String[] args)
     {
-        FestivalsCrawler festivalsScraper = new FestivalsCrawler();
-        String page = Config.FESTIVAL_WEBPAGE;
-        String festivalFilename = Config.FESTIVAL_FILENAME;
-        List<Model> festivals;
+//        FestivalsCrawler festivalsScraper = new FestivalsCrawler();
+//        String page = Config.FESTIVAL_WEBPAGE;
+//        String festivalFilename = Config.FESTIVAL_FILENAME;
+//        List<Model> festivals;
+//
+//        festivals = festivalsScraper.crawlPages(page);
+//        festivalsScraper.writeJson(festivalFilename, festivals);
+//        festivalsScraper.writeHTML(Config.FESTIVAL_HTML, festivals);
 
-        festivals = festivalsScraper.crawlPages(page);
-        festivalsScraper.writeJson(festivalFilename, festivals);
-        festivalsScraper.writeHTML(Config.FESTIVAL_HTML, festivals);
+        FestivalsCrawler test = new FestivalsCrawler();
+        List<EraModel> myList = test.loader(Config.FESTIVAL_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<Model> newList = new ArrayList<>();
+        newList.addAll(myList);
+        test.writeHTML(Config.FESTIVAL_HTML, newList);
     }
 }

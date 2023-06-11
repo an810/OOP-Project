@@ -1,6 +1,10 @@
 package com.oop2.crawlers;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import com.oop2.interfaces.ICrawler;
+import com.oop2.models.EraModel;
 import com.oop2.models.HistoricalDestination;
 import com.oop2.models.Model;
 import com.oop2.superCrawler.SCrawler;
@@ -117,15 +121,16 @@ public class HistoricalDestinationsCrawler extends SCrawler implements ICrawler 
     @Override
     public void writeJson(String fileName, List<Model> models)
     {
-        // Print all data in json file
-        try (FileWriter writer = new FileWriter(Config.HISTORICAL_DESTINATION_FILENAME)) {
-            writer.write(models.toString());
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+        String json = gson.toJson(models);
+        try (FileWriter writer = new FileWriter(fileName)) {
+            writer.write(json);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void createHistoricalDestination()
+    public void createHistoricalDestinationJson()
     {
         List<Model> locationList = crawlPages(Config.HISTORICAL_DESTINATION_WEBPAGE);
         writeJson(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
@@ -133,9 +138,15 @@ public class HistoricalDestinationsCrawler extends SCrawler implements ICrawler 
 
     // Testing
     public static void main(String[] args) {
+//        HistoricalDestinationsCrawler test = new HistoricalDestinationsCrawler();
+//        List<Model> locationList = test.crawlPages(Config.HISTORICAL_DESTINATION_WEBPAGE);
+//        test.writeJson(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
+//        test.writeHTML(Config.HISTORICAL_DESTINATION_HTML, locationList);
+
         HistoricalDestinationsCrawler test = new HistoricalDestinationsCrawler();
-        List<Model> locationList = test.crawlPages(Config.HISTORICAL_DESTINATION_WEBPAGE);
-        test.writeJson(Config.HISTORICAL_DESTINATION_FILENAME, locationList);
-        test.writeHTML(Config.HISTORICAL_DESTINATION_HTML, locationList);
+        List<EraModel> myList = test.loader(Config.HISTORICAL_DESTINATION_FILENAME,  new TypeToken<List<EraModel>>() {});
+        List<Model> newList = new ArrayList<>();
+        newList.addAll(myList);
+        test.writeHTML(Config.HISTORICAL_DESTINATION_HTML, newList);
     }
 }
